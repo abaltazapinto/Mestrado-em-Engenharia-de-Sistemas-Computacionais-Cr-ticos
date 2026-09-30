@@ -1,7 +1,7 @@
 # =========================
 # ISEP teaching material
 # =========================
-*.pdf
+
 *.ppt
 *.pptx
 *.doc
