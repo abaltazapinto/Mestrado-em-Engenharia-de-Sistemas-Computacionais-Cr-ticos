@@ -1,5 +1,28 @@
 # Mestrado em Engenharia de Sistemas Computacionais Críticos — Project Context
 
+
+                    CHATGPT PROJECT
+          "Mestrado Sistemas Computacionais Críticos"
+                         │
+          ┌──────────────┴──────────────┐
+          │                             │
+   contexto global                 chats especializados
+          │                             │
+          │                ┌────────────┼─────────────┐
+          │                │            │             │
+       MASTER           CCSAR         RTESY         COMCS ...
+          │
+          └──────────────────┬────────────────────────┘
+                             │
+                             ▼
+                         GIT REPO
+                             │
+                  1-ano/1-semestre/
+                             │
+       ┌──────────────┬──────┼──────┬───────────────┐
+     CCSAR          RAMDE   CSLAB  RTESY           COMCS
+
+
 ## 1. Objetivo deste projeto
 
 Este projeto acompanha o Mestrado em Engenharia de Sistemas Computacionais Críticos no ISEP.
