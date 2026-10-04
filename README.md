@@ -1,4 +1,4 @@
-# Mestrado em Engenharia de Sistemas Computacionais Críticos
+# Mestrado em Engenharia de Sistemas Computacionais Críticos - ISEP
 
 Repositório de estudo, laboratórios, exercícios, projetos e documentação técnica do
 **Mestrado em Engenharia de Sistemas Computacionais Críticos — ISEP**.
