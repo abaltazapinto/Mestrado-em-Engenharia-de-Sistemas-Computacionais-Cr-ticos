@@ -1,5 +1,5 @@
 # Mestrado em Engenharia de Sistemas Computacionais Críticos — Project Context
-
+```text
 
                     CHATGPT PROJECT
           "Mestrado Sistemas Computacionais Críticos"
@@ -22,6 +22,7 @@
        ┌──────────────┬──────┼──────┬───────────────┐
      CCSAR          RAMDE   CSLAB  RTESY           COMCS
 
+```
 
 ## 1. Objetivo deste projeto
 
@@ -44,7 +45,7 @@ Objetivos principais:
 ### Arquiteturas de Computadores para Sistemas Críticos
 Diretório:
 
-`1-ano/1-semestre/arquiteturas-computadores/`
+`1-ano/1-semestre/CCSAR_arquiteturas-computadores/`
 
 Foco esperado:
 
@@ -58,7 +59,7 @@ Foco esperado:
 ### Engenharia Orientada a Requisitos e Modelos
 Diretório:
 
-`1-ano/1-semestre/requisitos-modelos/`
+`1-ano/1-semestre/RAMDE_requisitos-modelos/`
 
 Foco esperado:
 
@@ -71,7 +72,7 @@ Foco esperado:
 ### Laboratório de Sistemas Críticos
 Diretório:
 
-`1-ano/1-semestre/laboratorio-sistemas-criticos/`
+`1-ano/1-semestre/CSLAB_laboratorio-sistemas-criticos/`
 
 Foco esperado:
 
@@ -85,7 +86,7 @@ Foco esperado:
 ### Sistemas Embebidos e de Tempo-Real
 Diretório:
 
-`1-ano/1-semestre/sistemas-embebidos-tempo-real/`
+`1-ano/1-semestre/RTESY_sistemas-embebidos-e-de-tempo-real/`
 
 Conhecimento anterior relevante:
 
@@ -113,7 +114,7 @@ Foco esperado:
 ### Tecnologias de Comunicação para Sistemas Críticos
 Diretório:
 
-`1-ano/1-semestre/tecnologias-comunicacao/`
+`1-ano/1-semestre/COMCS_tecnologias-comunicacao/`
 
 Conhecimento anterior relevante:
 
