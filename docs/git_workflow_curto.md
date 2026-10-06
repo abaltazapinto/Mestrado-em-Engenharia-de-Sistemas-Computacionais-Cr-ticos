@@ -14,6 +14,14 @@ git branch -d <nome-da-branch></nome>
 git fetch --prune
 
 git stash list
+git stash show --stat 'stash@{1}'
+
+git stash = alterações guardadas fora da working tree/commit
+git stash apply = recupera alterações e mantém o stash
+git stash pop = recupera alterações e apaga o stash se correr bem
+git add = adiciona alterações atuais ao staging; não inclui stashes automaticamente
+
+git stash apply stash@{0}
 
 # Ver threads abertas:
 
