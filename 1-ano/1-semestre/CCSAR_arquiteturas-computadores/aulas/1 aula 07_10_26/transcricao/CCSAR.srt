@@ -1,0 +1,5244 @@
+1
+00:00:00,000 --> 00:00:07,000
+Bom, na fevereira aula, qualquer arquitetura só entra de números, não entende, é de
+
+2
+00:00:07,000 --> 00:00:13,360
+sumo de números, colo, pichama, entende de números, por isso, todas as instituições
+
+3
+00:00:13,360 --> 00:00:20,200
+têm que ter um número, nós vamos ver que estão sempre nos primeiros 7 bits daqueles
+
+4
+00:00:20,200 --> 00:00:21,200
+38.
+
+5
+00:00:21,200 --> 00:00:28,160
+E depois de estudarmos o resto dos nomes, vão ver que é que eles três seguintes, se
+
+6
+00:00:28,160 --> 00:00:32,160
+começam por S, vão identificar o registro.
+
+7
+00:00:32,160 --> 00:00:40,680
+Rd, o Dascension Registro, que é o registro de destino, S1 e S2, Source 1 e Source 2,
+
+8
+00:00:40,680 --> 00:00:48,360
+vão ver os dois registros fundos, por isso, antes de avançarmos, qualquer instrução
+
+9
+00:00:48,360 --> 00:00:53,920
+que tenha em Rd, quer dizer, vai esconder que é o registro destino, sabe, que é o registro
+
+10
+00:00:53,920 --> 00:00:54,920
+destino.
+
+11
+00:00:54,920 --> 00:01:04,800
+Rd, S1 e ou os dois ou um deles, são as duas fontes ou a fonte que vai buscar os bolados.
+
+12
+00:01:04,800 --> 00:01:15,070
+Depois, o que nós vamos ver é que uma instrução, eu disse-vos a ficar para simplificar muito
+
+13
+00:01:15,070 --> 00:01:21,350
+nas 40 instruções do Rd, Dascension Registro, os homens cheiam de uma Coreia, não vão
+
+14
+00:01:21,350 --> 00:01:28,190
+ser assim, porque a instrução é que logo ou não é para identificar a instrução,
+
+15
+00:01:28,190 --> 00:01:31,190
+vai identificar o tipo de instrução.
+
+16
+00:01:31,190 --> 00:01:38,190
+Um sub-tipo, por exemplo, o outro povo vai identificar a instrução marítmica.
+
+17
+00:01:38,190 --> 00:01:45,350
+Se avançou uma subtação, é um dos carros, ou a conjurgação dos dois, da função
+
+18
+00:01:45,350 --> 00:01:54,190
+do Vê-do-Gorou, e chamam-se 1 que 13, 1 que 7, porque ninguém teve a eleita ordem
+
+19
+00:01:54,190 --> 00:01:58,190
+para chamar a tudo, 1 que 3 tem que ter os 20 e 1 que 7 tem sete 20.
+
+20
+00:01:58,190 --> 00:02:04,190
+Essa é a razão que se chama 1 que 3 e 1 que 7, é porque é o tamanho número de
+
+21
+00:02:04,190 --> 00:02:06,190
+20 para identificar a tua cara.
+
+22
+00:02:06,190 --> 00:02:12,190
+E o último é que já temos falado várias vezes, muito a se esqueçam, em arquiteto
+
+23
+00:02:12,190 --> 00:02:16,190
+da computadora chamamos a Coreia Media ou uma constante.
+
+24
+00:02:16,190 --> 00:02:22,190
+Nós vemos que todas as instruções que têm em mim aceitam que a Coreia Media fica a
+
+25
+00:02:22,190 --> 00:02:28,190
+outra, que é uma lobo de histórias, mas como é que o Vê-do-Gorou, o subi, o chifre
+
+26
+00:02:28,190 --> 00:02:31,190
+e por aí fora aceitam o valor.
+
+27
+00:02:31,190 --> 00:02:40,500
+Aqui o que nós vamos ver, como alguma calma, é para tentar perceber como é que o
+
+28
+00:02:40,500 --> 00:02:46,500
+acelulino de nós escrevemos é transformado em um conjunto de 6 e 1.
+
+29
+00:02:46,500 --> 00:02:52,500
+Para aquilo a partir da próxima semana vocês percebam como é que um ar do
+
+30
+00:02:52,500 --> 00:02:58,500
+é que vai buscar 4 no baio de sua memória sabe o que é que tem que executar.
+
+31
+00:02:58,500 --> 00:03:05,500
+Então, esse slide tem sugestões importantes para perceberem os diagramas,
+
+32
+00:03:05,500 --> 00:03:10,500
+que vêm em perceber, porque é claro que mais uma prática é a aula, mais edição
+
+33
+00:03:10,500 --> 00:03:13,500
+de todas, até agora se não for a mais edição, ou se não é.
+
+34
+00:03:13,500 --> 00:03:21,500
+Por isso, o cheque, vamos dividir aqui os 32 vídeos, como terminar
+
+35
+00:03:21,500 --> 00:03:29,500
+o propósito. Como eu referi-se na semana passada, o acelulino fica muito mais fácil
+
+36
+00:03:29,500 --> 00:03:37,500
+de escrever, quando nos anos percebam instruções e os nomes dos registros, mas isso é tudo,
+
+37
+00:03:37,500 --> 00:03:42,500
+são características do acelular, não do arco-air, certo?
+
+38
+00:03:43,500 --> 00:03:52,500
+Então, se vocês olharem um calma e veem que se eu escrever s2, s13 e s4,
+
+39
+00:03:52,500 --> 00:03:57,500
+o que é que nós vemos, o que é que isso me facilita a mini programador da assembly,
+
+40
+00:03:57,500 --> 00:04:04,500
+usar os nomes s2 e não x18, x19 e x20?
+
+41
+00:04:04,500 --> 00:04:10,500
+Porque se eu usar os nomes reais dos registros, tenho que saber recorde,
+
+42
+00:04:10,500 --> 00:04:14,500
+tenho que preservar os registros antes do alterar-te, certo?
+
+43
+00:04:14,500 --> 00:04:20,500
+Enquanto se eu usar o nome SETORI, isto para o s3,
+
+44
+00:04:20,500 --> 00:04:26,500
+é uma ajuda visual que ele desiste de uns cafeiros em s2, tenho que guardar s2
+
+45
+00:04:26,500 --> 00:04:31,500
+na sedec e depois em restaurar-te, porque viemos na semana passada.
+
+46
+00:04:31,500 --> 00:04:36,500
+No entanto, mais uma vez, porque entre as abatos que são dois,
+
+47
+00:04:36,500 --> 00:04:39,500
+foi o que eu vos disse a semana passada, que nesta aula,
+
+48
+00:04:39,500 --> 00:04:44,500
+a especial da uma instruções, não vos ajuda, porque elas não existem em arco-air,
+
+49
+00:04:44,500 --> 00:04:47,500
+elas não existem em arco-air, porque são traduzidas no avionário.
+
+50
+00:04:47,500 --> 00:04:53,500
+Por isso, é s2, s13 e s4, eu programador da assembly,
+
+51
+00:04:53,500 --> 00:04:58,500
+nós vamos escrever assim, mas o que o acelular interpreta é isto
+
+52
+00:04:58,500 --> 00:05:08,500
+e vai escrever o número dos registros nos canos rv, rs1 e rs2, certo?
+
+53
+00:05:08,500 --> 00:05:13,500
+Vai escrever 18 a 19 e 20, e não 2, 3 e 4, certo?
+
+54
+00:05:13,500 --> 00:05:16,500
+É isto que eu quero que vocês percebam neste slide.
+
+55
+00:05:16,500 --> 00:05:21,500
+Por isso, em todos os esquemas que eu procurei fazer,
+
+56
+00:05:22,500 --> 00:05:28,500
+se aparece alguma instrução ou pseudo-instrução,
+
+57
+00:05:28,500 --> 00:05:35,500
+ou alguma instrução que usa as normas, os nomes dos registros,
+
+58
+00:05:35,500 --> 00:05:41,500
+como mais tem o nome, a sede, o nome real do registro,
+
+59
+00:05:41,500 --> 00:05:52,160
+para que vocês perceberem que o que vai na instrução não é 2, s18, s19 e 20,
+
+60
+00:05:52,160 --> 00:05:57,160
+e para a mesma analogia, o sub está em baixo, certo?
+
+61
+00:05:57,160 --> 00:06:04,160
+Já vamos, aqui nos próximos minutos, olhar para cada uma dessas coisas,
+
+62
+00:06:04,160 --> 00:06:11,160
+mas reparem que o s18 está aqui, o s19 está aqui, o 20 está aqui,
+
+63
+00:06:11,160 --> 00:06:15,160
+já vamos tentar perceber o que é que estão nestes 5, e não outros mais queres,
+
+64
+00:06:16,160 --> 00:06:23,160
+o que importa é perceber que o que é codificado para o binário
+
+65
+00:06:23,160 --> 00:06:28,160
+é a instrução real, não é uma pseudo-instrução,
+
+66
+00:06:28,160 --> 00:06:34,160
+e são os nomes reais dos registros, não, os números entre 0 e 1,
+
+67
+00:06:34,160 --> 00:06:39,160
+e não os nomes que eu posso dar, que vêm ainda,
+
+68
+00:06:39,160 --> 00:06:43,160
+dá para deixar um barulho de grafês, se convém-nos, e na semana passada,
+
+69
+00:06:43,160 --> 00:06:49,160
+está percebido o conceito, aqui são os nomes reais dos registros,
+
+70
+00:06:49,160 --> 00:06:54,160
+de 0 a 31, e não os nomes dos registros.
+
+71
+00:06:54,160 --> 00:06:58,160
+Outra parte que é importante para vocês perceberem isto,
+
+72
+00:06:58,160 --> 00:07:07,160
+que é este ponto de estar aqui, os registros e as instruções
+
+73
+00:07:07,160 --> 00:07:13,160
+vão estar todas representadas desta forma,
+
+74
+00:07:13,160 --> 00:07:19,160
+em finito 0 está à direita e o bico de 31 está à esquerda,
+
+75
+00:07:19,160 --> 00:07:23,160
+não tem nada a ver com a forma como as instruções estão na memórias,
+
+76
+00:07:23,160 --> 00:07:26,160
+não tem nada a ver com o bico da lenda, como a igreja,
+
+77
+00:07:26,160 --> 00:07:32,160
+é forma de representar o instrução em que à direita está o bico,
+
+78
+00:07:32,160 --> 00:07:37,160
+o bico não é significativo e à esquerda o bico mais significativo.
+
+79
+00:07:37,160 --> 00:07:48,160
+É, basicamente, a mesma coisa que vocês tinham instruções com os bicos de um preciso.
+
+80
+00:07:48,160 --> 00:07:57,160
+Se ainda se lembra do início, o i, o h, o ax, o eax, o rax, os bicos também estavam novos,
+
+81
+00:07:57,160 --> 00:08:05,160
+o 0 era o bico mais à esquerda, e 31 o bico de 31 ou de 33,
+
+82
+00:08:05,160 --> 00:08:09,160
+assim mais nos registros, que sempre é parte da lenda.
+
+83
+00:08:09,160 --> 00:08:11,160
+Dá a perceber essas duas coisas?
+
+84
+00:08:11,160 --> 00:08:17,160
+Por isso, mesmo que eu escreva code como cresceu na memórias de instruções
+
+85
+00:08:17,160 --> 00:08:23,160
+ou como nomes dos registros, o que importa são os números desses registros
+
+86
+00:08:23,160 --> 00:08:25,160
+e se agora os instruções têm que ser traduzidos.
+
+87
+00:08:25,160 --> 00:08:28,160
+Primeiro, será que as instruções criadas na arquitetura,
+
+88
+00:08:28,160 --> 00:08:33,820
+é descerentificadas para a sede.
+
+89
+00:08:33,820 --> 00:08:39,820
+Nos próximos minutos, nós vamos nos detalhar, é que é os quatro formatos.
+
+90
+00:08:39,820 --> 00:08:48,820
+Primeiro, se ver o que é que para eu representar instruções,
+
+91
+00:08:48,820 --> 00:08:53,820
+que realizam operações aritméticas, leem ou escrevem na memória,
+
+92
+00:08:53,820 --> 00:08:59,820
+que suportam algumas ideadas, preciso de quatro formatos diferentes.
+
+93
+00:08:59,820 --> 00:09:02,820
+Essa é o que propósito nos próximos minutos,
+
+94
+00:09:02,820 --> 00:09:07,820
+entender o que é que qualquer instrução que caia durante as três grupos,
+
+95
+00:09:07,820 --> 00:09:10,820
+instruções aritméticas de acesso à memória,
+
+96
+00:09:10,820 --> 00:09:13,820
+ou que representam algumas ideadas,
+
+97
+00:09:13,820 --> 00:09:17,820
+vai precisar ser representada muito desses quatro formatos.
+
+98
+00:09:17,820 --> 00:09:21,820
+Segundo a espécie, igualmente importante,
+
+99
+00:09:21,820 --> 00:09:25,820
+mesmo se a gente falar em nada disso,
+
+100
+00:09:25,820 --> 00:09:31,820
+e nem como seja, por depois de se ver melhor no PDF projetadas,
+
+101
+00:09:31,820 --> 00:09:37,820
+a unir o que é que vocês conseguem perceber rapidamente.
+
+102
+00:09:37,820 --> 00:09:42,820
+Se um cano aparece em mais do que um formato,
+
+103
+00:09:42,820 --> 00:09:46,820
+está o outro, na mesma posição ou em posições diferentes.
+
+104
+00:09:46,820 --> 00:09:49,820
+Está sempre na mesma, sabe?
+
+105
+00:09:49,820 --> 00:09:52,820
+Por isso, essa é a primeira parte.
+
+106
+00:09:52,820 --> 00:09:55,820
+E a segunda, que todas as vezes vão ser tão óbvio,
+
+107
+00:09:55,820 --> 00:09:58,820
+vai ter que provocar, vai ser,
+
+108
+00:09:58,820 --> 00:10:07,260
+quando um cano é diferente de outro cano, de outro formato,
+
+109
+00:10:07,260 --> 00:10:13,260
+é exatamente do mesmo tamanho, ou da junção de dois ou três canos.
+
+110
+00:10:13,260 --> 00:10:15,260
+Sabe?
+
+111
+00:10:15,260 --> 00:10:18,260
+Por exemplo, este valor imediato,
+
+112
+00:10:18,260 --> 00:10:20,260
+vai ocorre 20 bits,
+
+113
+00:10:20,260 --> 00:10:28,260
+é do mesmo tamanho que os quatro canos do formato anterior somado.
+
+114
+00:10:28,260 --> 00:10:31,260
+Por isso, se olharem para ali,
+
+115
+00:10:31,260 --> 00:10:34,260
+reparam nestas três coisas.
+
+116
+00:10:34,260 --> 00:10:38,260
+Todos os formatos têm 22 bits,
+
+117
+00:10:38,260 --> 00:10:42,260
+sempre, desde que sabe todas as gestões têm 22 bits,
+
+118
+00:10:42,260 --> 00:10:46,260
+se houver canos repetidos em mais do que formatos,
+
+119
+00:10:46,260 --> 00:10:48,260
+ou exatamente no mesmo sítio,
+
+120
+00:10:48,260 --> 00:10:51,260
+se o cano não é igual,
+
+121
+00:10:51,260 --> 00:10:57,260
+é a junção de dois ou mais canos de outro formato,
+
+122
+00:10:57,260 --> 00:11:01,260
+ocupando exatamente as mesmas posições.
+
+123
+00:11:01,260 --> 00:11:03,260
+Sabe?
+
+124
+00:11:03,260 --> 00:11:10,260
+Isto é relativamente complicado,
+
+125
+00:11:10,260 --> 00:11:14,260
+para que não houver seja simples.
+
+126
+00:11:14,260 --> 00:11:20,260
+Que é isso que depois conta desde que somos programas.
+
+127
+00:11:20,260 --> 00:11:24,260
+E mais uma vez, quase todas as arquiteturas risquem,
+
+128
+00:11:24,260 --> 00:11:28,260
+saem assim, no que tem de consequência,
+
+129
+00:11:28,260 --> 00:11:31,260
+ser mais fácil implementar coisas.
+
+130
+00:11:31,260 --> 00:11:33,260
+Também vamos lá chegar pipeline,
+
+131
+00:11:33,260 --> 00:11:36,260
+exigição fora da ordem, exigição sobeste falar,
+
+132
+00:11:36,260 --> 00:11:40,260
+e principalmente consumir menos energia.
+
+133
+00:11:40,260 --> 00:11:45,260
+Dois, vamos falar muito rapidamente algumas dessas coisas.
+
+134
+00:11:45,260 --> 00:11:47,260
+Até aqui, tá?
+
+135
+00:11:47,260 --> 00:11:51,980
+Por isso, para chegar,
+
+136
+00:11:51,980 --> 00:11:53,980
+e ainda vamos ter mais dois formatos,
+
+137
+00:11:53,980 --> 00:11:57,980
+que são uma variante de dois destes, mas devemos lá chegar.
+
+138
+00:11:57,980 --> 00:12:01,980
+Por isso, quase tudo o que é preciso saber,
+
+139
+00:12:01,980 --> 00:12:06,980
+está aqui, os outros dois são uma variante destes dois últimos,
+
+140
+00:12:06,980 --> 00:12:10,980
+e são uma da forma como o valor ideal está codificado.
+
+141
+00:12:10,980 --> 00:12:14,980
+Então, vamos ter quatro formatos,
+
+142
+00:12:14,980 --> 00:12:19,980
+para representar instruções daqueles três tipos.
+
+143
+00:12:19,980 --> 00:12:21,980
+Operações aritmétricas,
+
+144
+00:12:21,980 --> 00:12:23,980
+acessa a bória, o celular de histórico,
+
+145
+00:12:23,980 --> 00:12:27,980
+instruções que aceitam boas em dinheiro.
+
+146
+00:12:27,980 --> 00:12:33,980
+Como isso, é ainda mais difícil,
+
+147
+00:12:33,980 --> 00:12:35,980
+ou basicamente impossível,
+
+148
+00:12:35,980 --> 00:12:39,980
+de aprender seis para montar,
+
+149
+00:12:39,980 --> 00:12:42,980
+se este convio que fiz,
+
+150
+00:12:42,980 --> 00:12:44,980
+mas é basicamente a mesma coisa,
+
+151
+00:12:44,980 --> 00:12:46,980
+que ele já era de cedir.
+
+152
+00:12:46,980 --> 00:12:51,980
+Tenhem este link para, logo, uma instrução,
+
+153
+00:12:51,980 --> 00:12:54,980
+estar no Google, também no link direto,
+
+154
+00:12:54,980 --> 00:12:57,980
+seguido ao PDF desta aula,
+
+155
+00:12:57,980 --> 00:12:59,980
+e que vos permitem fazer aquelas coisas,
+
+156
+00:12:59,980 --> 00:13:01,980
+que estão ali.
+
+157
+00:13:01,980 --> 00:13:03,980
+Fazer a codificação e a desculpificação,
+
+158
+00:13:03,980 --> 00:13:06,980
+isto é, vocês colocam o valor exadecimal,
+
+159
+00:13:06,980 --> 00:13:08,980
+ou o binário, se não é rapaciaso,
+
+160
+00:13:08,980 --> 00:13:11,980
+que dá-vos uma instrução,
+
+161
+00:13:11,980 --> 00:13:13,980
+ou ao contrário, que é uma instrução,
+
+162
+00:13:13,980 --> 00:13:16,980
+e tem codificado o binário exadecimal.
+
+163
+00:13:16,980 --> 00:13:19,980
+É uma forma fácil de experimentar,
+
+164
+00:13:19,980 --> 00:13:21,980
+nos exemplos das aulas,
+
+165
+00:13:21,980 --> 00:13:23,980
+e bastante.
+
+166
+00:13:23,980 --> 00:13:25,980
+Não é nada particular,
+
+167
+00:13:25,980 --> 00:13:27,980
+é para perceber, como eu sei,
+
+168
+00:13:27,980 --> 00:13:32,980
+o site extremamente simples de usar,
+
+169
+00:13:32,980 --> 00:13:35,980
+e é um recurso útil
+
+170
+00:13:35,980 --> 00:13:37,980
+para experimentar mais o que apenas
+
+171
+00:13:37,980 --> 00:13:39,980
+clear select.
+
+172
+00:13:39,980 --> 00:13:42,980
+Então, vamos começar,
+
+173
+00:13:42,980 --> 00:13:46,980
+pelo conceito do inicio,
+
+174
+00:13:46,980 --> 00:13:48,980
+eu vou descarar
+
+175
+00:13:48,980 --> 00:13:50,980
+como é a instrução,
+
+176
+00:13:50,980 --> 00:14:03,550
+como é que vamos usar para já,
+
+177
+00:14:03,550 --> 00:14:06,150
+os 208 metros,
+
+178
+00:14:06,150 --> 00:14:09,150
+tem a garantia de necessário 32 milímetros,
+
+179
+00:14:09,150 --> 00:14:11,150
+vou descarar esses 4,
+
+180
+00:14:11,150 --> 00:14:13,150
+vai desarmar.
+
+181
+00:14:13,150 --> 00:14:15,150
+Como é que eu sei,
+
+182
+00:14:15,150 --> 00:14:17,150
+que a instrução é que é,
+
+183
+00:14:17,150 --> 00:14:21,150
+e sabendo que a instrução é que é,
+
+184
+00:14:21,150 --> 00:14:26,150
+em que qual desses quatro formatos
+
+185
+00:14:26,150 --> 00:14:29,150
+vai para criar a resposta,
+
+186
+00:14:29,150 --> 00:14:31,150
+é simples.
+
+187
+00:14:31,150 --> 00:14:34,150
+Vou sempre cuidar, primeiro,
+
+188
+00:14:34,150 --> 00:14:36,150
+para o op-call,
+
+189
+00:14:36,150 --> 00:14:39,720
+porque se você for simples,
+
+190
+00:14:39,720 --> 00:14:42,720
+o que é que é comum a todos os formatos
+
+191
+00:14:42,720 --> 00:14:44,720
+grande e grande?
+
+192
+00:14:44,720 --> 00:14:46,720
+O op-call,
+
+193
+00:14:46,720 --> 00:14:48,720
+o tipo de instrução,
+
+194
+00:14:48,720 --> 00:14:51,720
+está sempre nos primeiros 720.
+
+195
+00:14:51,720 --> 00:14:52,720
+Por isso,
+
+196
+00:14:52,720 --> 00:14:54,720
+ao olhar,
+
+197
+00:14:54,720 --> 00:14:56,720
+a primeira coisa que eu sempre vou falar,
+
+198
+00:14:56,720 --> 00:14:59,720
+quando vai descaro 32 milímetros,
+
+199
+00:14:59,720 --> 00:15:01,720
+é olhar aos primeiros 7,
+
+200
+00:15:01,720 --> 00:15:03,720
+e ao olhar aos primeiros 7,
+
+201
+00:15:03,720 --> 00:15:04,720
+determina logo,
+
+202
+00:15:04,720 --> 00:15:06,720
+qual é que é o tipo,
+
+203
+00:15:06,720 --> 00:15:08,720
+o formato de instrução,
+
+204
+00:15:08,720 --> 00:15:09,720
+e por isso,
+
+205
+00:15:09,720 --> 00:15:11,720
+quantos e quais buscamos,
+
+206
+00:15:11,720 --> 00:15:13,720
+que veremos vídeos a seguir.
+
+207
+00:15:13,720 --> 00:15:15,720
+Por isso,
+
+208
+00:15:15,720 --> 00:15:17,720
+há uma tabela,
+
+209
+00:15:17,720 --> 00:15:20,720
+para as 40 instruções,
+
+210
+00:15:20,720 --> 00:15:22,720
+como cada uma delas,
+
+211
+00:15:22,720 --> 00:15:24,720
+está em um determinado op-call,
+
+212
+00:15:24,720 --> 00:15:25,720
+e depois o resto,
+
+213
+00:15:25,720 --> 00:15:26,720
+e por isso,
+
+214
+00:15:26,720 --> 00:15:28,720
+ao olhar o op-call,
+
+215
+00:15:28,720 --> 00:15:30,720
+podem ver aqui que,
+
+216
+00:15:30,720 --> 00:15:31,720
+já vamos,
+
+217
+00:15:31,720 --> 00:15:32,720
+depois,
+
+218
+00:15:32,720 --> 00:15:34,720
+perceber o que é que isso pode ser assim,
+
+219
+00:15:34,720 --> 00:15:39,030
+e puxar propositadamente este exemplo,
+
+220
+00:15:39,030 --> 00:15:41,030
+para depois continuarmos.
+
+221
+00:15:41,030 --> 00:15:43,030
+Quando eu oro para estes 7 vídeos,
+
+222
+00:15:43,030 --> 00:15:45,030
+eu determino que é uma instrução,
+
+223
+00:15:45,030 --> 00:15:47,030
+aritmética.
+
+224
+00:15:47,030 --> 00:15:48,030
+Certo?
+
+225
+00:15:48,030 --> 00:15:49,030
+E não um logo,
+
+226
+00:15:49,030 --> 00:15:50,030
+um score,
+
+227
+00:15:50,030 --> 00:15:51,030
+um rangefique,
+
+228
+00:15:51,030 --> 00:15:53,030
+ou outra coisa qualquer.
+
+229
+00:15:53,030 --> 00:15:55,030
+Mas ainda não o saí,
+
+230
+00:15:55,030 --> 00:15:56,030
+se é um R,
+
+231
+00:15:56,030 --> 00:15:57,030
+ou se é um sul.
+
+232
+00:15:57,030 --> 00:15:59,030
+Isso vai-me ser dado,
+
+233
+00:15:59,030 --> 00:16:00,030
+por um daqueles canto,
+
+234
+00:16:00,030 --> 00:16:02,030
+todos os dois em conjunto,
+
+235
+00:16:02,030 --> 00:16:04,030
+este funte de 3,
+
+236
+00:16:04,030 --> 00:16:05,030
+e o funte de 7.
+
+237
+00:16:05,030 --> 00:16:07,030
+Já vamos ver isso,
+
+238
+00:16:07,030 --> 00:16:08,030
+daqui para um caminho.
+
+239
+00:16:08,030 --> 00:16:09,030
+Por isso,
+
+240
+00:16:09,030 --> 00:16:11,030
+a primeira coisa,
+
+241
+00:16:11,030 --> 00:16:12,030
+para todas as instruções,
+
+242
+00:16:12,030 --> 00:16:14,030
+é olhar para o op-call,
+
+243
+00:16:14,030 --> 00:16:16,030
+que determina o tipo de instrução.
+
+244
+00:16:16,030 --> 00:16:18,030
+E ao determinar o tipo de instrução,
+
+245
+00:16:18,030 --> 00:16:20,030
+eu sei,
+
+246
+00:16:20,030 --> 00:16:22,030
+se ela vai cair,
+
+247
+00:16:22,030 --> 00:16:23,030
+em um desses formatos,
+
+248
+00:16:23,030 --> 00:16:24,030
+nesta tabela,
+
+249
+00:16:24,030 --> 00:16:25,030
+R,
+
+250
+00:16:25,030 --> 00:16:26,030
+I,
+
+251
+00:16:26,030 --> 00:16:27,030
+ou S.
+
+252
+00:16:27,030 --> 00:16:28,030
+Certo?
+
+253
+00:16:28,030 --> 00:16:29,030
+Pois falta um,
+
+254
+00:16:29,030 --> 00:16:30,030
+mas fica-se,
+
+255
+00:16:30,030 --> 00:16:31,030
+um bocadinho,
+
+256
+00:16:31,030 --> 00:16:33,030
+um bocadinho.
+
+257
+00:16:33,030 --> 00:16:34,030
+Até aqui,
+
+258
+00:16:34,030 --> 00:16:35,030
+está?
+
+259
+00:16:35,030 --> 00:16:36,030
+Por isso,
+
+260
+00:16:36,030 --> 00:16:37,030
+oro para o op-call,
+
+261
+00:16:37,030 --> 00:16:39,030
+sem qual é que é o formato.
+
+262
+00:16:40,030 --> 00:16:41,030
+Vai-me dizer,
+
+263
+00:16:41,030 --> 00:16:42,030
+mais uma vez,
+
+264
+00:16:42,030 --> 00:16:43,030
+o op-call,
+
+265
+00:16:43,030 --> 00:16:45,030
+que não dá a instrução,
+
+266
+00:16:45,030 --> 00:16:47,030
+dá um tipo de instrução,
+
+267
+00:16:47,030 --> 00:16:48,030
+um grupo,
+
+268
+00:16:48,030 --> 00:16:49,030
+aquela certeza.
+
+269
+00:16:49,030 --> 00:16:50,030
+Então,
+
+270
+00:16:50,030 --> 00:16:51,030
+vamos começar,
+
+271
+00:16:51,030 --> 00:16:52,030
+pelas instruções,
+
+272
+00:16:52,030 --> 00:16:54,030
+no formato R,
+
+273
+00:16:54,030 --> 00:16:56,030
+com o nome de sujeir,
+
+274
+00:16:57,030 --> 00:16:59,030
+todos os 3 operados,
+
+275
+00:16:59,030 --> 00:17:01,030
+são registros.
+
+276
+00:17:01,030 --> 00:17:03,030
+O que é que isto quer dizer?
+
+277
+00:17:03,030 --> 00:17:05,030
+Vai ter 2,
+
+278
+00:17:05,030 --> 00:17:07,030
+registros de funte,
+
+279
+00:17:07,030 --> 00:17:09,030
+que é um registro destino.
+
+280
+00:17:09,030 --> 00:17:11,030
+Nós vimos,
+
+281
+00:17:11,030 --> 00:17:13,030
+duas instruções,
+
+282
+00:17:13,030 --> 00:17:15,030
+formato R.
+
+283
+00:17:15,030 --> 00:17:16,030
+O R,
+
+284
+00:17:16,030 --> 00:17:17,030
+e o sujeir.
+
+285
+00:17:17,030 --> 00:17:18,030
+Por isso,
+
+286
+00:17:18,030 --> 00:17:19,030
+mais uma vez,
+
+287
+00:17:19,030 --> 00:17:22,980
+fazer uma ligação,
+
+288
+00:17:22,980 --> 00:17:24,980
+à aula anterior,
+
+289
+00:17:24,980 --> 00:17:26,980
+e enunciar todos os OSS1s,
+
+290
+00:17:26,980 --> 00:17:28,980
+se eu escreverá,
+
+291
+00:17:28,980 --> 00:17:30,980
+igual a bem mais C,
+
+292
+00:17:30,980 --> 00:17:32,980
+em C,
+
+293
+00:17:32,980 --> 00:17:34,980
+e vamos admitir que é um usuário,
+
+294
+00:17:34,980 --> 00:17:35,980
+estes registros,
+
+295
+00:17:35,980 --> 00:17:36,980
+para representar,
+
+296
+00:17:36,980 --> 00:17:38,980
+aquelas 3 variáveis,
+
+297
+00:17:40,980 --> 00:17:41,980
+nesta aula,
+
+298
+00:17:41,980 --> 00:17:42,980
+como vem,
+
+299
+00:17:42,980 --> 00:17:43,980
+lá está a arma.
+
+300
+00:17:44,980 --> 00:17:46,980
+Ninguém vai sair daqui,
+
+301
+00:17:46,980 --> 00:17:47,980
+ou olhar os OSS1s,
+
+302
+00:17:47,980 --> 00:17:49,980
+para não saber programar assim,
+
+303
+00:17:49,980 --> 00:17:50,980
+mas,
+
+304
+00:17:50,980 --> 00:17:51,980
+também é que,
+
+305
+00:17:51,980 --> 00:17:52,980
+perceber o RSS,
+
+306
+00:17:52,980 --> 00:17:54,980
+RSS1 e RSS2,
+
+307
+00:17:54,980 --> 00:17:56,980
+qual é que é o registro destino,
+
+308
+00:17:56,980 --> 00:17:57,980
+mas é só um fundo,
+
+309
+00:17:57,980 --> 00:17:58,980
+para dizer,
+
+310
+00:17:58,980 --> 00:17:59,980
+um mínimo,
+
+311
+00:17:59,980 --> 00:18:00,980
+perceber,
+
+312
+00:18:00,980 --> 00:18:01,980
+minimamente,
+
+313
+00:18:01,980 --> 00:18:02,980
+a justificação.
+
+314
+00:18:02,980 --> 00:18:03,980
+RSS1 e RSS2,
+
+315
+00:18:03,980 --> 00:18:05,980
+vai ser o RSS1 e RSS2,
+
+316
+00:18:05,980 --> 00:18:06,980
+que é Rd,
+
+317
+00:18:06,980 --> 00:18:07,980
+vai ser o SS1,
+
+318
+00:18:08,980 --> 00:18:09,980
+e mais uma vez,
+
+319
+00:18:10,980 --> 00:18:11,980
+eu estou a usar,
+
+320
+00:18:11,980 --> 00:18:12,980
+nomes,
+
+321
+00:18:13,980 --> 00:18:15,980
+o que é que vai ter que ser preciso fazer?
+
+322
+00:18:15,980 --> 00:18:16,980
+Saber,
+
+323
+00:18:16,980 --> 00:18:17,980
+é que registros,
+
+324
+00:18:17,980 --> 00:18:18,980
+realmente,
+
+325
+00:18:18,980 --> 00:18:19,980
+respondem estes nomes,
+
+326
+00:18:19,980 --> 00:18:20,980
+antes de fazer,
+
+327
+00:18:20,980 --> 00:18:21,980
+a tradução,
+
+328
+00:18:22,980 --> 00:18:23,980
+mas,
+
+329
+00:18:23,980 --> 00:18:24,980
+já fica depois,
+
+330
+00:18:24,980 --> 00:18:25,980
+para os exemplos,
+
+331
+00:18:25,980 --> 00:18:26,980
+a seguir.
+
+332
+00:18:26,980 --> 00:18:27,980
+Então,
+
+333
+00:18:27,980 --> 00:18:28,980
+todas as instruções,
+
+334
+00:18:28,980 --> 00:18:30,980
+de formato R,
+
+335
+00:18:30,980 --> 00:18:31,980
+também,
+
+336
+00:18:31,980 --> 00:18:32,980
+tal como,
+
+337
+00:18:32,980 --> 00:18:34,980
+todas as instruções da arquitetura,
+
+338
+00:18:34,980 --> 00:18:36,980
+um obcoldo de 7 bits,
+
+339
+00:18:36,980 --> 00:18:37,980
+sabe?
+
+340
+00:18:37,980 --> 00:18:38,980
+Por isso,
+
+341
+00:18:38,980 --> 00:18:39,980
+quando você vê o ordem,
+
+342
+00:18:39,980 --> 00:18:41,980
+para aquele obcoldo de 7 bits,
+
+343
+00:18:41,980 --> 00:18:43,980
+determinem que é o expulsão,
+
+344
+00:18:43,980 --> 00:18:44,980
+do formato R.
+
+345
+00:18:44,980 --> 00:18:45,980
+Se é uma expulsão,
+
+346
+00:18:45,980 --> 00:18:47,980
+do formato R,
+
+347
+00:18:47,980 --> 00:18:48,980
+os restantes bits,
+
+348
+00:18:48,980 --> 00:18:50,980
+estão divididos,
+
+349
+00:18:50,980 --> 00:18:52,980
+naqueles caras.
+
+350
+00:18:52,980 --> 00:18:54,980
+O registro destino,
+
+351
+00:18:55,980 --> 00:18:56,980
+fundo de 3,
+
+352
+00:18:56,980 --> 00:18:57,980
+mais ou menos,
+
+353
+00:18:57,980 --> 00:18:58,980
+é que se chama,
+
+354
+00:18:58,980 --> 00:18:59,980
+de 3,3 bits,
+
+355
+00:18:59,980 --> 00:19:00,980
+RSS1,
+
+356
+00:19:00,980 --> 00:19:01,980
+RSS2,
+
+357
+00:19:01,980 --> 00:19:02,980
+e van de 7.
+
+358
+00:19:02,980 --> 00:19:04,980
+Antes de eu avançar,
+
+359
+00:19:04,980 --> 00:19:08,520
+isto tem o mesmo que ficar,
+
+360
+00:19:08,520 --> 00:19:10,520
+que subir.
+
+361
+00:19:10,520 --> 00:19:12,520
+O que é que eu sou,
+
+362
+00:19:12,520 --> 00:19:13,520
+que se encompre,
+
+363
+00:19:13,520 --> 00:19:14,520
+para que eu só recompre isso,
+
+364
+00:19:14,520 --> 00:19:15,520
+não?
+
+365
+00:19:15,520 --> 00:19:16,520
+Então,
+
+366
+00:19:16,520 --> 00:19:17,520
+aí, é que,
+
+367
+00:19:17,520 --> 00:19:18,520
+depois de nada,
+
+368
+00:19:18,520 --> 00:19:19,520
+para esta aula,
+
+369
+00:19:19,520 --> 00:19:20,520
+faça aqui.
+
+370
+00:19:20,520 --> 00:19:21,520
+O que é que RV,
+
+371
+00:19:21,520 --> 00:19:22,520
+RSS1,
+
+372
+00:19:22,520 --> 00:19:23,520
+e RSS2,
+
+373
+00:19:23,520 --> 00:19:30,030
+têm de 5 bits cada?
+
+374
+00:19:30,030 --> 00:19:31,030
+Quando se registra,
+
+375
+00:19:31,030 --> 00:19:33,030
+que eu tenho na arquitetura?
+
+376
+00:19:33,030 --> 00:19:34,030
+32.
+
+377
+00:19:34,030 --> 00:19:35,030
+Quando os bits,
+
+378
+00:19:35,030 --> 00:19:36,030
+é que eu preciso,
+
+379
+00:19:36,030 --> 00:19:37,030
+mas que eu tenho um valor,
+
+380
+00:19:37,030 --> 00:19:38,030
+31,
+
+381
+00:19:39,030 --> 00:19:40,030
+5,
+
+382
+00:19:40,030 --> 00:19:41,030
+certo?
+
+383
+00:19:41,030 --> 00:19:42,030
+Por isso,
+
+384
+00:19:42,030 --> 00:19:43,030
+aqueles caras,
+
+385
+00:19:43,030 --> 00:19:45,030
+que terem 5 bits,
+
+386
+00:19:45,030 --> 00:19:47,030
+qualquer que seja,
+
+387
+00:19:47,030 --> 00:19:49,030
+o número do registro,
+
+388
+00:19:49,030 --> 00:19:51,030
+eu consigo escrever em 5 bits,
+
+389
+00:19:51,030 --> 00:19:53,030
+não preciso mais.
+
+390
+00:19:53,030 --> 00:19:54,030
+Sabe?
+
+391
+00:19:54,030 --> 00:19:55,030
+Então,
+
+392
+00:19:56,030 --> 00:19:57,030
+dos bits que não são bravo,
+
+393
+00:19:57,030 --> 00:19:59,030
+porque eu já rastei 7
+
+394
+00:19:59,030 --> 00:20:00,030
+para o outro,
+
+395
+00:20:00,030 --> 00:20:02,030
+preciso representar,
+
+396
+00:20:04,030 --> 00:20:05,030
+registro destino,
+
+397
+00:20:05,030 --> 00:20:06,030
+registro, 1
+
+398
+00:20:06,030 --> 00:20:15,740
+1 e o registro de pôr 4, 5 bit em cada um deles, que são um normal 5 bit que eu preciso
+
+399
+00:20:15,740 --> 00:20:27,830
+para servir de 0 para 31, certo? Porque é que então eu não tenho 34 registros ou 68
+
+400
+00:20:27,830 --> 00:20:36,000
+ou 125 registros nesta arquitetura? Se eu aumentar o número de registros, vou ter que
+
+401
+00:20:36,000 --> 00:20:42,840
+aumentar o número de místas e instruções ou diminuir os outros canos? E se eu diminuir
+
+402
+00:20:42,840 --> 00:20:48,080
+os outros canos com uma feira desculcada, os valores enviados agora vão se inscrever
+
+403
+00:20:48,080 --> 00:20:53,880
+até 12 bits e eu ser mais pequeno. Como eu os disse na arquitetura é tudo, não é
+
+404
+00:20:53,880 --> 00:21:01,280
+só arquitetura é tudo, mas aqui vão ser sempre treinados e a vida. Eu tenho mais registros,
+
+405
+00:21:01,920 --> 00:21:10,040
+o feitos, o que eu também quero representar em 32 bits, certo? Então, os registros que
+
+406
+00:21:10,040 --> 00:21:15,680
+são representados em 5 bit cada um sabe o número de bits e eu preciso da cada um deles.
+
+407
+00:21:15,680 --> 00:21:26,780
+E por isso, voltar atrás e o meu e preciso identificar com o meu e preciso de mais 15 bit
+
+408
+00:21:26,780 --> 00:21:33,900
+depois que haver os valores de dentro dos números de S, L, S e S, 2, certo? Não é o
+
+409
+00:21:33,900 --> 00:21:40,210
+número de 1 do registro, é o número do registro, está toda a frente da pessoa, não é o
+
+410
+00:21:40,210 --> 00:21:48,040
+número do registro, não é o valor que está aguardado no registro. Então, se sobram 10
+
+411
+00:21:48,040 --> 00:21:58,040
+bits e esses 10 bits para as instruções do formato R vão identificar o sub-tip da instrução
+
+412
+00:21:58,040 --> 00:22:07,040
+dentro daquela opcode. Bom, voltar atrás. Como estarmos a slide, se você sofrerá-lo
+
+413
+00:22:07,040 --> 00:22:16,160
+ali, o opcode do R e do sub é igual, certo? Mas, por vez de um identifico, o R e do sub
+
+414
+00:22:16,160 --> 00:22:22,320
+identifica, é uma instrução aritmética. Qual das instruções aritméticas é que é?
+
+415
+00:22:22,600 --> 00:22:29,920
+Olhamos ao fundo de 3, é igual. Continuamos sem saber se é um R ou um sub. Vou olhar ao
+
+416
+00:22:29,920 --> 00:22:37,000
+fundo de 7 e esse tem que ser diferente. Mas não importa porque é que é o bit a 1, mas
+
+417
+00:22:37,000 --> 00:22:41,640
+por vez de que são detalhes, depois muitos específicos, o que importa é vocês perceberem
+
+418
+00:22:41,640 --> 00:22:49,400
+ainda, certo? O opcode não chega para distinguir a opração, o opcode identifica o grupo e
+
+419
+00:22:49,400 --> 00:22:57,200
+dentro do grupo, eu posso ter muitas instruções daquele grupo. Nós, neste caso, temos duas,
+
+420
+00:22:57,200 --> 00:23:09,620
+mas eu posso ter 1.024 instruções dentro de cada grupo. Em 10 bits, certo? Por isso,
+
+421
+00:23:09,620 --> 00:23:18,420
+se eu usasse mais 40 do R, V, 30 e 2 e chegar, mas se eu usasse um opo como diferente para
+
+422
+00:23:18,500 --> 00:23:25,420
+cada instrução, eu estava limitado por 2,7 menos 1 instruções nesta arquitetura.
+
+423
+00:23:25,420 --> 00:23:31,420
+Estava a limitar as distintas exposições da arquitetura que eu quisesse fazer, certo?
+
+424
+00:23:31,420 --> 00:23:37,420
+Por isso, em vez de identificar a instrução, eu identifico o grupo e dentro desse grupo,
+
+425
+00:23:37,420 --> 00:23:46,420
+a instrução em particular está nos casos, na instrução, na análise conjunta, se for
+
+426
+00:23:46,420 --> 00:23:52,420
+preciso de fompe 13 e fompe 7. Por que é que fompe 13 e fompe 7? Não são um campo
+
+427
+00:23:52,420 --> 00:24:03,950
+de 10 bits. Todos juntos, a resposta vai estar à conta de analisar-nos esses quatro formatos.
+
+428
+00:24:03,950 --> 00:24:10,950
+A resposta é relativamente simples, mas eu quero manter o mais parecido possível o
+
+429
+00:24:11,950 --> 00:24:18,950
+que independentemente eu formar e, por isso, sempre que existir um campo R, S, 1 ou R, V,
+
+430
+00:24:18,950 --> 00:24:36,660
+vai estar no mesmo sentido. Então, este primeiro exemplo é de x20 e x21, mais uma vez, para
+
+431
+00:24:36,660 --> 00:24:41,660
+eu representar este eliminário, vou dizer de uma instrução alintométrica, um opo aqui
+
+432
+00:24:41,660 --> 00:24:48,660
+ou das instruções alintométricas, no campo de fompe 13 e fompe 7, qual, dentro das instruções
+
+433
+00:24:48,660 --> 00:24:57,660
+alintométricas, qual é que ela é? Vai estar a 0, não estava na tabela anterior, e depois
+
+434
+00:24:57,660 --> 00:25:10,660
+o x9 aqui, o x20 e o x21. Eu trato isto campo a campo, quando represento os valores
+
+435
+00:25:10,660 --> 00:25:15,660
+de um único campo de 32 bits, mais uma vez a maior partas, totalmente as pessoas que
+
+436
+00:25:15,660 --> 00:25:24,660
+vão ver tudo isto para hexadecimal, para ser um número mais cria. Estão a fazer um
+
+437
+00:25:24,660 --> 00:25:33,660
+gosto de fase do CPU, estou a codificar a instrução, o CPU recebe isto e tem que identificar
+
+438
+00:25:33,660 --> 00:25:44,550
+que é o MED sobre que para o registro e fala que é o registro de destino. Então, antes,
+
+439
+00:25:44,550 --> 00:25:56,400
+se nós escrevemos registro de destino RS1, RS2, mas se olharmos para a codificação
+
+440
+00:25:56,400 --> 00:26:08,400
+em ASEMUI, o registro de destino RS1 e RS2 estão com uma ordem diferente, exatamente,
+
+441
+00:26:08,400 --> 00:26:18,400
+ou aposta do que aparece no ASEM. Isto é propositado, porque nós vamos ver todos os
+
+442
+00:26:18,400 --> 00:26:31,400
+valores, e para em RDI, RS1 ou os três, buscamos constar todos os mesmos. Estão aqui e
+
+443
+00:26:31,400 --> 00:26:37,400
+vai estar. Por exemplo, isto é o mesmo para depois, isto é o tipo de coisa que eu digo
+
+444
+00:26:37,400 --> 00:26:44,400
+para vocês depois, quando olharem na segunda vez, isto fica mais simples, e não é para
+
+445
+00:26:44,400 --> 00:26:52,400
+futurar, é para perceber como é que se passa daqui para aqui. Então, o que é que vocês
+
+446
+00:26:52,400 --> 00:26:59,400
+têm que perceber ao olhar para aquele diagrama? Primeiro, outra vez, este conceito, se eu usar
+
+447
+00:26:59,400 --> 00:27:06,400
+os nomes dos registros, tenho que saber qual é que é o nome real do registro, o número,
+
+448
+00:27:06,400 --> 00:27:14,400
+por isso, RS2 é o 18, RS3 é o 19, RS0 é o 5, e assim é o cima mesmo. Depois de chegar
+
+449
+00:27:14,400 --> 00:27:22,400
+no calma, reparam aquilo que eu tenho que estar a dizer, RS1 tem o mesmo opcode. Lá está,
+
+450
+00:27:22,400 --> 00:27:27,400
+obviamente não faz claro que no posito da disciplina vocês recordaram os opcodes das
+
+451
+00:27:27,400 --> 00:27:34,400
+instruções, é perceberem que o opcode é com o grupo, e dentro do grupo, os câmbitos
+
+452
+00:27:34,400 --> 00:27:40,400
+RS e o func set, ou só o meu, vai definir qual é que é a instrução do grupo. E se
+
+453
+00:27:40,400 --> 00:27:47,400
+vocês olharem, por exemplo, veem que o func 3, para o RS1, bem igualas, o func 7 tinha
+
+454
+00:27:47,400 --> 00:27:53,400
+que ser diferente, sério? Se não, o RS2 era 2 anos, agora é 2 anos. É mesmo uma coisa
+
+455
+00:27:53,400 --> 00:28:03,400
+para as outras instruções que não são RS1, que sabem shift e XOR que, como nós vimos,
+
+456
+00:28:03,400 --> 00:28:10,400
+tal como nós vimos isso, vamos ver agora no próximo formato, nós vimos que as instruções
+
+457
+00:28:10,400 --> 00:28:16,400
+que aceitam valores e deliados, não é ali no sul, só temos o avi, mas todas estas,
+
+458
+00:28:16,400 --> 00:28:23,400
+os shift, os enemies, os oros, os XORs, têm uma variante de valor e deliado. Então,
+
+459
+00:28:23,400 --> 00:28:33,130
+vamos passar para esse formato aqui. Qual é que é a diferença? Eu vou passar do
+
+460
+00:28:33,130 --> 00:28:42,130
+NED para o NED e em que eu já continuo a ter um registro de destino, continuo a ter
+
+461
+00:28:42,130 --> 00:28:54,130
+o NED RS1, mas aqui tem um valor imediato. Nós vimos que a arquitetura suporta valores
+
+462
+00:28:54,130 --> 00:29:01,130
+imediate, porque é uma prática usual, os programas, as linguagens de alto nível,
+
+463
+00:29:01,130 --> 00:29:07,130
+como estamos, e, por isso, tem que existir uma forma mais ineficial de ter suportar.
+
+464
+00:29:07,130 --> 00:29:16,130
+É aqui que vai ficar, eu já semana passada, ou há duas vezes, vimos o N, há duas semanas,
+
+465
+00:29:16,130 --> 00:29:22,130
+eu disse que este valor imediato era de 12 enemies, é aqui que vocês viram a perceber
+
+466
+00:29:22,130 --> 00:29:29,130
+porque é o tamanho máximo daquilo que há de 12 enemies.
+
+467
+00:29:29,130 --> 00:29:38,130
+Então, que instruções de formato I nós tivemos? As mais óbvias de todas, todas aquelas
+
+468
+00:29:38,130 --> 00:29:47,130
+têm um I no nome. O EDI, não há subi, mas há no conhecimento de Samas. O EDI, o XOR
+
+469
+00:29:47,130 --> 00:29:56,130
+e o XIFT, vão por aí fora, mas o LOA também é uma instrução do tipo I. Onde é que
+
+470
+00:29:56,130 --> 00:30:05,130
+está o valor imediato? Há no OV7 que eu somo, o valor que está neste registro. Por isso,
+
+471
+00:30:05,130 --> 00:30:11,130
+o JAMP, a Ambulance Regimenta também vai ser, mas isso vai ficar por aqui. Por isso,
+
+472
+00:30:11,130 --> 00:30:19,130
+todas as instruções de formato I são instruções para além de identificar em um registro
+
+473
+00:30:19,130 --> 00:30:26,130
+ou mais do que um, também têm que identificar um valor imediato e esse valor imediato tem
+
+474
+00:30:26,130 --> 00:30:36,130
+que ser modificado em Minar. E já vimos isto também nas aulas anteriores, o valor que
+
+475
+00:30:36,130 --> 00:30:43,130
+eu coloco aqui, neste exemplo, vou usar o F para ser mais simples. Se eu quero sumar
+
+476
+00:30:43,130 --> 00:30:48,130
+um valor de 12 bits ou um valor de 32, o que é que eu tenho que fazer antes da soma
+
+477
+00:30:48,130 --> 00:30:54,130
+e antes da soma e antes da soma? Estendê-lo com 32 bits, antes da soma. Então, eu posso
+
+478
+00:30:54,130 --> 00:31:04,130
+sumar valores de tamanhos diferentes. Então, nós já vimos que este valor vai ser
+
+479
+00:31:04,130 --> 00:31:12,130
+expandido, fazendo a extensão emocional, para 12 bits e isso vai ser importante mais
+
+480
+00:31:12,130 --> 00:31:24,080
+a frente aqui, não. Então, olhando para este diagrama, percebe-se porque é que o valor
+
+481
+00:31:24,080 --> 00:31:33,080
+imediato só pode ter até 12 bits, porque são os bits que sobram. O que é que eu preciso
+
+482
+00:31:33,080 --> 00:31:42,080
+no AD? As outras as mesmas coisas, mas o AD é mais fácil. Um local, 7 bits. Um registro
+
+483
+00:31:42,080 --> 00:31:51,080
+de destino, 5 bits. Um registro fonte, 5 bits. Preciso de um fungo de 3, para dizer dentro
+
+484
+00:31:51,080 --> 00:31:59,080
+daquela local qual a expulsão que é. Só sobramos. Por isso, é o tamanho máximo de
+
+485
+00:31:59,080 --> 00:32:07,080
+valor imediato, nesta arquitetura, em todas as expulsões formatuídas. E é 12, porque
+
+486
+00:32:07,080 --> 00:32:14,080
+são os que sobram, porque eu preciso de uns outros, vindo para representar o resto da
+
+487
+00:32:14,080 --> 00:32:28,810
+informação. Então, se um valor i, tenham vários exemplos, instruções do tipo i,
+
+488
+00:32:28,810 --> 00:32:41,570
+como as mesmas, mesmo conceito dos diagramas anteriores. Por isso, para quase todas as
+
+489
+00:32:41,570 --> 00:32:55,880
+instruções do format do i, aqueles, os bits mais altos do 20 ou 31, têm o valor i. E isso
+
+490
+00:32:55,880 --> 00:33:10,610
+continuará sempre lá, mesmo das instruções que não precisariam de ter 32 bits. Se eu
+
+491
+00:33:10,610 --> 00:33:23,660
+sustito o AD, que é um shift lógico a left i, s2, s3, ou outra coisa igual que é, que
+
+492
+00:33:23,660 --> 00:33:35,640
+valor é que eu posso escrever ali? Estou a fazer um shift de s3, de n bits e guardar
+
+493
+00:33:35,640 --> 00:33:45,180
+o resultado em s2. Qual é o maior valor que eu posso escrever aqui? Eu preciso de cinco bits,
+
+494
+00:33:45,180 --> 00:33:54,520
+porque o maior valor que eu posso escrever é 31. Se eu só tenho 32 no destino, faz algum
+
+495
+00:33:54,520 --> 00:34:01,520
+sentido a fazer um shift maior do 32? Não. Por isso, esta é uma das aquelas coisas que
+
+496
+00:34:01,520 --> 00:34:10,520
+é fundamental para vocês perceber. Por que é que um shift que não precisa um shift imediato?
+
+497
+00:34:10,520 --> 00:34:17,520
+Não. E este shift que tinha que ter aqui outro registro era um 31. Mas por que é que os
+
+498
+00:34:17,520 --> 00:34:23,520
+shift que aceitam colose imediatos continuam a ter 32 bits, mesmo não precisando facilitar
+
+499
+00:34:23,520 --> 00:34:32,520
+todo o arco-élia de notificação? Por isso, há algumas daquelas coisas mais avançadas
+
+500
+00:34:32,520 --> 00:34:40,520
+e há alguns detalhes, é que eu distinto um shift vital entomético, um shift lógico
+
+501
+00:34:40,520 --> 00:34:50,520
+valor entomético, olhando para os bits, para além daquele shift e por que? Voltando aqui,
+
+502
+00:34:50,520 --> 00:34:58,520
+eu perdi o meu 27. Mantendo o meu 27. Mas agora eu passei a ter bits disponíveis.
+
+503
+00:34:58,520 --> 00:35:04,520
+Os esses bits, se precisar para colocar o ar, isto é, o shift white, o entomético,
+
+504
+00:35:04,520 --> 00:35:10,520
+o shift white lógico e são distinguidos desta forma. Mas isso é uma coisa mais avançada.
+
+505
+00:35:10,520 --> 00:35:16,520
+O mais importante a perceber é que mesmo que eu não precise ter 32 bits, e este é o
+
+506
+00:35:16,520 --> 00:35:25,060
+período de caso em que eu não precisava os 32 bits, a instituição continua a ter 32 bits.
+
+507
+00:35:25,060 --> 00:35:35,060
+Depois, nós já vimos instituições emitométricas de midwys, vamos avançar para as instituições
+
+508
+00:35:35,060 --> 00:35:42,060
+e vimos um load, vamos avançar a jargon, vamos avançar.
+
+509
+00:35:42,060 --> 00:35:50,060
+E está aqui. Toda a gente percebe por que é que um load também é deformado aqui,
+
+510
+00:35:50,060 --> 00:36:04,070
+o que é que eu tenho no load? Diado, o RS1 e o RV. É exatamente a mesma coisa.
+
+511
+00:36:04,070 --> 00:36:09,070
+É uma única diferença, é greve, e por isso quando chegarmos à parte da ERG, a memória
+
+512
+00:36:09,070 --> 00:36:13,070
+é fundamental, é que o há memória no escala e no escala do todo o shift.
+
+513
+00:36:13,070 --> 00:36:18,070
+Mas em termos de câmbios que eu tenho que representar, é exatamente a mesma coisa.
+
+514
+00:36:18,070 --> 00:36:24,070
+Um registro de fonte e um valor imediado e um registro de shift.
+
+515
+00:36:25,070 --> 00:36:30,070
+E agora as coisas são, basta, é preciso olhar como atenção.
+
+516
+00:36:30,070 --> 00:36:39,070
+Se olhar para o código em R5, que mais uma vez foi que andamos a ver nas últimas aulas,
+
+517
+00:36:39,070 --> 00:36:44,070
+é a tradução do que eu tenho aqui, não esqueçam nesta arquitetura,
+
+518
+00:36:44,070 --> 00:36:49,070
+eu só leito a memória com load e só escrevo memória com shift.
+
+519
+00:36:49,070 --> 00:36:54,070
+Eu não posso fazer somas que envolvam valores que não estejam mais que shift.
+
+520
+00:36:54,070 --> 00:37:01,070
+Por isso, eu primeiro tenho que buscar o verbo de 8 a memória, guardar o registro,
+
+521
+00:37:01,070 --> 00:37:08,070
+sumá-lo como o outro que tenho a valorar, e agora faz um setor para escrever o valor final
+
+522
+00:37:08,070 --> 00:37:15,070
+nessa opção de memória. Mas para esta ala, o que importa,
+
+523
+00:37:15,070 --> 00:37:23,070
+ou expliquei o que pode ser mais confuso, o que é, se o garanto não lobe ali para o setor,
+
+524
+00:37:23,070 --> 00:37:29,070
+a syntax, a inácia-mole é a mesma, certo?
+
+525
+00:37:29,070 --> 00:37:33,070
+Tem exatamente os mesmos problemas, escrevem-se da mesma forma.
+
+526
+00:37:33,070 --> 00:37:36,070
+Mas qual é que é a enormíssima diferença?
+
+527
+00:37:36,070 --> 00:37:44,070
+O setor é o automóvel, escreve um valor que está no registro.
+
+528
+00:37:44,070 --> 00:37:49,070
+Por exemplo, S8 é no endereço do valor que é S5 mais 40.
+
+529
+00:37:50,700 --> 00:37:53,700
+Se você escreve o automóvel ou não escreve o registro destino,
+
+530
+00:37:53,700 --> 00:37:56,700
+por isso que garantiu que havia tanto de chegar no valor.
+
+531
+00:37:56,700 --> 00:38:00,700
+Que campo é que não vai aparecer no formato S?
+
+532
+00:38:00,700 --> 00:38:03,700
+Ou é a verdade? Não vale registro destino.
+
+533
+00:38:03,700 --> 00:38:13,700
+Então, posso falar, são essas coisas que têm que perceber.
+
+534
+00:38:13,700 --> 00:38:22,700
+Então, continuamos a precisar do merg-S1, do merg-S2 e do off-set,
+
+535
+00:38:22,700 --> 00:38:26,700
+mas não dê-nos registro destino.
+
+536
+00:38:26,700 --> 00:38:35,240
+Por isso, a solução nesta arquitetura, e não há quatro arquiteturas a risca,
+
+537
+00:38:35,240 --> 00:38:40,240
+é manter os câmeros que sabem-nos num mesmo sítio
+
+538
+00:38:40,240 --> 00:38:45,240
+e, como vemos no início, substituir os outros
+
+539
+00:38:45,240 --> 00:38:50,240
+por aquilo que eu quero representar, mas mantendo-nos
+
+540
+00:38:50,240 --> 00:38:55,240
+no mesmo sítio ou juntando dois ou mais num único câmero.
+
+541
+00:38:55,240 --> 00:39:01,540
+Então, se vocês olharem para aqui, o que é que é que o...
+
+542
+00:39:01,540 --> 00:39:09,540
+Qual é a diferença entre um formato S e um formato R?
+
+543
+00:39:09,540 --> 00:39:12,540
+É o primeiro que nós vimos.
+
+544
+00:39:12,540 --> 00:39:16,540
+Não tem um RFM e tem fundo de 7, certo?
+
+545
+00:39:16,540 --> 00:39:24,540
+Mas tem dois câmeros que têm outro propósito, mas estão exatamente no mesmo sítio.
+
+546
+00:39:24,540 --> 00:39:30,540
+Mas para que o RS1 ou RS2 e o fundo de 3 e o off-code, obviamente,
+
+547
+00:39:30,540 --> 00:39:35,540
+se mantenham no mesmo sítio, o valor imediato que eu quero representar
+
+548
+00:39:35,540 --> 00:39:41,540
+está partido num câmbio de 5 bits a seguir o off-code
+
+549
+00:39:41,540 --> 00:39:48,110
+e num câmbio de 7 bits e os bits mais significativos.
+
+550
+00:39:48,110 --> 00:39:57,110
+Nesta instrução, no formato I, o valor imediato ocupa 12 bits todos os bits, certo?
+
+551
+00:39:57,110 --> 00:40:05,110
+Nesta instrução, no formato S, eu continuo a ter um valor imediato de 12 bits,
+
+552
+00:40:05,110 --> 00:40:10,110
+só que, como já notei no sítio, para ter 12 bits todos juntos,
+
+553
+00:40:10,110 --> 00:40:15,110
+porque quero manter o RS1 ou RS2 e o fundo de 3 e os bejos de 2 bits,
+
+554
+00:40:15,110 --> 00:40:19,110
+os 12 bits são 5 bits em dois câmeros.
+
+555
+00:40:19,110 --> 00:40:29,110
+Porque eu não preciso do RFM nem preciso do fundo de 7, mas são os bejos 12 bits, certo?
+
+556
+00:40:30,110 --> 00:40:35,110
+Mais uma vez, eu sei que isto no início são muitos brutais,
+
+557
+00:40:35,110 --> 00:40:39,110
+por isso é que eu linko esta aula, é a aula que tem mais brutais,
+
+558
+00:40:39,110 --> 00:40:42,110
+isto é pior que a doer.
+
+559
+00:40:42,110 --> 00:40:47,110
+Por isso, aqueles dois câmeros são hoje juntos,
+
+560
+00:40:47,110 --> 00:40:51,110
+se sumarmos de mais 7 anos mesmo de 12 bits,
+
+561
+00:40:51,110 --> 00:40:54,110
+mas eu só quero que esteja bom aí bem.
+
+562
+00:40:54,110 --> 00:40:59,110
+Para iam manter, eu vou voltar a isto.
+
+563
+00:40:59,110 --> 00:41:04,110
+Ainda não chegamos ao 1, vamos só nos concentrar daqueles 3 brutais,
+
+564
+00:41:04,110 --> 00:41:08,110
+que são os dois que já vimos e estes que estamos a ver.
+
+565
+00:41:08,110 --> 00:41:14,110
+Para falar, o op-contro daqueles 3 está sempre o mesmo sítio, certo?
+
+566
+00:41:14,110 --> 00:41:19,110
+Quando tenho RS1 e estes 3 têm, que o próximo eu vou ter,
+
+567
+00:41:19,110 --> 00:41:24,160
+estes 3 têm ou não sempre o mesmo sítio.
+
+568
+00:41:24,160 --> 00:41:27,160
+Quando tenho RS1, está no mesmo sítio.
+
+569
+00:41:27,160 --> 00:41:31,160
+Quando tenho RS1 e estes 3 têm, está no mesmo sítio.
+
+570
+00:41:31,160 --> 00:41:38,160
+Quando tenho representado o valor imediato, e se esse valor imediato são 12 bits,
+
+571
+00:41:38,160 --> 00:41:41,160
+que é o único espaço que eu tenho de sobra,
+
+572
+00:41:41,160 --> 00:41:50,160
+ou que estão todos juntos, porque eu não preciso do RS2 nestas inscrições do Mato I,
+
+573
+00:41:50,160 --> 00:41:54,160
+mas como aqui também tenho RS2 e RS1,
+
+574
+00:41:54,160 --> 00:42:02,160
+a única solução é usar estes bits e estes bits, estes 5 e mais ou menos 7,
+
+575
+00:42:02,160 --> 00:42:07,160
+para nós serem os 12 bits que eu preciso representar.
+
+576
+00:42:07,160 --> 00:42:11,160
+Eu sei que pode parecer estranho, mas isto simplifica muito o arco é.
+
+577
+00:42:11,160 --> 00:42:17,160
+Estão as coisas quase todas no que ajude o sítio.
+
+578
+00:42:17,160 --> 00:42:24,160
+Percebei a ideia principal, como é que morar os sítios vem isto ao meio.
+
+579
+00:42:24,160 --> 00:42:30,160
+É perceber que isto tudo é desenvolvido como base,
+
+580
+00:42:30,160 --> 00:42:34,160
+não só na instituição em particular que eu quero representar,
+
+581
+00:42:34,160 --> 00:42:37,160
+mas é essa a ideia que eu quero definir, isto é,
+
+582
+00:42:37,160 --> 00:42:40,160
+quando eu vou representar a instituição no formato,
+
+583
+00:42:40,160 --> 00:42:43,160
+quando eu preciso de um formato S,
+
+584
+00:42:43,160 --> 00:42:46,160
+não faço um formato que seja completamente diferente dos outros,
+
+585
+00:42:46,160 --> 00:42:50,160
+vou olhar aos outros dois, neste caso que já defini,
+
+586
+00:42:50,160 --> 00:42:54,160
+e como é que eu consigo representar a informação preciso,
+
+587
+00:42:54,160 --> 00:42:58,160
+mantendo ao máximo de tudo o que é igual, exatamente, nos mesmos sítios,
+
+588
+00:42:58,160 --> 00:43:02,160
+para simplificar a disqualificação do arco é.
+
+589
+00:43:02,160 --> 00:43:05,160
+Não se esqueçam que todas as instituições,
+
+590
+00:43:05,160 --> 00:43:08,160
+antes de serem executadas, têm que ser disqualificadas.
+
+591
+00:43:08,160 --> 00:43:11,160
+Quando mais tempo eu perder,
+
+592
+00:43:11,160 --> 00:43:15,160
+antes de serem executadas as instituições,
+
+593
+00:43:15,160 --> 00:43:20,160
+pois é que essa modificação deve ser o mais rápido possível.
+
+594
+00:43:20,160 --> 00:43:26,160
+Então, é isto, as instituições do formato S
+
+595
+00:43:26,160 --> 00:43:33,160
+são muito parecidas com as instituições do formato R.
+
+596
+00:43:33,160 --> 00:43:37,160
+Os câmbos são os mesmos, os mesmos tamanhos,
+
+597
+00:43:37,160 --> 00:43:41,160
+e a comunidade está separada em dois, que estamos a câmbos que não usam.
+
+598
+00:43:41,160 --> 00:43:45,160
+Então, para que é que será neste câmbo de fundo de três?
+
+599
+00:43:45,160 --> 00:43:51,160
+Não se esqueçam, eu não cargo logo,
+
+600
+00:43:51,160 --> 00:43:53,160
+eu não tenho solo logo o Word.
+
+601
+00:43:53,160 --> 00:43:56,160
+Eu não vou só buscar sempre quatro bytes.
+
+602
+00:43:56,160 --> 00:44:01,160
+Posso buscar dois, ou posso buscar um.
+
+603
+00:44:01,160 --> 00:44:05,160
+Na arquitetura de 104 amigos, tenho uma double Word,
+
+604
+00:44:05,160 --> 00:44:08,160
+por isso não tenho uma quadra instrução,
+
+605
+00:44:08,160 --> 00:44:11,160
+para ir buscar 74 bytes cada vez,
+
+606
+00:44:11,160 --> 00:44:13,160
+que é a única distância.
+
+607
+00:44:13,160 --> 00:44:16,160
+Por isso, é o câmbo de fundo de três,
+
+608
+00:44:16,160 --> 00:44:20,160
+e já agora, se eu tenho três bytes,
+
+609
+00:44:20,160 --> 00:44:23,160
+naquele fundo de três,
+
+610
+00:44:23,160 --> 00:44:28,160
+é suficiente para distinguir os três tipos de,
+
+611
+00:44:28,160 --> 00:44:30,160
+ou seja, escrever a uma responsabilidade
+
+612
+00:44:30,160 --> 00:44:33,160
+para uma ter sete tipos diferentes.
+
+613
+00:44:33,160 --> 00:44:39,160
+Então, vamos, antes de avançar-nos para o próximo formato,
+
+614
+00:44:39,160 --> 00:44:42,160
+juntar num primeiro exemplo,
+
+615
+00:44:42,160 --> 00:44:47,160
+em que eles três formados, o I, o F e o S.
+
+616
+00:44:47,160 --> 00:44:51,160
+Mais uma vez, isto é o que eu escrevi há sempre,
+
+617
+00:44:51,160 --> 00:44:57,160
+e que seria o equivalente a este código de uma linguagem tal comigo.
+
+618
+00:44:57,160 --> 00:44:59,160
+O objetivo, mais uma vez,
+
+619
+00:44:59,160 --> 00:45:04,160
+não é vocês rapidamente conseguirem lançar-nos há sempre,
+
+620
+00:45:04,160 --> 00:45:06,160
+para ali, para perceber,
+
+621
+00:45:06,160 --> 00:45:10,160
+o que é que eu olho mais calma,
+
+622
+00:45:10,160 --> 00:45:13,160
+o que é que os câmbos são estes.
+
+623
+00:45:13,160 --> 00:45:15,160
+Mais uma vez,
+
+624
+00:45:15,160 --> 00:45:17,160
+aqui, isto é o local,
+
+625
+00:45:17,160 --> 00:45:23,160
+tudo o que é igual nos diferentes formatos
+
+626
+00:45:23,160 --> 00:45:25,160
+está exatamente no mesmo sítio,
+
+627
+00:45:25,160 --> 00:45:27,160
+quando não é igual,
+
+628
+00:45:27,160 --> 00:45:30,160
+é junto-sando de dois ou mais termais,
+
+629
+00:45:30,160 --> 00:45:31,160
+no próximo formato,
+
+630
+00:45:31,160 --> 00:45:36,160
+dois ou mais termos que são precisos para apresentar aquilo no santo.
+
+631
+00:45:36,160 --> 00:45:38,160
+Está preciso a ideia?
+
+632
+00:45:38,160 --> 00:45:41,790
+Então,
+
+633
+00:45:41,790 --> 00:45:42,790
+depois obviamente,
+
+634
+00:45:42,790 --> 00:45:44,790
+aqui isto é o apresentado,
+
+635
+00:45:44,790 --> 00:45:45,790
+vamos fazer decimal,
+
+636
+00:45:45,790 --> 00:45:47,790
+como os números, os registros,
+
+637
+00:45:47,790 --> 00:45:48,790
+aqui que vão ver agora,
+
+638
+00:45:48,790 --> 00:45:51,790
+de binário, e normalmente,
+
+639
+00:45:51,790 --> 00:45:53,790
+agora dentro da moda,
+
+640
+00:45:53,790 --> 00:45:55,790
+um pouco de valor,
+
+641
+00:45:55,790 --> 00:45:56,790
+X a decimal.
+
+642
+00:45:56,790 --> 00:46:01,550
+O que é que o resto do semestre vai ser fácil,
+
+643
+00:46:01,550 --> 00:46:02,550
+o resto da parte?
+
+644
+00:46:02,550 --> 00:46:03,550
+Está ao edifício.
+
+645
+00:46:03,550 --> 00:46:06,550
+Quanto mais como colete-se por isto,
+
+646
+00:46:06,550 --> 00:46:08,550
+mais fácil depois é o 4B.
+
+647
+00:46:08,550 --> 00:46:11,550
+O que é que nos falta a ver
+
+648
+00:46:11,550 --> 00:46:15,550
+de formato base da arquitetura
+
+649
+00:46:15,550 --> 00:46:18,550
+e de instruções que nós já havíamos?
+
+650
+00:46:18,550 --> 00:46:20,550
+Nós vimos que existem,
+
+651
+00:46:20,550 --> 00:46:22,550
+muitas vezes,
+
+652
+00:46:22,550 --> 00:46:24,550
+vários cenários,
+
+653
+00:46:24,550 --> 00:46:27,550
+quando uma constante de 12 bits
+
+654
+00:46:27,550 --> 00:46:29,550
+pode não ser suficiente.
+
+655
+00:46:29,550 --> 00:46:30,550
+Sabe?
+
+656
+00:46:30,550 --> 00:46:32,550
+Se fosse assim,
+
+657
+00:46:32,550 --> 00:46:34,550
+eu estava a limitar,
+
+658
+00:46:34,550 --> 00:46:36,550
+e eu disse que,
+
+659
+00:46:36,550 --> 00:46:40,550
+mesmo a base da arquitetura,
+
+660
+00:46:40,550 --> 00:46:42,550
+que só suporta
+
+661
+00:46:42,550 --> 00:46:44,550
+coisas 30 das bits,
+
+662
+00:46:44,550 --> 00:46:45,550
+com entreios,
+
+663
+00:46:45,550 --> 00:46:46,550
+é tudo incompleto,
+
+664
+00:46:46,550 --> 00:46:48,550
+não há algo nenhum,
+
+665
+00:46:48,550 --> 00:46:50,550
+que você não consegue implementar.
+
+666
+00:46:50,550 --> 00:46:53,550
+E é, obviamente,
+
+667
+00:46:53,550 --> 00:46:56,550
+expectável que eu consiga representar valores
+
+668
+00:46:56,550 --> 00:46:58,550
+que ocupem mais de 12 bits.
+
+669
+00:46:58,550 --> 00:47:00,550
+Claro, como esta arquitetura,
+
+670
+00:47:00,550 --> 00:47:02,550
+32 bits são limitados
+
+671
+00:47:02,550 --> 00:47:04,550
+valores de 32 bits,
+
+672
+00:47:04,550 --> 00:47:05,550
+só como X.
+
+673
+00:47:05,550 --> 00:47:07,550
+Posso, obviamente, usar 2
+
+674
+00:47:07,550 --> 00:47:10,550
+para representar valores de 74 bits.
+
+675
+00:47:10,550 --> 00:47:13,550
+Então, o que é que nós já vimos na semana passada?
+
+676
+00:47:13,550 --> 00:47:16,550
+Existe uma instituição
+
+677
+00:47:16,550 --> 00:47:18,550
+lower upper,
+
+678
+00:47:18,550 --> 00:47:21,550
+e minha ideia de que, como o aluno se sugera,
+
+679
+00:47:21,550 --> 00:47:24,550
+carrega um valor de 20 bits
+
+680
+00:47:24,550 --> 00:47:27,550
+para os 20 bits mais significativos de um registro,
+
+681
+00:47:27,550 --> 00:47:30,550
+e coloque os 12 bitments significativos a zero,
+
+682
+00:47:30,550 --> 00:47:34,550
+para eu formar um valor de 32 bits
+
+683
+00:47:34,550 --> 00:47:37,550
+maior do que aquilo que eu só consigo escolher,
+
+684
+00:47:37,550 --> 00:47:40,550
+escrever com os formatos entreios.
+
+685
+00:47:40,550 --> 00:47:42,550
+Então,
+
+686
+00:47:42,550 --> 00:47:44,550
+como,
+
+687
+00:47:44,550 --> 00:47:46,550
+a ideia é este,
+
+688
+00:47:46,550 --> 00:47:48,550
+que se um programa de alta medida
+
+689
+00:47:48,550 --> 00:47:50,550
+precisa de suportar
+
+690
+00:47:50,550 --> 00:47:52,550
+como estantes maiores dos 12 bits,
+
+691
+00:47:52,550 --> 00:47:56,550
+a arquitetura tem que ser uma instituição
+
+692
+00:47:56,550 --> 00:47:58,550
+que o supone.
+
+693
+00:47:58,550 --> 00:48:00,550
+Nesta arquitetura,
+
+694
+00:48:00,550 --> 00:48:02,550
+é o lower upper immediate
+
+695
+00:48:02,550 --> 00:48:04,550
+que carrega para um registro qualquer
+
+696
+00:48:04,550 --> 00:48:06,550
+um valor linear.
+
+697
+00:48:06,550 --> 00:48:08,550
+Então,
+
+698
+00:48:08,550 --> 00:48:10,550
+antes de olharmos para o
+
+699
+00:48:11,550 --> 00:48:18,970
+para o esquema,
+
+700
+00:48:18,970 --> 00:48:20,970
+quantos bits é que eu preciso
+
+701
+00:48:20,970 --> 00:48:22,970
+para apresentar o aluno neste?
+
+702
+00:48:22,970 --> 00:48:24,970
+7.
+
+703
+00:48:24,970 --> 00:48:26,970
+Aqui vou precisar de 5.
+
+704
+00:48:26,970 --> 00:48:28,970
+Quantos é que só?
+
+705
+00:48:28,970 --> 00:48:30,970
+20.
+
+706
+00:48:30,970 --> 00:48:32,970
+Por isso, o valor que eu consigo colocar aqui
+
+707
+00:48:32,970 --> 00:48:34,970
+é 20 bits.
+
+708
+00:48:34,970 --> 00:48:36,970
+E o que é que se chama lower upper immediate?
+
+709
+00:48:36,970 --> 00:48:38,970
+Pega nesses 20 bits,
+
+710
+00:48:38,970 --> 00:48:40,970
+e os empurra,
+
+711
+00:48:40,970 --> 00:48:42,970
+após 20 bits mais significativos,
+
+712
+00:48:42,970 --> 00:48:44,970
+coloca os 12 bits mais significativos a 0,
+
+713
+00:48:44,970 --> 00:48:46,970
+depois eu vou zoomar
+
+714
+00:48:46,970 --> 00:48:48,970
+para copultar o lower.
+
+715
+00:48:48,970 --> 00:48:50,970
+Nós vimos que,
+
+716
+00:48:50,970 --> 00:48:52,970
+na semana passada,
+
+717
+00:48:52,970 --> 00:48:54,970
+apesar de eu dar uma expulsão o lower immediate,
+
+718
+00:48:54,970 --> 00:48:56,970
+faz isso só com uma balinha,
+
+719
+00:48:56,970 --> 00:48:58,970
+facilitando-nos a escrita
+
+720
+00:48:58,970 --> 00:49:00,970
+de código em acerto.
+
+721
+00:49:00,970 --> 00:49:02,970
+Mas mais uma vez,
+
+722
+00:49:02,970 --> 00:49:04,970
+se um acêmbro
+
+723
+00:49:04,970 --> 00:49:06,970
+encontrar um lower immediate,
+
+724
+00:49:06,970 --> 00:49:08,970
+tem de substituir
+
+725
+00:49:08,970 --> 00:49:10,970
+com o lower da faria imediativa
+
+726
+00:49:10,970 --> 00:49:12,970
+e um lower imediativa,
+
+727
+00:49:12,970 --> 00:49:14,970
+como vimos na semana passada.
+
+728
+00:49:14,970 --> 00:49:16,970
+Por isso é que eu vos disse,
+
+729
+00:49:16,970 --> 00:49:18,970
+é especial para expulsões
+
+730
+00:49:18,970 --> 00:49:20,970
+para lower, pois não servem para nada,
+
+731
+00:49:20,970 --> 00:49:22,970
+mas obviamente são muito úteis
+
+732
+00:49:22,970 --> 00:49:24,970
+para escrever acêmbro.
+
+733
+00:49:24,970 --> 00:49:26,970
+Então,
+
+734
+00:49:26,970 --> 00:49:28,970
+se há uma expulsão
+
+735
+00:49:28,970 --> 00:49:30,970
+que permite
+
+736
+00:49:30,970 --> 00:49:32,970
+que eu escreva um valor
+
+737
+00:49:32,970 --> 00:49:34,970
+em 20 bits
+
+738
+00:49:34,970 --> 00:49:36,970
+e há outra expulsão
+
+739
+00:49:36,970 --> 00:49:38,970
+que faz a mesma coisa
+
+740
+00:49:38,970 --> 00:49:40,970
+para o program counter.
+
+741
+00:49:40,970 --> 00:49:42,970
+E lá está,
+
+742
+00:49:42,970 --> 00:49:44,970
+esta chama-se lower immediate.
+
+743
+00:49:44,970 --> 00:49:46,970
+Esta chama-se
+
+744
+00:49:46,970 --> 00:49:48,970
+é upper immediate do program counter,
+
+745
+00:49:48,970 --> 00:49:50,970
+ou seja, é o mesmo,
+
+746
+00:49:50,970 --> 00:49:52,970
+para em 20 bits
+
+747
+00:49:52,970 --> 00:49:54,970
+e sumar
+
+748
+00:49:54,970 --> 00:49:56,970
+os 20 bits mais significativos
+
+749
+00:49:56,970 --> 00:49:58,970
+do program counter.
+
+750
+00:49:58,970 --> 00:50:00,970
+O formato de expulsão
+
+751
+00:50:00,970 --> 00:50:02,970
+é aquilo, opcou,
+
+752
+00:50:02,970 --> 00:50:04,970
+distrito de destino,
+
+753
+00:50:04,970 --> 00:50:06,970
+valor imediato de 20 bits
+
+754
+00:50:06,970 --> 00:50:08,970
+mas
+
+755
+00:50:08,970 --> 00:50:10,970
+o que é que vocês não
+
+756
+00:50:10,970 --> 00:50:12,970
+o opcou está no mesmo sítio,
+
+757
+00:50:12,970 --> 00:50:14,970
+o fd está exatamente no mesmo sítio
+
+758
+00:50:14,970 --> 00:50:16,970
+e todos os outros bits
+
+759
+00:50:16,970 --> 00:50:18,970
+estão agregados
+
+760
+00:50:18,970 --> 00:50:20,970
+nos outros canos, estão agregados não só,
+
+761
+00:50:20,970 --> 00:50:22,970
+também vindo porque é
+
+762
+00:50:22,970 --> 00:50:24,970
+o que sobra.
+
+763
+00:50:24,970 --> 00:50:26,970
+Até aqui.
+
+764
+00:50:26,970 --> 00:50:28,970
+Então, a ideia
+
+765
+00:50:28,970 --> 00:50:30,970
+mais importante a perceber
+
+766
+00:50:30,970 --> 00:50:32,970
+é esta.
+
+767
+00:50:32,970 --> 00:50:34,970
+Em vez de complicar
+
+768
+00:50:34,970 --> 00:50:36,970
+todas as outras instruções
+
+769
+00:50:36,970 --> 00:50:38,970
+para aceitar
+
+770
+00:50:38,970 --> 00:50:40,970
+valores imediatos
+
+771
+00:50:40,970 --> 00:50:42,970
+que poderiam ser de 12
+
+772
+00:50:42,970 --> 00:50:44,970
+ou de 20
+
+773
+00:50:44,970 --> 00:50:46,970
+há uma instrução específica
+
+774
+00:50:46,970 --> 00:50:48,970
+para lidar com esses casos
+
+775
+00:50:48,970 --> 00:50:50,970
+e depois os zeros, os zeros, os zeros
+
+776
+00:50:50,970 --> 00:50:52,970
+os zeros, os zeros, etc.
+
+777
+00:50:52,970 --> 00:50:54,970
+O que era o som desse valor
+
+778
+00:50:54,970 --> 00:50:56,970
+ficou abordado no magistro
+
+779
+00:50:56,970 --> 00:50:58,970
+de 36 bit.
+
+780
+00:50:58,970 --> 00:51:03,050
+Por isso, o formato 1
+
+781
+00:51:03,050 --> 00:51:05,050
+não precisa
+
+782
+00:51:05,050 --> 00:51:07,050
+de 1, 2, 3, 7,
+
+783
+00:51:07,050 --> 00:51:09,050
+porque
+
+784
+00:51:09,050 --> 00:51:11,050
+só tem 1 instrução
+
+785
+00:51:11,050 --> 00:51:13,050
+ou isso o opcou do grupo
+
+786
+00:51:13,050 --> 00:51:15,050
+responde ao artigo instrução
+
+787
+00:51:15,050 --> 00:51:17,050
+daquilo.
+
+788
+00:51:17,050 --> 00:51:19,050
+Então,
+
+789
+00:51:19,050 --> 00:51:21,050
+estes são os 4
+
+790
+00:51:21,050 --> 00:51:23,050
+formados os 4.
+
+791
+00:51:23,050 --> 00:51:25,050
+Os dois que faltam
+
+792
+00:51:25,050 --> 00:51:27,050
+são uma variante
+
+793
+00:51:27,050 --> 00:51:29,050
+do b e do j
+
+794
+00:51:29,050 --> 00:51:31,050
+o d e o b
+
+795
+00:51:31,050 --> 00:51:33,050
+e o j
+
+796
+00:51:33,050 --> 00:51:35,050
+e o que acabamos de ver.
+
+797
+00:51:35,050 --> 00:51:37,050
+Então,
+
+798
+00:51:37,050 --> 00:51:39,050
+presumindo,
+
+799
+00:51:39,050 --> 00:51:41,050
+todas as operações têm
+
+800
+00:51:41,050 --> 00:51:43,050
+todos os formados têm
+
+801
+00:51:43,050 --> 00:51:45,050
+um opcou, r
+
+802
+00:51:45,050 --> 00:51:47,050
+tem 2 registros
+
+803
+00:51:47,050 --> 00:51:49,050
+de fonte e um destino
+
+804
+00:51:49,050 --> 00:51:51,050
+o i
+
+805
+00:51:51,050 --> 00:51:53,050
+precisa de um valor imediato
+
+806
+00:51:53,050 --> 00:51:55,050
+para cima de câmeros que não usa
+
+807
+00:51:55,050 --> 00:51:57,050
+o s
+
+808
+00:51:57,050 --> 00:51:59,050
+vai separar o valor de 12 bits
+
+809
+00:51:59,050 --> 00:52:01,050
+e imediato de 2 câmeros
+
+810
+00:52:01,050 --> 00:52:03,050
+para manter todos os ovos
+
+811
+00:52:03,050 --> 00:52:05,050
+no mesmo sítio
+
+812
+00:52:05,050 --> 00:52:07,050
+e o 1
+
+813
+00:52:07,050 --> 00:52:09,050
+fornece a possibilidade de
+
+814
+00:52:09,050 --> 00:52:11,050
+escrever constantes a p e de bits
+
+815
+00:52:11,050 --> 00:52:13,050
+que os carregam para os 5 bits
+
+816
+00:52:13,050 --> 00:52:15,050
+mais significativos de um sisto.
+
+817
+00:52:15,050 --> 00:52:17,050
+Então,
+
+818
+00:52:17,050 --> 00:52:19,050
+antes de avançarmos os 2
+
+819
+00:52:19,050 --> 00:52:21,050
+que faltam, isto vai
+
+820
+00:52:21,050 --> 00:52:23,050
+vermos ao
+
+821
+00:52:23,050 --> 00:52:25,050
+princípio de design da Argoé
+
+822
+00:52:25,050 --> 00:52:28,680
+o 4 que estamos a ver
+
+823
+00:52:28,680 --> 00:52:30,680
+que é
+
+824
+00:52:30,680 --> 00:52:32,680
+desde o que eu vos disse
+
+825
+00:52:32,680 --> 00:52:34,680
+dos treinados.
+
+826
+00:52:34,680 --> 00:52:36,680
+Eu preciso representar coisas diferentes
+
+827
+00:52:36,680 --> 00:52:38,680
+por isso
+
+828
+00:52:38,680 --> 00:52:40,680
+um único formato
+
+829
+00:52:40,680 --> 00:52:42,680
+não chega a pesar de todas as discussões
+
+830
+00:52:42,680 --> 00:52:44,680
+terem direito.
+
+831
+00:52:44,680 --> 00:52:46,680
+Por isso
+
+832
+00:52:46,680 --> 00:52:48,680
+a começar
+
+833
+00:52:48,680 --> 00:52:50,680
+desta publicação
+
+834
+00:52:50,680 --> 00:52:52,680
+a fazer mais complexa
+
+835
+00:52:52,680 --> 00:52:54,680
+por parte do assembler
+
+836
+00:52:54,680 --> 00:52:56,680
+ou alguns passos atrás
+
+837
+00:52:56,680 --> 00:52:58,680
+qual é que é principal
+
+838
+00:52:58,680 --> 00:53:00,680
+característica da filosofia
+
+839
+00:53:00,680 --> 00:53:02,680
+risco
+
+840
+00:53:02,680 --> 00:53:04,680
+colocar complexidade no software
+
+841
+00:53:04,680 --> 00:53:06,680
+não no argoé
+
+842
+00:53:06,680 --> 00:53:08,680
+Esta publicação é feita em software
+
+843
+00:53:08,680 --> 00:53:10,680
+pode ser
+
+844
+00:53:10,680 --> 00:53:12,680
+mais complicada
+
+845
+00:53:12,680 --> 00:53:14,680
+para que um argoé
+
+846
+00:53:14,680 --> 00:53:16,680
+seja mais simples
+
+847
+00:53:16,680 --> 00:53:18,680
+e se for mais simples
+
+848
+00:53:18,680 --> 00:53:20,680
+tem logo 2 bantais
+
+849
+00:53:20,680 --> 00:53:22,680
+que é mais barato
+
+850
+00:53:22,680 --> 00:53:24,680
+e gastam muito energia
+
+851
+00:53:24,680 --> 00:53:26,680
+e normalmente também é mais raro
+
+852
+00:53:26,680 --> 00:53:28,680
+a utilização vamos ver
+
+853
+00:53:28,680 --> 00:53:30,680
+depois da próxima fase
+
+854
+00:53:30,680 --> 00:53:32,680
+está recebido a ideia
+
+855
+00:53:32,680 --> 00:53:34,680
+por isso temos
+
+856
+00:53:34,680 --> 00:53:36,680
+estes quatro formatos
+
+857
+00:53:36,680 --> 00:53:38,680
+agora, sem complicar-me
+
+858
+00:53:38,680 --> 00:53:40,680
+que instruções
+
+859
+00:53:40,680 --> 00:53:42,680
+é que nos falta ver
+
+860
+00:53:42,680 --> 00:53:44,680
+até agora
+
+861
+00:53:44,680 --> 00:53:46,680
+todas as instruções que vimos
+
+862
+00:53:46,680 --> 00:53:48,680
+foram instruções
+
+863
+00:53:48,680 --> 00:53:50,680
+que metem as online, celular
+
+864
+00:53:50,680 --> 00:53:52,680
+e o store
+
+865
+00:53:52,680 --> 00:53:54,680
+mas há vídeos
+
+866
+00:53:54,680 --> 00:53:56,680
+nas últimas aulas
+
+867
+00:53:56,680 --> 00:53:58,680
+obviamente
+
+868
+00:53:58,680 --> 00:54:00,680
+como os formatos que vimos eu não consigo implementar
+
+869
+00:54:00,680 --> 00:54:02,680
+por inflar eles
+
+870
+00:54:02,680 --> 00:54:04,680
+eu consigo ou invocar para a função
+
+871
+00:54:04,680 --> 00:54:06,680
+até a semana passada
+
+872
+00:54:06,680 --> 00:54:08,680
+então
+
+873
+00:54:08,680 --> 00:54:10,680
+essas duas coisas
+
+874
+00:54:10,680 --> 00:54:12,680
+são solutadas por dois novos formatos
+
+875
+00:54:14,680 --> 00:54:16,680
+mas que
+
+876
+00:54:16,680 --> 00:54:18,680
+não mudam
+
+877
+00:54:18,680 --> 00:54:20,680
+o ordem dos canos
+
+878
+00:54:20,680 --> 00:54:22,680
+são só
+
+879
+00:54:22,680 --> 00:54:24,680
+uma forma
+
+880
+00:54:24,680 --> 00:54:26,680
+de eu representar
+
+881
+00:54:26,680 --> 00:54:28,680
+um moçal condicional
+
+882
+00:54:28,680 --> 00:54:30,680
+ou um moçal de um segundo
+
+883
+00:54:30,680 --> 00:54:32,680
+para uma função
+
+884
+00:54:32,680 --> 00:54:34,680
+os ambos formatos já existem
+
+885
+00:54:34,680 --> 00:54:36,680
+como
+
+886
+00:54:36,680 --> 00:54:38,680
+dois promenores
+
+887
+00:54:38,680 --> 00:54:40,680
+de otimização
+
+888
+00:54:40,680 --> 00:54:42,680
+apenas
+
+889
+00:54:42,680 --> 00:54:44,680
+do valor imediato
+
+890
+00:54:44,680 --> 00:54:46,680
+por isso, os formatos B de Brands
+
+891
+00:54:46,680 --> 00:54:48,680
+e J de Schoen
+
+892
+00:54:48,680 --> 00:54:50,680
+já agora
+
+893
+00:54:50,680 --> 00:54:52,680
+em inglês fica mais fácil
+
+894
+00:54:52,680 --> 00:54:54,680
+nós émos dois
+
+895
+00:54:54,680 --> 00:54:56,680
+um Brand, um salto condicional
+
+896
+00:54:56,680 --> 00:54:58,680
+um J, um salto condicional
+
+897
+00:54:58,680 --> 00:55:00,680
+os Brands, um Leaf, um Nelson
+
+898
+00:55:00,680 --> 00:55:02,680
+um I, um IV
+
+899
+00:55:02,680 --> 00:55:04,680
+e um Japan call your return
+
+900
+00:55:04,680 --> 00:55:06,680
+que aqui vai ser um japonês
+
+901
+00:55:06,680 --> 00:55:08,680
+que já não fica
+
+902
+00:55:08,680 --> 00:55:10,680
+então
+
+903
+00:55:10,680 --> 00:55:12,680
+esta parte
+
+904
+00:55:12,680 --> 00:55:14,680
+é mais complicada
+
+905
+00:55:14,680 --> 00:55:16,680
+que a anterior
+
+906
+00:55:16,680 --> 00:55:18,680
+e isto é uma otimização
+
+907
+00:55:18,680 --> 00:55:20,680
+para aproveitar os formatos
+
+908
+00:55:20,680 --> 00:55:22,680
+que já existem e conseguisse
+
+909
+00:55:22,680 --> 00:55:24,680
+salvar para mais dois
+
+910
+00:55:24,680 --> 00:55:26,680
+mas
+
+911
+00:55:26,680 --> 00:55:28,680
+vamos continuar a usar os formatos S
+
+912
+00:55:28,680 --> 00:55:30,680
+e o format 1
+
+913
+00:55:30,680 --> 00:55:32,680
+e esta vez
+
+914
+00:55:32,680 --> 00:55:34,680
+que nós vimos
+
+915
+00:55:34,680 --> 00:55:36,680
+então
+
+916
+00:55:36,680 --> 00:55:38,680
+tentar que isto não fique
+
+917
+00:55:38,680 --> 00:55:40,680
+demasiado complexo
+
+918
+00:55:40,680 --> 00:55:42,680
+as instruções de salto condicional
+
+919
+00:55:42,680 --> 00:55:44,680
+e de salto consumido
+
+920
+00:55:44,680 --> 00:55:46,680
+fomos
+
+921
+00:55:46,680 --> 00:55:48,680
+em desviar o normal fuso
+
+922
+00:55:48,680 --> 00:55:50,680
+sequencial
+
+923
+00:55:50,680 --> 00:55:52,680
+no nosso programa
+
+924
+00:55:52,680 --> 00:55:54,680
+para saltar por uma parte qualquer
+
+925
+00:55:54,680 --> 00:55:56,680
+por isso, um propósito
+
+926
+00:55:56,680 --> 00:55:58,680
+é utilizar
+
+927
+00:55:58,680 --> 00:56:00,680
+os saldos de um programa
+
+928
+00:56:00,680 --> 00:56:02,680
+e
+
+929
+00:56:02,680 --> 00:56:04,680
+nós acabamos de ver
+
+930
+00:56:04,680 --> 00:56:06,680
+as instruções
+
+931
+00:56:06,680 --> 00:56:08,680
+de formato S
+
+932
+00:56:08,680 --> 00:56:10,680
+tenham imediato
+
+933
+00:56:10,680 --> 00:56:12,680
+12 bits
+
+934
+00:56:12,680 --> 00:56:14,680
+de formato muito de 20 bits
+
+935
+00:56:14,680 --> 00:56:16,680
+certo?
+
+936
+00:56:16,680 --> 00:56:18,680
+por isso
+
+937
+00:56:18,680 --> 00:56:20,680
+teoricamente
+
+938
+00:56:20,680 --> 00:56:22,680
+qualquer salto condicional
+
+939
+00:56:22,680 --> 00:56:24,680
+só podia estar
+
+940
+00:56:24,680 --> 00:56:26,680
+a um embreço
+
+941
+00:56:26,680 --> 00:56:28,680
+que estivesse a 12
+
+942
+00:56:28,680 --> 00:56:30,680
+de um valor que eu conseguia escrever
+
+943
+00:56:30,680 --> 00:56:32,680
+em 12 bits
+
+944
+00:56:32,680 --> 00:56:34,680
+e qualquer chamada de uma função
+
+945
+00:56:34,680 --> 00:56:36,680
+só podia estar a uma distância
+
+946
+00:56:36,680 --> 00:56:38,680
+de um programa local
+
+947
+00:56:38,680 --> 00:56:40,680
+que eu conseguisse escrever em 20 bits
+
+948
+00:56:40,680 --> 00:56:42,680
+isso não vai ser assim
+
+949
+00:56:42,680 --> 00:56:44,680
+porque
+
+950
+00:56:44,680 --> 00:56:46,680
+vai existir estas optimizantes
+
+951
+00:56:46,680 --> 00:56:48,680
+feitos que eu já vos disse mais de uma vez
+
+952
+00:56:48,680 --> 00:56:50,680
+isto é muito fixe
+
+953
+00:56:50,680 --> 00:56:52,680
+para quem gosta da arquitetura
+
+954
+00:56:52,680 --> 00:56:54,680
+é o que faz com que as pessoas
+
+955
+00:56:54,680 --> 00:56:56,680
+tenham sempre gostado da arquitetura
+
+956
+00:56:56,680 --> 00:56:58,680
+por isso
+
+957
+00:56:58,680 --> 00:57:00,680
+mais uma vez
+
+958
+00:57:00,680 --> 00:57:02,680
+eu tenho 11 bits
+
+959
+00:57:02,680 --> 00:57:04,680
+com salto condicional
+
+960
+00:57:04,680 --> 00:57:06,680
+ou 20 bits com salto consumido
+
+961
+00:57:06,680 --> 00:57:08,680
+certo?
+
+962
+00:57:08,680 --> 00:57:10,680
+qual é que o meu espaço tem de saber?
+
+963
+00:57:10,680 --> 00:57:14,660
+tem de 2 bits
+
+964
+00:57:14,660 --> 00:57:16,660
+o que quero dizer é que
+
+965
+00:57:16,660 --> 00:57:18,660
+eu estaria imediatamente
+
+966
+00:57:18,660 --> 00:57:20,660
+a não conseguir
+
+967
+00:57:20,660 --> 00:57:22,660
+ter um programa
+
+968
+00:57:22,660 --> 00:57:24,660
+que usasse toda a memória que eu tenho
+
+969
+00:57:24,660 --> 00:57:26,660
+para eu conseguir saltar para lá
+
+970
+00:57:26,660 --> 00:57:28,660
+então a técnica
+
+971
+00:57:28,660 --> 00:57:30,660
+é
+
+972
+00:57:30,660 --> 00:57:32,660
+mais ou menos
+
+973
+00:57:32,660 --> 00:57:34,660
+ter ideal
+
+974
+00:57:34,660 --> 00:57:36,660
+tem alguns contatos
+
+975
+00:57:36,660 --> 00:57:38,660
+primeiro
+
+976
+00:57:38,660 --> 00:57:40,660
+todas as instruções
+
+977
+00:57:40,660 --> 00:57:42,660
+tenham 4 bytes de tabém
+
+978
+00:57:42,660 --> 00:57:44,660
+certo?
+
+979
+00:57:44,660 --> 00:57:46,660
+por isso
+
+980
+00:57:46,660 --> 00:57:48,660
+qual é que é a garantia que eu tenho?
+
+981
+00:57:48,660 --> 00:57:50,660
+que o endereço
+
+982
+00:57:50,660 --> 00:57:52,660
+que o bar do programa canta
+
+983
+00:57:52,660 --> 00:57:56,650
+é um bar
+
+984
+00:57:56,650 --> 00:57:58,650
+garantidamente é bar
+
+985
+00:57:58,650 --> 00:58:00,650
+então
+
+986
+00:58:00,650 --> 00:58:02,650
+é iminar um valor bar
+
+987
+00:58:02,650 --> 00:58:04,650
+também assim brinquedo
+
+988
+00:58:04,650 --> 00:58:06,650
+exato
+
+989
+00:58:06,650 --> 00:58:08,650
+se eu sei que um endereço
+
+990
+00:58:08,650 --> 00:58:10,650
+é bar
+
+991
+00:58:10,650 --> 00:58:12,650
+eu preciso de gastar sempre um bit
+
+992
+00:58:12,650 --> 00:58:14,650
+para escrever um valor
+
+993
+00:58:14,650 --> 00:58:16,650
+que eu sei que vai ser sempre zero
+
+994
+00:58:16,650 --> 00:58:18,650
+não
+
+995
+00:58:18,650 --> 00:58:20,650
+então o que é que eu consigo fazer
+
+996
+00:58:20,650 --> 00:58:22,650
+em 12 bits
+
+997
+00:58:22,650 --> 00:58:24,650
+eu consigo comificar 13
+
+998
+00:58:24,650 --> 00:58:26,650
+em 20 bits
+
+999
+00:58:26,650 --> 00:58:28,650
+consigo comificar 21
+
+1000
+00:58:28,650 --> 00:58:30,650
+e depois usar outras técnicas
+
+1001
+00:58:30,650 --> 00:58:32,650
+para saltar ainda para mais um
+
+1002
+00:58:32,650 --> 00:58:34,650
+então vamos chegar
+
+1003
+00:58:34,650 --> 00:58:36,650
+então
+
+1004
+00:58:36,650 --> 00:58:38,650
+eu sei
+
+1005
+00:58:38,650 --> 00:58:40,650
+que todos os endereços
+
+1006
+00:58:40,650 --> 00:58:42,650
+onde estão as instruções estão em paz
+
+1007
+00:58:42,650 --> 00:58:44,650
+eu não escrevo esse zero
+
+1008
+00:58:44,650 --> 00:58:46,650
+escrevo todos os outros bits
+
+1009
+00:58:46,650 --> 00:58:48,650
+eu não escrevo o zero
+
+1010
+00:58:48,650 --> 00:58:50,650
+e por isso o meu valor
+
+1011
+00:58:50,650 --> 00:58:52,650
+individual é na realidade um valor
+
+1012
+00:58:52,650 --> 00:58:54,650
+de 13 bits
+
+1013
+00:58:54,650 --> 00:58:56,650
+o que
+
+1014
+00:58:56,650 --> 00:58:58,650
+já me permite saltar
+
+1015
+00:58:58,650 --> 00:59:00,650
+num if
+
+1016
+00:59:00,650 --> 00:59:02,650
+ou num ciclo
+
+1017
+00:59:02,650 --> 00:59:04,650
+para valores que estão dentro
+
+1018
+00:59:04,650 --> 00:59:06,650
+de este intervalo
+
+1019
+00:59:06,650 --> 00:59:08,650
+o que chega
+
+1020
+00:59:08,650 --> 00:59:10,650
+na maior parte das vezes
+
+1021
+00:59:10,650 --> 00:59:12,650
+não chegar é sinal que
+
+1022
+00:59:12,650 --> 00:59:14,650
+tem que aprender de dividir o programa
+
+1023
+00:59:14,650 --> 00:59:16,650
+ainda de funções
+
+1024
+00:59:16,650 --> 00:59:18,650
+já dá muitas lindas
+
+1025
+00:59:18,650 --> 00:59:20,650
+por isso
+
+1026
+00:59:20,650 --> 00:59:22,650
+um salto condicional
+
+1027
+00:59:22,650 --> 00:59:24,650
+vale
+
+1028
+00:59:24,650 --> 00:59:26,650
+fazer depois já vamos ver
+
+1029
+00:59:26,650 --> 00:59:28,650
+mais outra técnica assim
+
+1030
+00:59:28,650 --> 00:59:30,650
+então repare
+
+1031
+00:59:30,650 --> 00:59:32,650
+o que vimos para passar
+
+1032
+00:59:32,650 --> 00:59:34,650
+no if and else
+
+1033
+00:59:34,650 --> 00:59:36,650
+que em si eu escrevo desta forma
+
+1034
+00:59:36,650 --> 00:59:38,650
+nós vimos
+
+1035
+00:59:38,650 --> 00:59:40,650
+na semana passada
+
+1036
+00:59:40,650 --> 00:59:42,650
+eu levo que escrever desta forma
+
+1037
+00:59:42,650 --> 00:59:44,650
+o que é que eu coloco aqui
+
+1038
+00:59:44,650 --> 00:59:46,650
+e o programa da Assemble
+
+1039
+00:59:46,650 --> 00:59:48,650
+o nome da linha
+
+1040
+00:59:48,650 --> 00:59:50,650
+quem é que vai calcular
+
+1041
+00:59:50,650 --> 00:59:52,650
+a quantos bytes de distância
+
+1042
+00:59:52,650 --> 00:59:54,650
+está aquela linha
+
+1043
+00:59:54,650 --> 00:59:56,650
+desde o samba de salto
+
+1044
+00:59:56,650 --> 00:59:58,650
+o Assemble
+
+1045
+00:59:58,650 --> 01:00:00,650
+mas mais uma vez
+
+1046
+01:00:00,650 --> 01:00:02,650
+eu escrevo a label
+
+1047
+01:00:02,650 --> 01:00:04,650
+aquilo vai ter que ser traduzido
+
+1048
+01:00:04,650 --> 01:00:06,650
+na distância
+
+1049
+01:00:06,650 --> 01:00:08,650
+e a linha
+
+1050
+01:00:08,650 --> 01:00:10,650
+neste exemplo do BNE
+
+1051
+01:00:10,650 --> 01:00:12,650
+e o zoom
+
+1052
+01:00:12,650 --> 01:00:14,650
+então
+
+1053
+01:00:14,650 --> 01:00:16,650
+essa distância
+
+1054
+01:00:16,650 --> 01:00:18,650
+como nós vimos
+
+1055
+01:00:18,650 --> 01:00:20,650
+vai poder
+
+1056
+01:00:20,650 --> 01:00:22,650
+ser maior do que
+
+1057
+01:00:22,650 --> 01:00:24,650
+aquela que supostamente
+
+1058
+01:00:24,650 --> 01:00:26,650
+seria como os 20
+
+1059
+01:00:26,650 --> 01:00:28,650
+em vez de ser coisas
+
+1060
+01:00:28,650 --> 01:00:30,650
+que estariam ladosamente
+
+1061
+01:00:30,650 --> 01:00:32,650
+distância já vem
+
+1062
+01:00:32,650 --> 01:00:34,650
+como isto é exponencial
+
+1063
+01:00:34,650 --> 01:00:36,650
+vem muito mais
+
+1064
+01:00:36,650 --> 01:00:38,650
+um salto muito maior
+
+1065
+01:00:38,650 --> 01:00:40,650
+então esta é a primeira forma
+
+1066
+01:00:40,650 --> 01:00:42,650
+mais uma vez um formato B
+
+1067
+01:00:42,650 --> 01:00:44,650
+usa
+
+1068
+01:00:44,650 --> 01:00:46,650
+um formato
+
+1069
+01:00:46,650 --> 01:00:48,650
+S
+
+1070
+01:00:48,650 --> 01:00:50,650
+para modificar
+
+1071
+01:00:50,650 --> 01:00:52,650
+e a única alteração que faz
+
+1072
+01:00:52,650 --> 01:00:54,650
+é reagrajar
+
+1073
+01:00:54,650 --> 01:00:56,650
+um valor imediato
+
+1074
+01:00:56,650 --> 01:00:58,650
+como nós vimos alguns números atrás
+
+1075
+01:00:58,650 --> 01:01:00,650
+que estava todo invadido
+
+1076
+01:01:00,650 --> 01:01:02,650
+nestes mescamos
+
+1077
+01:01:02,650 --> 01:01:04,650
+porque eu tinha 12 bytes todos juntos
+
+1078
+01:01:04,650 --> 01:01:06,650
+para o representar
+
+1079
+01:01:06,650 --> 01:01:08,650
+mas faz
+
+1080
+01:01:08,650 --> 01:01:10,650
+duas coisas
+
+1081
+01:01:10,650 --> 01:01:12,650
+primeiro
+
+1082
+01:01:12,650 --> 01:01:14,650
+naqueles 12 bytes
+
+1083
+01:01:14,650 --> 01:01:16,650
+eu não escrevo o último byte
+
+1084
+01:01:16,650 --> 01:01:18,650
+por isso na realidade
+
+1085
+01:01:18,650 --> 01:01:20,650
+é um valor que representa 13 bytes
+
+1086
+01:01:20,650 --> 01:01:22,650
+e depois
+
+1087
+01:01:22,650 --> 01:01:24,650
+o que é que isto quer dizer
+
+1088
+01:01:24,650 --> 01:01:26,650
+o que é que o byte
+
+1089
+01:01:26,650 --> 01:01:28,650
+o primeiro
+
+1090
+01:01:28,650 --> 01:01:30,650
+o passo atrás
+
+1091
+01:01:30,650 --> 01:01:32,650
+o byte 0 não está aqui porque
+
+1092
+01:01:32,650 --> 01:01:34,650
+porque é sempre 0
+
+1093
+01:01:34,650 --> 01:01:36,650
+eu começo a escrever um
+
+1094
+01:01:36,650 --> 01:01:38,650
+até
+
+1095
+01:01:38,650 --> 01:01:40,650
+até eu desço sempre 0
+
+1096
+01:01:40,650 --> 01:01:42,650
+o 12
+
+1097
+01:01:42,650 --> 01:01:44,650
+porque é que eu o troco
+
+1098
+01:01:44,650 --> 01:01:46,650
+porque é que eu coloco 21
+
+1099
+01:01:46,650 --> 01:01:48,650
+e eu o assembro
+
+1100
+01:01:48,650 --> 01:01:50,650
+eu tenho que fazer isso
+
+1101
+01:01:50,650 --> 01:01:52,650
+porque todos os valores
+
+1102
+01:01:52,650 --> 01:01:54,650
+todos os valores
+
+1103
+01:01:54,650 --> 01:01:56,650
+de 12 bytes
+
+1104
+01:01:56,650 --> 01:01:58,650
+todos os valores imediatos
+
+1105
+01:01:58,650 --> 01:02:00,650
+são estendidos
+
+1106
+01:02:00,650 --> 01:02:02,650
+como sinal
+
+1107
+01:02:02,650 --> 01:02:04,650
+certo?
+
+1108
+01:02:04,650 --> 01:02:06,650
+este offset também pode ser
+
+1109
+01:02:06,650 --> 01:02:08,650
+só para frente ou para trás
+
+1110
+01:02:08,650 --> 01:02:10,650
+todas as instruções
+
+1111
+01:02:10,650 --> 01:02:12,650
+independentemente de ser um formato
+
+1112
+01:02:12,650 --> 01:02:14,650
+B, S, um DI
+
+1113
+01:02:14,650 --> 01:02:16,650
+ou outra coisa qualquer que tenha um valor imediato
+
+1114
+01:02:16,650 --> 01:02:18,650
+tenham no byte mais à esquerda
+
+1115
+01:02:18,650 --> 01:02:20,650
+o byte de sinal
+
+1116
+01:02:20,650 --> 01:02:22,650
+e se vai permitir
+
+1117
+01:02:22,650 --> 01:02:24,650
+ao mesmo tempo
+
+1118
+01:02:24,650 --> 01:02:26,650
+que eu descondifico
+
+1119
+01:02:26,650 --> 01:02:28,650
+a instrução
+
+1120
+01:02:28,650 --> 01:02:30,650
+fazer em paralelo a extensão do sinal
+
+1121
+01:02:30,650 --> 01:02:32,650
+com sinal de 2 componentes
+
+1122
+01:02:32,650 --> 01:02:34,650
+mas depois nós na próxima aula
+
+1123
+01:02:34,650 --> 01:02:36,650
+vamos ver que vai haver
+
+1124
+01:02:36,650 --> 01:02:38,650
+uma extensão do sinal
+
+1125
+01:02:38,650 --> 01:02:40,650
+ao mesmo tempo que eu vou buscar a instrução
+
+1126
+01:02:40,650 --> 01:02:42,650
+estou a estender
+
+1127
+01:02:42,650 --> 01:02:44,650
+o sinal
+
+1128
+01:02:44,650 --> 01:02:46,650
+porque o 2 bit de 31
+
+1129
+01:02:46,650 --> 01:02:48,650
+tem sempre
+
+1130
+01:02:48,650 --> 01:02:50,650
+1 Strength
+
+1131
+01:02:50,650 --> 01:02:52,650
+Palace
+
+1132
+01:03:05,160 --> 01:03:07,160
+o溢ete
+
+1133
+01:03:07,160 --> 01:03:09,160
+seria 11
+
+1134
+01:03:09,160 --> 01:03:11,160
+mas ponho o 12
+
+1135
+01:03:11,160 --> 01:03:13,160
+para ser no sinal
+
+1136
+01:03:15,160 --> 01:03:17,160
+sim, mas kg
+
+1137
+01:03:17,160 --> 01:03:19,260
+casa por um caso
+
+1138
+01:03:19,260 --> 01:03:21,100
+é 1 a 4 onde Pyri
+
+1139
+01:03:21,100 --> 01:03:29,700
+11, também podia ser, mas o 12, que é o mais significativo que está aqui, para todas
+
+1140
+01:03:29,700 --> 01:03:39,500
+as expulsões tem um índice sinal, acho que no formar, antes avançamos para o outro formado.
+
+1141
+01:03:39,500 --> 01:03:49,920
+E eu disse-vos que todas as expulsões tenham só 4 bytes, mas que só estou a ver o presente
+
+1142
+01:03:49,920 --> 01:03:57,840
+índices, obviamente são 4 bytes, o valor é par, múltiplo de 2, mas se elas são 4 bytes,
+
+1143
+01:03:57,840 --> 01:04:06,000
+na realidade, em Nrv, da integração, elas se descem por múltiplas de 4, o que me permitiria
+
+1144
+01:04:06,000 --> 01:04:12,800
+escrever, descartar os dois que costavam múltiplo de 4, em binário, comendo sempre em 0,0.
+
+1145
+01:04:12,800 --> 01:04:19,080
+Por isso, por que é que eu só estou a descartar este bit e não estes dois?
+
+1146
+01:04:19,080 --> 01:04:27,800
+Porque, como também os já vimos muito rapidamente, existe uma variante da arquitetura pré-inmeta
+
+1147
+01:04:27,800 --> 01:04:35,960
+que é a compressa que tem expulsões de 16 bytes, e essas, mais tarde, se tem um índice
+
+1148
+01:04:35,960 --> 01:04:41,160
+4 e não múltiplo de 4, essa é a razão que só descar um bit.
+
+1149
+01:04:41,160 --> 01:04:49,040
+As instruções de formato j, é a mesma coisa, o conceito é exatamente do mesmo,
+
+1150
+01:04:49,040 --> 01:04:58,840
+mas agora com 20 bytes, e é a mesma coisa, o valor imediato tem essas boas características.
+
+1151
+01:04:58,840 --> 01:05:08,480
+Primeiro, não apresenta o bit 0, e depois o bit de sinal está encostado à esquerda.
+
+1152
+01:05:08,480 --> 01:05:23,120
+Então, resumo, todas as instruções têm 4 bytes, há um uso consistente de todos os
+
+1153
+01:05:23,120 --> 01:05:28,120
+canos, claro que eles estão repetidos, estão exatamente nas beijas dos sítios, quando
+
+1154
+01:05:28,120 --> 01:05:33,440
+não são das boas de uma, ou são as soluções mais que os canos, ou os valores que eu quero
+
+1155
+01:05:33,440 --> 01:05:39,280
+representar, que estão despeços por mais que um cano, para não mexer para os outros.
+
+1156
+01:05:39,280 --> 01:05:47,080
+E por isso, se vocês olharam este slide final dos formatos, bem exatamente isso, que
+
+1157
+01:05:47,080 --> 01:05:54,040
+o 1 e j são só variantes, isto é, o b é o variante, o s é o j é o variante, e o
+
+1158
+01:05:54,040 --> 01:06:01,640
+1 é o variante que afeta únicas exclusivamente da forma que eu represento, o valor imediato.
+
+1159
+01:06:01,640 --> 01:06:05,720
+Por isso, na realidade existem 4 tipos.
+
+1160
+01:06:05,840 --> 01:06:16,920
+Estes, o b e o j, só fazem isto ao valor imediato, porque o seu propósito é aumentar
+
+1161
+01:06:16,920 --> 01:06:21,720
+a distância da qual eu posso saltar.
+
+1162
+01:06:21,720 --> 01:06:31,680
+Então, todas as regularidades, estes formatos, como vamos ver na próxima semana, simplificaram
+
+1163
+01:06:31,680 --> 01:06:44,640
+muito o hardware, para pouco, por isso, vamos só mostrar o outro, isto é, que é também
+
+1164
+01:06:44,640 --> 01:06:52,720
+um operamento que podem usar, e dependente daquilo que tem que vão trabalhar nesta área,
+
+1165
+01:06:52,720 --> 01:07:01,600
+pode passar a ser o vosso diário, espero que não, estão bocados já, e mais tarde,
+
+1166
+01:07:01,600 --> 01:07:10,840
+muitas vezes, para fazer este hardware, existem M-senários nesta área, ainda mais,
+
+1167
+01:07:10,840 --> 01:07:18,200
+do que eles diriam de software genérico, em que nós temos de mudar para colódico que
+
+1168
+01:07:18,200 --> 01:07:28,200
+foi compilado, por exemplo, ou não temos acesso ao código fute, fazer para fazer
+
+1169
+01:07:28,200 --> 01:07:33,880
+coisas fisco, para cá jogos, tem um local de acessas, é a única forma, tem um tabinário,
+
+1170
+01:07:33,880 --> 01:07:41,160
+tem um código fute, é isto que eu tenho que fazer, mas se eu estiver com um ataque,
+
+1171
+01:07:41,160 --> 01:07:47,240
+tenho que manter o código fute, tenho que olhar para perceber o que é que um programa
+
+1172
+01:07:47,240 --> 01:07:58,760
+está a fazer, ou nesta área, que é uma coisa que faz, isto está muito bem, mas
+
+1173
+01:07:58,760 --> 01:08:06,360
+também das líquidas de cabeça, que é o hardware, isto é, em hardware, não é software
+
+1174
+01:08:06,360 --> 01:08:12,720
+real-time, então vocês vão aprender várias coisas de hardware real-time systems, um compilador
+
+1175
+01:08:12,800 --> 01:08:20,360
+tem que ser certificado, é, nós nesta disciplina não vamos falar, vamos falar um bocadinho
+
+1176
+01:08:20,360 --> 01:08:26,640
+mais a frente, mas já sabem isto, fez uma licenciatura, o compilador não se limita a
+
+1177
+01:08:26,640 --> 01:08:32,320
+traduzir, o linha alívio ou o código de seu, ou a linguagem qualquer para a assembly,
+
+1178
+01:08:32,320 --> 01:08:39,720
+introduz inúmeras alterações, que, com um pouco de perspectiva, de optimizar a expulsão
+
+1179
+01:08:39,720 --> 01:08:45,920
+do programa, e essas otimizações estão sempre feitas para o caso médio, mas, como
+
+1180
+01:08:45,920 --> 01:08:52,080
+vocês já estão a aprender, nesta semana já te falaram nisso, o caso médio é muito
+
+1181
+01:08:52,080 --> 01:08:58,040
+diferente de hoje que é o exáquio xintana, e tem que ter a certeza, e esse é um dos
+
+1182
+01:08:58,040 --> 01:09:04,040
+problemas das arquiteturas atuais que nós vamos explorar nos próximos semanas, há tantas
+
+1183
+01:09:04,120 --> 01:09:11,120
+otimizações do compilador e do hardware, que é muito difícil, não chega a correr
+
+1184
+01:09:11,120 --> 01:09:17,120
+o programa 50 vezes, porque eu terminava o tempo médio, de um ano de quatro anos, e
+
+1185
+01:09:17,120 --> 01:09:23,400
+por isso eu, muitas vezes, tenho que olhar, não analisar o meu código de fonte, mas
+
+1186
+01:09:23,400 --> 01:09:29,400
+o código que foi enxenado pelo compilador, que é isso que, efetivamente, vai ser exportado,
+
+1187
+01:09:29,800 --> 01:09:35,800
+vai compreender pelo acêmbulo, o acêmbulo e para o binário e para cada vez do mesmo,
+
+1188
+01:09:35,800 --> 01:09:43,720
+por isso existe o oposto de uma acêmbula, que é o risa acêmbula, que pega e encode
+
+1189
+01:09:43,720 --> 01:09:49,720
+o binário e o converte para o acêmbulo, e por que é que é perfeitamente possível
+
+1190
+01:09:49,720 --> 01:09:56,720
+fazer isso? Como nós vimos, é olhar o conjunto, tem três bites, e percebeu os câmbulos
+
+1191
+01:09:56,720 --> 01:10:03,720
+mais tarde, então, basicamente, é que o que eu quero que vocês percebam é, não
+
+1192
+01:10:03,720 --> 01:10:10,720
+há nenhuma ferramenta que hore para código binário e exportável, e vos dê o programa
+
+1193
+01:10:10,720 --> 01:10:18,720
+em seu original, ou outra coisa qualquer, vamos voltar para trás um passo, para o acêmbulo,
+
+1194
+01:10:18,720 --> 01:10:24,720
+que pode ser muito diferente do código do seu original, como os adutores, as otimizações
+
+1195
+01:10:24,720 --> 01:10:33,720
+do populador, mas voltar para acêmbulo é perfeitamente possível, e vocês tenham mais
+
+1196
+01:10:33,720 --> 01:10:42,720
+do que um exácemo era em Linux, para experimentar. Por isso, nada que isto é particular, é
+
+1197
+01:10:42,720 --> 01:10:50,720
+só para perceber, imagine que eu tenho estas boas linhas representadas em hexadecimal,
+
+1198
+01:10:50,720 --> 01:10:58,720
+ou um conjunto de 32 servos e uns, como é que eu sei, é que os valores, olhando para
+
+1199
+01:10:58,720 --> 01:11:05,720
+estes valores, como é que eu sei que isto é o sonho de hexadecimal? Então, nesta arquitetura
+
+1200
+01:11:05,720 --> 01:11:11,720
+é relativamente simples porquê? Primeiro, como é que mais você pode olhar para aqui,
+
+1201
+01:11:11,720 --> 01:11:18,720
+sem qual é que é o autocor, o determinado formato, sem quantos câmbulos e que tamanho
+
+1202
+01:11:18,720 --> 01:11:26,720
+os câmbulos têm? Por isso, vamos usar a sêmbula, olha como a tabela destas, e ver qual é que
+
+1203
+01:11:26,720 --> 01:11:32,720
+é o autocor, e se o autocor de fora de petígio, você vai se identificar como, qual é que
+
+1204
+01:11:32,720 --> 01:11:40,720
+é o futebol 3 ou futebol 7 por ali fora, até fazendo isso. Então, se olhar para aqui,
+
+1205
+01:11:40,720 --> 01:11:50,720
+olhando para os primeiros 7 bits, eu sei que é 1 eva no sul, se for olhar para o futebol
+
+1206
+01:11:50,720 --> 01:11:57,720
+7, determinado que é 1 sul, é a mesma coisa que em baixo, olhando para o autocor e para
+
+1207
+01:11:57,720 --> 01:12:04,720
+o futebol 3, sei que é 1 eva, e sabendo qual vai estar o formato, olha para cada um dos câmbulos
+
+1208
+01:12:04,720 --> 01:12:12,720
+e tem as instruções. Se usarem, por exemplo, o object run, como organizar a sêmbula qualquer,
+
+1209
+01:12:12,720 --> 01:12:25,320
+aquilo que vocês vão ter é, bem, o exercício mais fácil é ter um programa de ser pequeno,
+
+1210
+01:12:25,320 --> 01:12:32,320
+convê-lo, e depois, como usam o desa sêmbula, vão ver que o código na sêmbula que tenham,
+
+1211
+01:12:33,320 --> 01:12:41,320
+e a sêmbula é exatamente igual ao, espera, ainda se lembram nisto, o VSC é em múltiplas colégues.
+
+1212
+01:12:41,320 --> 01:12:48,320
+Se vocês usarem o número s para o processo de congelação, não há sêmbula, certo?
+
+1213
+01:12:48,320 --> 01:12:56,320
+Ou vendermos de leis para depois columizar a sêmbula, tanto o object run, vão é, provavelmente
+
+1214
+01:12:56,320 --> 01:13:01,320
+ver que uma sêmbula em que saímos daqui não é exatamente o mesmo, porque esse é sempre,
+
+1215
+01:13:01,320 --> 01:13:09,320
+principalmente se vocês usarem, por exemplo, o nível 3 de organização, vai mudar bastante o vosso futebol,
+
+1216
+01:13:09,320 --> 01:13:17,320
+mas conseguem perceber que o meu objetivo é que vocês percebam que mesmo tendo um cheio binário
+
+1217
+01:13:17,320 --> 01:13:22,320
+insuportável e não tendo acesso ao código futebol, conseguimos andar no passo para trás,
+
+1218
+01:13:22,320 --> 01:13:32,320
+porque a tradução e a sêmbula e o binário é bastante determinística, é fácil de repartir o processo.
+
+1219
+01:13:32,320 --> 01:13:40,320
+Então, nesta parte, vai ser importante para o resto, nós vimos estes quatro princípios de design,
+
+1220
+01:13:40,320 --> 01:13:52,320
+isto é, que a simplicidade desta arquitetura vai fornecer a forma de voar ou descodificarmos e identificarmos as instruções,
+
+1221
+01:13:52,320 --> 01:14:03,320
+porque é que só temos 30 milhões de registros, para estar, vamos ver, questões, não só do espaço que eu tenho
+
+1222
+01:14:03,320 --> 01:14:10,320
+para representar os números dos registros, como sobre os energéticos, é a mesma coisa da caixa,
+
+1223
+01:14:10,320 --> 01:14:18,320
+porque é que eu não tenho gigas na caixa, porém, agora, toda a memória é caixa mesmo,
+
+1224
+01:14:18,320 --> 01:14:23,320
+mesmo quanto a memória é elaborada, a caixa, e se é grande, deixa de ser rápida,
+
+1225
+01:14:23,320 --> 01:14:32,320
+para estar, por isso, não há toda hipótese, e, como nós vamos ver, quero não a se aplicar no arco-air,
+
+1226
+01:14:32,320 --> 01:14:42,320
+as arquiteturas otimizam o caso do mundo, e estes compromissos vão estar acontecendo nas próximas aulas,
+
+1227
+01:14:42,320 --> 01:14:50,320
+vamos ver que, às vezes, publicamos o arco-air, ou outras vezes assumimos que vai ser mais lento,
+
+1228
+01:14:50,320 --> 01:14:56,320
+para ser mais vorado, ou ver estar menos energia, e, mas, a partir da próxima semana,
+
+1229
+01:14:56,320 --> 01:15:03,320
+vamos começar com aqueles diagramas que estará vindo mais de uma vez, componendo a componente,
+
+1230
+01:15:03,320 --> 01:15:10,320
+para perceber como é que, quando vamos à memória, chegar quatro bytes, depois a instrução é isso total,
+
+1231
+01:15:10,320 --> 01:15:16,320
+quando chegarmos ao fim dessa parte, vamos começar a decorar a performance do professor,
+
+1232
+01:15:16,320 --> 01:15:23,320
+do pipeline e, depois, outras técnicas, tá? Por isso, esta semana é isso,
+
+1233
+01:15:23,320 --> 01:15:30,320
+gostaram destes bocados, têm que voltar a olhar para os slides, mas, basta, não é para decorar,
+
+1234
+01:15:30,320 --> 01:15:36,320
+para perceber, no princípio, ninguém vai voltar no isano, para lá ir ao óbvio,
+
+1235
+01:15:36,320 --> 01:15:42,320
+que o supo não é nada do jeito, é perceber o que vamos fazer.
+
+1236
+01:15:42,320 --> 01:15:48,320
+Falar nisso, já tem um isano de velo, desde a primeira semana, com um muro,
+
+1237
+01:15:48,320 --> 01:15:54,320
+com um pequeno dano, para que não possuíte, para estivar as dúvidas,
+
+1238
+01:15:54,320 --> 01:17:53,430
+mas, assim, ou sim, realmente, concordem?
+
+1239
+01:17:53,430 --> 01:17:55,430
+Sim, sim, sim.
+
+1240
+01:17:55,430 --> 01:18:02,660
+O que eu estou dizendo, desde o jogo peste a galera?
+
+1241
+01:18:02,660 --> 01:18:05,660
+Dizem-me, desde o jogo peste a galera? Nós chamamos depois?
+
+1242
+01:18:05,660 --> 01:18:07,660
+Eu já tenho.
+
+1243
+01:18:07,660 --> 01:18:09,660
+Mas, o que já é a primeira aula que eu lembro?
+
+1244
+01:18:09,660 --> 01:18:10,660
+É como eu?
+
+1245
+01:18:10,660 --> 01:18:12,660
+É isso que eu estava fazendo?
+
+1246
+01:18:12,660 --> 01:18:14,660
+Ah, então você é uma passada também?
+
+1247
+01:18:14,660 --> 01:18:17,660
+Não, eu nem sou quinta, se for passada.
+
+1248
+01:18:17,660 --> 01:18:22,660
+Ah, entrei em três, uma passada em sesta?
+
+1249
+01:18:22,660 --> 01:18:24,660
+Eu, para mim, é tudo novo.
+
+1250
+01:18:24,660 --> 01:18:29,660
+E, não sofê-lo pela turma na sexta-feira, a sexta-feira a gente não teve aula.
+
+1251
+01:18:29,660 --> 01:18:33,660
+Então, a primeira aula que eu li foi?
+
+1252
+01:18:33,660 --> 01:18:35,660
+Sim, mas eu estou com a ideia de estar aqui.
+
+1253
+01:18:35,660 --> 01:18:36,660
+Ah, dança, o que?
+
+1254
+01:18:36,660 --> 01:18:37,660
+E vai prever.
+
+1255
+01:18:37,660 --> 01:18:40,660
+Já estaram, eles fizeram um monte no...
+
+1256
+01:18:40,660 --> 01:18:42,660
+Como é que se chama?
+
+1257
+01:18:42,660 --> 01:18:44,660
+Um bote.
+
+1258
+01:18:44,660 --> 01:18:45,660
+Não é bote.
+
+1259
+01:18:45,660 --> 01:18:47,660
+É aquilo, o Discord.
+
+1260
+01:18:47,660 --> 01:18:48,660
+Ah.
+
+1261
+01:18:48,660 --> 01:18:49,660
+Já te fizeram?
+
+1262
+01:18:49,660 --> 01:18:51,660
+Nem saber que tinha.
+
+1263
+01:18:51,660 --> 01:18:52,660
+Tem Discord?
+
+1264
+01:18:53,660 --> 01:18:55,660
+Então, pronta, senhora?
+
+1265
+01:18:55,660 --> 01:18:56,660
+Não, que foi ontem que funcionaram aqui.
+
+1266
+01:18:56,660 --> 01:19:00,390
+Olha, já foi eu.
+
+1267
+01:19:00,390 --> 01:19:01,390
+Não sei.
+
+1268
+01:19:01,390 --> 01:19:02,390
+Atenção?
+
+1269
+01:19:03,390 --> 01:19:04,390
+Fora, senhora.
+
+1270
+01:19:06,390 --> 01:19:16,140
+Você tem essa aula?
+
+1271
+01:19:16,140 --> 01:19:17,140
+Sim.
+
+1272
+01:19:17,140 --> 01:19:20,140
+Essa aula também, depois você vai estar aqui?
+
+1273
+01:19:20,140 --> 01:19:21,140
+Sim, sim, sim.
+
+1274
+01:19:21,140 --> 01:19:23,140
+Ah, então depois eu pego o que?
+
+1275
+01:19:23,140 --> 01:19:24,140
+O que?
+
+1276
+01:19:24,140 --> 01:19:25,140
+O desfato.
+
+1277
+01:19:25,140 --> 01:19:26,140
+Ah, sim, sim.
+
+1278
+01:19:26,140 --> 01:19:27,140
+Foi eu, foi eu.
+
+1279
+01:19:27,140 --> 01:19:28,140
+Como é isso?
+
+1280
+01:19:28,140 --> 01:19:29,140
+Tudo é com a jantar.
+
+1281
+01:19:29,140 --> 01:19:30,140
+Não é com a jantar?
+
+1282
+01:19:30,140 --> 01:19:31,140
+Ah.
+
+1283
+01:19:31,140 --> 01:19:32,140
+Mas você tem que ver.
+
+1284
+01:19:32,140 --> 01:19:34,140
+É isso aí, você tem que ver isso pra vida.
+
+1285
+01:19:34,140 --> 01:19:35,140
+Eu só vou ver, eu só vou ver.
+
+1286
+01:19:35,140 --> 01:19:37,140
+Você está aí, eu vou ver.
+
+1287
+01:19:37,140 --> 01:19:39,140
+Trouxeste, comida?
+
+1288
+01:19:39,140 --> 01:19:40,140
+Para o meu.
+
+1289
+01:19:40,140 --> 01:19:42,140
+Ah, eu já trouxe.
+
+1290
+01:19:42,140 --> 01:19:45,140
+Eu vou sempre pra ver a canterna.
+
+1291
+01:19:45,140 --> 01:19:47,140
+Ou não, foi ontem, foi hoje.
+
+1292
+01:19:47,140 --> 01:19:48,140
+Por que eu trouxe?
+
+1293
+01:19:49,140 --> 01:19:51,140
+Eu vim ver se encleia e tal.
+
+1294
+01:19:51,140 --> 01:19:52,140
+Paz.
+
+1295
+01:19:52,140 --> 01:19:53,140
+Eu ia tentar trazer mais chá pesado,
+
+1296
+01:19:53,140 --> 01:19:55,140
+e ainda trazer mais comida.
+
+1297
+01:19:56,140 --> 01:19:58,140
+Mas também para um trouxeiro de comida.
+
+1298
+01:19:58,140 --> 01:19:59,140
+Trouxeste, comida.
+
+1299
+01:19:59,140 --> 01:20:03,140
+Uma sandalca pronta já já cheira.
+
+1300
+01:20:03,140 --> 01:20:07,140
+É que vindo doce do lado de casa, é caminho, é só marinha.
+
+1301
+01:20:15,140 --> 01:20:17,140
+Já contamos cheiro aqui.
+
+1302
+01:20:17,140 --> 01:20:19,140
+É de novo a untada.
+
+1303
+01:20:29,140 --> 01:20:31,140
+É um dia maior que você não gostar.
+
+1304
+01:20:35,140 --> 01:20:43,140
+Agora, se reduzir as áreas do toque, o vento, a língua, no tempo, mais ou menos comum,
+
+1305
+01:20:43,140 --> 01:20:50,300
+pode ser um caminho, mais ou menos um cenário no fundo.
+
+1306
+01:20:50,300 --> 01:20:54,420
+Pois pode ser isso.
+
+1307
+01:20:54,420 --> 01:20:58,420
+Coisas que, enquanto chove, uma ou dois ativos.
+
+1308
+01:20:58,420 --> 01:21:02,240
+Acho que o problema não é muito mais nada.
+
+1309
+01:21:02,240 --> 01:21:09,230
+Pode ser sobroso.
+
+1310
+01:21:09,230 --> 01:21:18,910
+Posso guardar o vento para a gente saber mais o que é.
+
+1311
+01:21:18,910 --> 01:25:41,580
+E eu, se o que você quiser, vou explicar com você.
+
