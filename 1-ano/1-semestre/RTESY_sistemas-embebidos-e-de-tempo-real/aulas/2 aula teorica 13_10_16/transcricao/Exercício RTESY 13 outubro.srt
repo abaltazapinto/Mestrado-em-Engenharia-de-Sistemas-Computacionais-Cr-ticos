@@ -1,0 +1,1728 @@
+1
+00:00:00,000 --> 00:00:03,000
+O segredor é menor que a da line a zero.
+
+2
+00:00:03,000 --> 00:00:04,000
+Qual é a da line atual?
+
+3
+00:00:04,000 --> 00:00:07,000
+A zero é a primeira insuscita.
+
+4
+00:00:07,000 --> 00:00:10,000
+Nunca será menor que a zero.
+
+5
+00:00:10,000 --> 00:00:14,000
+Na primeira joga que chega,
+
+6
+00:00:14,000 --> 00:00:18,000
+o da line será sempre o instante
+
+7
+00:00:18,000 --> 00:00:21,000
+a dual mais clínico do segredor.
+
+8
+00:00:21,000 --> 00:00:24,000
+Então será 2.2 mais 4.
+
+9
+00:00:24,000 --> 00:00:26,000
+6.2.
+
+10
+00:00:27,000 --> 00:00:30,000
+O segredor da line é mais complicado.
+
+11
+00:00:30,000 --> 00:00:32,000
+Qual é o segredor da line?
+
+12
+00:00:32,000 --> 00:00:36,000
+Quanto é o segredor do segredor?
+
+13
+00:00:36,000 --> 00:00:40,000
+Para saber qual é a capacidade que eu tenho instante.
+
+14
+00:00:40,000 --> 00:00:44,000
+É ele mais contrário.
+
+15
+00:00:44,000 --> 00:00:51,000
+Eu não tenho que pensar sobre o soltismo.
+
+16
+00:00:51,000 --> 00:00:54,000
+Eu gostaria que eu gostaria que eu gostaria que eu gostaria de ser o soltismo.
+
+17
+00:00:54,000 --> 00:00:56,000
+Facilidade.
+
+18
+00:00:56,000 --> 00:01:02,660
+Quando eu dar a sua pergunta, não tenho direitares sobre o soltismo.
+
+19
+00:01:02,660 --> 00:01:05,660
+Tenho necessidade de hora.
+
+20
+00:01:05,660 --> 00:01:18,800
+Então, o que eu tenho?
+
+21
+00:01:18,800 --> 00:01:20,800
+Meu nome é FizNada.
+
+22
+00:01:20,800 --> 00:01:22,800
+Se me havia dito que eu estava a assumir
+
+23
+00:01:22,800 --> 00:01:26,800
+que as tarefas prioridades estão no lixo e não instante.
+
+24
+00:01:26,800 --> 00:01:33,500
+Uma vai chegar de 3 em 3.
+
+25
+00:01:33,500 --> 00:02:17,880
+O lugar que chega é de 6 em 6.
+
+26
+00:02:17,880 --> 00:02:20,880
+Agora, o que eu sei também, o que eu consigo fazer
+
+27
+00:02:20,880 --> 00:02:23,880
+é que o segredor chega aos 2.2.
+
+28
+00:02:23,880 --> 00:02:28,120
+Eu fiz 2.2,
+
+29
+00:02:28,120 --> 00:02:37,280
+muitas vezes o fato é que é para irritar heróis há muito tempo.
+
+30
+00:02:37,280 --> 00:02:40,280
+Agora, tenho aqui essas duas.
+
+31
+00:02:40,280 --> 00:02:43,980
+Essas duas é mais fácil.
+
+32
+00:02:43,980 --> 00:02:48,180
+Não há de heróis animais.
+
+33
+00:02:48,180 --> 00:02:51,180
+O que é que eu sei?
+
+34
+00:02:51,180 --> 00:02:56,180
+Primeiro, eu sei que antes de chegar,
+
+35
+00:02:56,180 --> 00:03:00,180
+a tarefa 1, essas duas chegam ao mesmo instante.
+
+36
+00:03:00,180 --> 00:03:02,180
+Mas a tarefa 1, que é o deadline ou 3,
+
+37
+00:03:02,180 --> 00:03:06,520
+que é a tarefa 2, que é o deadline,
+
+38
+00:03:06,520 --> 00:03:08,520
+vai-se estar primeiro.
+
+39
+00:03:08,520 --> 00:03:11,520
+A tarefa 1 escuta.
+
+40
+00:03:11,520 --> 00:03:23,350
+E escuta durante 1 tempo.
+
+41
+00:03:23,350 --> 00:03:35,680
+E a tarefa 2 escuta durante mais um tempo.
+
+42
+00:03:35,680 --> 00:03:40,180
+E agora, como aqui,
+
+43
+00:03:40,180 --> 00:03:43,180
+o que acontece com o instante 2.2?
+
+44
+00:03:43,180 --> 00:03:50,810
+A tarefa 2,
+
+45
+00:03:50,810 --> 00:03:52,810
+que é a tarefa 1,
+
+46
+00:03:52,810 --> 00:03:54,810
+que é a tarefa 2.
+
+47
+00:03:54,810 --> 00:03:57,810
+E a tarefa 1 escuta durante 1 tempo.
+
+48
+00:03:57,810 --> 00:04:00,810
+Então, terminamos aqui.
+
+49
+00:04:00,810 --> 00:04:07,110
+Ao instante 2.2, chega então,
+
+50
+00:04:07,110 --> 00:04:10,620
+aqui, o primeiro jogo,
+
+51
+00:04:10,620 --> 00:04:12,620
+como nós já falamos,
+
+52
+00:04:12,620 --> 00:04:14,620
+o primeiro jogo, o seu deadline,
+
+53
+00:04:14,620 --> 00:04:16,620
+será 6.
+
+54
+00:04:16,620 --> 00:04:18,620
+E é o instante 2,
+
+55
+00:04:18,620 --> 00:04:21,620
+mais o 4, que é o período do servidor.
+
+56
+00:04:21,620 --> 00:04:23,620
+Está bom.
+
+57
+00:04:23,620 --> 00:04:29,620
+Logo, o deadline da tarefa será 2.2,
+
+58
+00:04:29,620 --> 00:04:31,620
+será 2.2 mais 4,
+
+59
+00:04:31,620 --> 00:04:33,620
+será 6.2,
+
+60
+00:04:33,620 --> 00:04:35,620
+3.4, 5, 6.
+
+61
+00:04:35,620 --> 00:04:42,900
+Será que o deadline é 6.2?
+
+62
+00:04:42,900 --> 00:04:46,430
+Instante,
+
+63
+00:04:46,430 --> 00:04:50,430
+ao 2.2, só existe esta tarefa no sistema.
+
+64
+00:04:50,430 --> 00:04:51,430
+Ok?
+
+65
+00:04:51,430 --> 00:05:00,990
+Portanto, esta tarefa inicia a discussão.
+
+66
+00:05:00,990 --> 00:05:03,990
+Até ao instante 3,
+
+67
+00:05:04,990 --> 00:05:09,990
+até ao instante 2.7.
+
+68
+00:05:09,990 --> 00:05:13,870
+Sabe?
+
+69
+00:05:13,870 --> 00:05:16,870
+Porque este jogo só tem 0.5.
+
+70
+00:05:16,870 --> 00:05:21,560
+O jogo é 5.2.2,
+
+71
+00:05:21,560 --> 00:05:25,560
+só tem 0.5 de tempo de discussão.
+
+72
+00:05:25,560 --> 00:05:30,600
+Pois, ao instante 3,
+
+73
+00:05:30,600 --> 00:05:33,600
+chega claro que foi outra vez esta tarefa,
+
+74
+00:05:33,600 --> 00:05:35,600
+e escuta o mundo.
+
+75
+00:05:35,600 --> 00:05:38,870
+Sem qualquer problema.
+
+76
+00:05:38,870 --> 00:05:40,870
+O seu deadline está aqui,
+
+77
+00:05:40,870 --> 00:05:41,870
+esta já terminou,
+
+78
+00:05:41,870 --> 00:05:42,870
+esta já terminou,
+
+79
+00:05:42,870 --> 00:05:48,180
+não há aqui condição nenhuma.
+
+80
+00:05:48,180 --> 00:05:50,180
+Pois nós temos,
+
+81
+00:05:50,180 --> 00:05:53,180
+aqui ao instante 6,
+
+82
+00:05:53,180 --> 00:05:57,180
+chega novamente esta tarefa,
+
+83
+00:05:57,180 --> 00:05:59,180
+e esta tarefa ao mesmo tempo,
+
+84
+00:05:59,180 --> 00:06:02,180
+mas o deadline desta é mais perto.
+
+85
+00:06:02,180 --> 00:06:03,180
+Ok?
+
+86
+00:06:03,180 --> 00:06:05,180
+Tanto a intestine desta é mais longe,
+
+87
+00:06:05,180 --> 00:06:12,740
+tanto a intestine segundo a 1.
+
+88
+00:06:12,740 --> 00:06:14,740
+De seguida, a intestine segundo a 1.
+
+89
+00:06:14,740 --> 00:06:19,530
+Ok?
+
+90
+00:06:19,530 --> 00:06:22,530
+E o server, qual a influência que tem?
+
+91
+00:06:22,530 --> 00:06:25,530
+Eu acho que em 0.7.5.
+
+92
+00:06:25,530 --> 00:06:32,200
+Pois, agora vamos chegar.
+
+93
+00:06:32,200 --> 00:06:35,200
+Mas qual é o que que o server faz lá embaixo,
+
+94
+00:06:35,200 --> 00:06:38,200
+durante pelo menos a execução da C1?
+
+95
+00:06:38,200 --> 00:06:42,630
+Nada, não há nada para isso estar.
+
+96
+00:06:42,630 --> 00:06:44,630
+Então podem cobitar as duas,
+
+97
+00:06:44,630 --> 00:06:46,630
+ou seja, podem existir as duas ao mesmo tempo.
+
+98
+00:06:46,630 --> 00:06:47,630
+Sim, sim, não lejam só,
+
+99
+00:06:47,630 --> 00:06:52,540
+como é que você está cada vez.
+
+100
+00:06:52,540 --> 00:06:53,540
+Cuidar o que?
+
+101
+00:06:53,540 --> 00:06:55,540
+Ou seja, cá.
+
+102
+00:06:55,540 --> 00:06:58,540
+Ok, sim, sim, sim. Obrigado.
+
+103
+00:06:58,540 --> 00:06:59,540
+Ok?
+
+104
+00:06:59,540 --> 00:07:07,240
+É o mal do tempo adivinado.
+
+105
+00:07:07,240 --> 00:07:10,240
+A questão é que aqui, ao instante 7.5,
+
+106
+00:07:10,240 --> 00:07:13,240
+chega o server de outra vez.
+
+107
+00:07:13,240 --> 00:07:16,240
+Chega com um joelho ao server.
+
+108
+00:07:16,240 --> 00:07:17,240
+Ok?
+
+109
+00:07:17,240 --> 00:07:19,240
+Eu tenho que tomar uma decisão do que acontece.
+
+110
+00:07:19,240 --> 00:07:21,240
+Eu neste momento,
+
+111
+00:07:21,240 --> 00:07:24,240
+em que cheio um joelho ao server de outra vez,
+
+112
+00:07:24,240 --> 00:07:27,240
+está a insultar a tarefa dois.
+
+113
+00:07:27,240 --> 00:07:28,240
+Ok?
+
+114
+00:07:28,240 --> 00:07:29,240
+A tarefa não já terminou,
+
+115
+00:07:29,240 --> 00:07:32,240
+a dois começou no instante 7,
+
+116
+00:07:32,240 --> 00:07:34,240
+olhe a mim.
+
+117
+00:07:34,240 --> 00:07:36,240
+O que é que vai acontecer aqui?
+
+118
+00:07:36,240 --> 00:07:40,240
+Eu vou calcular o deadline do server de outra vez.
+
+119
+00:07:40,240 --> 00:07:43,240
+Como é que eu calco o deadline do server de outra vez?
+
+120
+00:07:43,240 --> 00:07:47,240
+Eu grifico, se, um instante de qual?
+
+121
+00:07:47,240 --> 00:07:49,240
+Mais,
+
+122
+00:07:49,240 --> 00:08:07,510
+a capacidade de um instante de server de outra vez.
+
+123
+00:08:07,510 --> 00:08:09,510
+Eu grifico o sisto,
+
+124
+00:08:09,510 --> 00:08:15,090
+e a menor é qual?
+
+125
+00:08:15,090 --> 00:08:17,090
+Qual é o instante de qual?
+
+126
+00:08:17,090 --> 00:08:18,090
+7.5.
+
+127
+00:08:18,090 --> 00:08:21,090
+Mais, qual é a capacidade de um instante de server?
+
+128
+00:08:21,090 --> 00:08:23,090
+O que é que o server de outra vez tem disponível?
+
+129
+00:08:23,090 --> 00:08:25,090
+O server de outra vez é de 1.
+
+130
+00:08:25,090 --> 00:08:27,090
+Tem uma capacidade de 1.
+
+131
+00:08:27,090 --> 00:08:30,090
+E já gastou 0.5,
+
+132
+00:08:30,090 --> 00:08:32,090
+nesta situação inicial.
+
+133
+00:08:32,090 --> 00:08:33,090
+Ok?
+
+134
+00:08:33,090 --> 00:08:36,090
+Tente de um nível de 0.5.
+
+135
+00:08:36,090 --> 00:08:38,090
+Ok?
+
+136
+00:08:38,090 --> 00:08:41,090
+Qual é a utilização do server?
+
+137
+00:08:41,090 --> 00:08:47,340
+0.5.
+
+138
+00:08:47,340 --> 00:08:51,660
+Isto dá 9.5.
+
+139
+00:08:52,660 --> 00:08:59,450
+O 6.
+
+140
+00:08:59,450 --> 00:09:01,450
+Está falso.
+
+141
+00:09:01,450 --> 00:09:05,450
+Eu já não tenho capacidade neste server disponível
+
+142
+00:09:05,450 --> 00:09:08,450
+para executar este jogo que chegou.
+
+143
+00:09:08,450 --> 00:09:09,450
+O que é o óbvio?
+
+144
+00:09:09,450 --> 00:09:11,450
+O deadline já está no passado.
+
+145
+00:09:11,450 --> 00:09:13,450
+Se o deadline já está no passado,
+
+146
+00:09:13,450 --> 00:09:16,450
+é óbvio que eu não ia ter capacidade para executar este server.
+
+147
+00:09:16,450 --> 00:09:21,700
+Portanto, como eu não tenho capacidade para executar este server,
+
+148
+00:09:21,700 --> 00:09:24,700
+eu tenho que lidar com a capacidade.
+
+149
+00:09:24,700 --> 00:09:26,700
+Eu tenho que lidar outra vez com a capacidade.
+
+150
+00:09:26,700 --> 00:09:28,700
+Eu tenho que fazer os declines.
+
+151
+00:09:28,700 --> 00:09:30,700
+Só que, para fazer os declines,
+
+152
+00:09:30,700 --> 00:09:34,700
+eu também tenho que deadline com tudo.
+
+153
+00:09:34,700 --> 00:09:35,700
+Ok?
+
+154
+00:09:35,700 --> 00:09:36,700
+O que é que eu digo?
+
+155
+00:09:36,700 --> 00:09:37,700
+Ok?
+
+156
+00:09:37,700 --> 00:09:38,700
+Vejo outra vez um.
+
+157
+00:09:38,700 --> 00:09:42,040
+Mas a tua deadline com o instante atual,
+
+158
+00:09:42,040 --> 00:09:50,270
+mais 7, 8, 9, 10, 11.5.
+
+159
+00:09:50,270 --> 00:09:56,290
+A nova deadline do server é 11.5.
+
+160
+00:09:56,290 --> 00:09:58,290
+E a capacidade volta a ser 1.
+
+161
+00:09:58,290 --> 00:10:01,290
+E agora, executa quem é que vai executar?
+
+162
+00:10:01,290 --> 00:10:08,290
+É que eu adiei a deadline do server,
+
+163
+00:10:08,290 --> 00:10:10,290
+mas mesmo ali dentro, que eu percebo,
+
+164
+00:10:10,290 --> 00:10:12,290
+é o deadline do server.
+
+165
+00:10:12,290 --> 00:10:14,290
+Ok?
+
+166
+00:10:14,290 --> 00:10:16,290
+Tenho a deadline 12 e meio.
+
+167
+00:10:16,290 --> 00:10:18,290
+Este deadline que está a executar,
+
+168
+00:10:18,290 --> 00:10:20,290
+tem o deadline do 12.
+
+169
+00:10:20,290 --> 00:10:23,290
+Mesmo assim, o meu sistema permite que o server
+
+170
+00:10:23,290 --> 00:10:25,290
+não escute sempre quanto.
+
+171
+00:10:25,290 --> 00:10:27,290
+O server vai executar.
+
+172
+00:10:27,290 --> 00:10:40,820
+Ele vai executar durante 1.
+
+173
+00:10:40,820 --> 00:10:44,170
+Isso todo, durante 1.
+
+174
+00:10:44,170 --> 00:10:47,980
+Termina.
+
+175
+00:10:47,980 --> 00:10:52,470
+Escolta a capacidade.
+
+176
+00:10:52,470 --> 00:10:53,470
+Eu me dá para uma coisa aqui.
+
+177
+00:10:53,470 --> 00:10:56,470
+Neste instante, eu escutei a capacidade de server.
+
+178
+00:10:56,470 --> 00:10:57,470
+Eu não tenho nada a ver executar.
+
+179
+00:10:57,470 --> 00:10:58,470
+Mas eu escutei.
+
+180
+00:10:58,470 --> 00:11:00,470
+E escutei a capacidade de server 8.
+
+181
+00:11:00,470 --> 00:11:03,470
+O meu escutei a capacidade de server 8.
+
+182
+00:11:03,470 --> 00:11:05,470
+Mesmo não tenho nada a ver executar.
+
+183
+00:11:05,470 --> 00:11:07,470
+Entra em ação do regra do server S.
+
+184
+00:11:07,470 --> 00:11:10,470
+Olha, eu escoto a capacidade de server 8.
+
+185
+00:11:10,470 --> 00:11:13,470
+Eu faço declines outra vez.
+
+186
+00:11:13,470 --> 00:11:16,470
+Eu dou 1 outra vez.
+
+187
+00:11:16,470 --> 00:11:18,470
+Mas...
+
+188
+00:11:18,470 --> 00:11:20,470
+Deadline...
+
+189
+00:11:20,470 --> 00:11:23,490
+Aumenta outra vez.
+
+190
+00:11:23,490 --> 00:11:24,490
+Portanto,
+
+191
+00:11:24,490 --> 00:11:26,490
+eu faço, escutei.
+
+192
+00:11:26,490 --> 00:11:28,490
+Estava ali naquela parte.
+
+193
+00:11:28,490 --> 00:11:38,080
+Eu tenho que ter cuidado com os dos dedos.
+
+194
+00:11:38,080 --> 00:11:40,080
+Quando eu soube que a capacidade de server 8
+
+195
+00:11:40,080 --> 00:11:41,080
+chegou a 0,
+
+196
+00:11:41,080 --> 00:11:42,080
+foi aquele instante ali.
+
+197
+00:11:42,080 --> 00:11:44,080
+Eu escutei.
+
+198
+00:11:44,080 --> 00:11:46,080
+Então,
+
+199
+00:11:46,080 --> 00:11:47,080
+imediatamente,
+
+200
+00:11:47,080 --> 00:11:49,080
+eu dou outra vez a capacidade.
+
+201
+00:11:49,080 --> 00:11:51,080
+Mas...
+
+202
+00:11:51,080 --> 00:11:53,080
+Manda a deadline de 3 da feira.
+
+203
+00:11:53,080 --> 00:11:56,080
+Mas cuidado com a manifrensa muito étnode
+
+204
+00:11:56,080 --> 00:12:00,080
+em relação a quando eu aqui mantei deadline para a frente.
+
+205
+00:12:00,080 --> 00:12:03,080
+Eu aqui mantei a deadline para a frente.
+
+206
+00:12:03,080 --> 00:12:06,080
+Dizendo, a deadline, nova deadline,
+
+207
+00:12:06,080 --> 00:12:09,080
+é o instante atual mais o período.
+
+208
+00:12:09,080 --> 00:12:13,080
+Eu, aqui, quando escolta a capacidade de server 8,
+
+209
+00:12:13,080 --> 00:12:18,460
+não é o instante atual mais o período.
+
+210
+00:12:18,460 --> 00:12:22,800
+É esta deadline mais o período.
+
+211
+00:12:22,800 --> 00:12:25,800
+DS ou DS, mais DS.
+
+212
+00:12:25,800 --> 00:12:27,800
+Foi aí que pegaram, sabe?
+
+213
+00:12:27,800 --> 00:12:29,800
+Daumendo a primeira vez.
+
+214
+00:12:29,800 --> 00:12:32,800
+Dizem que eu quis fazê-las pequeno.
+
+215
+00:12:32,800 --> 00:12:35,800
+Está até aqui, 1, 2, 3, 4.
+
+216
+00:12:35,800 --> 00:12:36,800
+Está até lá em volta aqui.
+
+217
+00:12:36,800 --> 00:12:46,100
+Estão um pequeno problema de TDS.
+
+218
+00:12:46,100 --> 00:12:47,100
+Quem é...
+
+219
+00:12:47,100 --> 00:12:48,100
+Eu volo fazer isto.
+
+220
+00:12:48,100 --> 00:12:50,100
+Estou logo à partida
+
+221
+00:12:50,100 --> 00:12:52,100
+a dar-me já um test largo de tudo,
+
+222
+00:12:52,100 --> 00:12:54,100
+diminuir a prioridade.
+
+223
+00:12:54,100 --> 00:12:55,100
+Ok?
+
+224
+00:12:55,100 --> 00:12:56,100
+Mas tem que ser assim.
+
+225
+00:12:56,100 --> 00:13:00,470
+Ok?
+
+226
+00:13:00,470 --> 00:13:02,470
+Neste instante, mas não é o instante,
+
+227
+00:13:02,470 --> 00:13:03,470
+não há desputar.
+
+228
+00:13:03,470 --> 00:13:05,470
+Temos que ver se possuímos.
+
+229
+00:13:05,470 --> 00:13:07,470
+Eu voltei a ter capacidade 1.
+
+230
+00:13:07,470 --> 00:13:09,470
+E outra vez, capacidade 1.
+
+231
+00:13:09,470 --> 00:13:11,470
+Mas como está a dar-me lá?
+
+232
+00:13:11,470 --> 00:13:13,470
+O que é que acontece?
+
+233
+00:13:13,470 --> 00:13:18,470
+Neste instante, chega até como outra vez.
+
+234
+00:13:18,470 --> 00:13:28,310
+Está aqui outra vez,
+
+235
+00:13:28,310 --> 00:13:29,310
+não há desputar,
+
+236
+00:13:29,310 --> 00:13:30,310
+sempre vamos.
+
+237
+00:13:30,310 --> 00:13:31,310
+Ok?
+
+238
+00:13:31,310 --> 00:13:44,100
+Já valem aqui para os todos.
+
+239
+00:13:44,100 --> 00:13:46,600
+Ah, não.
+
+240
+00:13:46,600 --> 00:13:52,880
+É nova.
+
+241
+00:13:53,880 --> 00:13:55,880
+Tem a emoção.
+
+242
+00:13:55,880 --> 00:13:56,880
+Não, mas é aqui.
+
+243
+00:13:56,880 --> 00:13:57,880
+Ok?
+
+244
+00:13:57,880 --> 00:13:58,880
+A outra vez vai se fazer assim.
+
+245
+00:13:58,880 --> 00:14:01,350
+Ok?
+
+246
+00:14:01,350 --> 00:14:02,350
+Descultar aqui.
+
+247
+00:14:03,350 --> 00:14:05,350
+Isto termina aos 8,5.
+
+248
+00:14:05,350 --> 00:14:07,350
+Dos 8,5 aos 9,
+
+249
+00:14:07,350 --> 00:14:09,350
+termina esta,
+
+250
+00:14:09,350 --> 00:14:11,350
+e depois começa aquela aos 9,30.
+
+251
+00:14:11,350 --> 00:14:16,330
+Aos 9, começa aquilo,
+
+252
+00:14:16,330 --> 00:14:17,330
+das 9 às 10.
+
+253
+00:14:17,330 --> 00:14:20,540
+No instante,
+
+254
+00:14:20,540 --> 00:14:21,540
+este 1,2,
+
+255
+00:14:21,540 --> 00:14:29,020
+chega mais um jogo ao servidor.
+
+256
+00:14:29,020 --> 00:14:31,020
+Eu mais uma vez
+
+257
+00:14:31,020 --> 00:14:33,020
+vou fazer a conta.
+
+258
+00:14:33,020 --> 00:14:36,020
+O instante atual,
+
+259
+00:14:36,020 --> 00:14:39,020
+mais a capacidade que resta
+
+260
+00:14:39,020 --> 00:14:41,020
+é menor ou igual,
+
+261
+00:14:41,020 --> 00:14:43,020
+o deadline é igual,
+
+262
+00:14:43,020 --> 00:14:45,020
+então vou identificar isto.
+
+263
+00:14:45,020 --> 00:14:47,020
+Qual é o instante atual?
+
+264
+00:14:47,020 --> 00:14:50,020
+É 10,2.
+
+265
+00:14:50,020 --> 00:14:53,020
+O instante mexeu a leite.
+
+266
+00:14:53,020 --> 00:14:57,020
+Que capacidade é que resta ao servidor?
+
+267
+00:14:57,020 --> 00:14:58,020
+Resta 1,
+
+268
+00:14:58,020 --> 00:15:00,020
+porque eu ando em fijo de planos.
+
+269
+00:15:00,020 --> 00:15:01,020
+Ok?
+
+270
+00:15:01,020 --> 00:15:03,020
+Portanto, eu tenho 1,
+
+271
+00:15:03,020 --> 00:15:06,270
+sou 0,25.
+
+272
+00:15:06,270 --> 00:15:09,270
+E estudar 14,2.
+
+273
+00:15:09,270 --> 00:15:14,610
+Isto é menor ou igual para o Anjol.
+
+274
+00:15:14,610 --> 00:15:29,290
+6, 7,5,
+
+275
+00:15:29,290 --> 00:15:32,290
+7,5, 9,5, 10,5,
+
+276
+00:15:32,290 --> 00:15:35,290
+é 14,5.
+
+277
+00:15:35,290 --> 00:15:37,290
+É 14,5.
+
+278
+00:15:37,290 --> 00:15:40,290
+Quando fiz aqui os planos,
+
+279
+00:15:40,290 --> 00:15:41,290
+eu peguei no deadline,
+
+280
+00:15:41,290 --> 00:15:42,290
+agredece em meio,
+
+281
+00:15:42,290 --> 00:15:46,750
+e andei 4 para frente.
+
+282
+00:15:46,750 --> 00:15:47,750
+14,5.
+
+283
+00:15:47,750 --> 00:15:56,890
+Está verdade?
+
+284
+00:15:56,890 --> 00:15:58,890
+14,2 é menor que 14,5.
+
+285
+00:15:58,890 --> 00:16:01,890
+Logo, o que vai acontecer neste momento
+
+286
+00:16:01,890 --> 00:16:04,890
+é que o deadline mantém-se.
+
+287
+00:16:04,890 --> 00:16:06,890
+Eu não altero o deadline do servidor.
+
+288
+00:16:06,890 --> 00:16:10,890
+Eu tenho capacidade suficiente para escutar.
+
+289
+00:16:10,890 --> 00:16:11,890
+Tenho capacidade,
+
+290
+00:16:11,890 --> 00:16:14,890
+porque o Anjol tem capacidade de aumentar o deadline.
+
+291
+00:16:14,890 --> 00:16:16,890
+É por isso que tenho capacidade.
+
+292
+00:16:16,890 --> 00:16:19,890
+Portanto, o que acontece neste momento
+
+293
+00:16:19,890 --> 00:16:21,890
+é que ele vai escutar aqui
+
+294
+00:16:21,890 --> 00:16:26,520
+durante 0,4.
+
+295
+00:16:26,520 --> 00:16:27,520
+Estão 0,4.
+
+296
+00:16:27,520 --> 00:16:37,720
+E não precisava continuar.
+
+297
+00:16:37,720 --> 00:16:39,720
+O objetivo era só.
+
+298
+00:16:39,720 --> 00:16:57,790
+Tem que ter que fazer cálculos.
+
+299
+00:16:57,790 --> 00:17:03,680
+Chegou o primeiro jogo do servidor,
+
+300
+00:17:03,680 --> 00:17:07,680
+porque eu tive que verificar o deadline.
+
+301
+00:17:07,680 --> 00:17:09,680
+Só que ver o primeiro jogo,
+
+302
+00:17:09,680 --> 00:17:10,680
+o deadline interior era 0,
+
+303
+00:17:10,680 --> 00:17:12,680
+logo isto foi fácil.
+
+304
+00:17:12,680 --> 00:17:14,680
+É o instante atual, mais 4.
+
+305
+00:17:14,680 --> 00:17:23,510
+Fazer um cálculo foi quando chegou o segundo jogo.
+
+306
+00:17:23,510 --> 00:17:25,510
+Eu, mais uma vez, quando chegou o segundo jogo,
+
+307
+00:17:25,510 --> 00:17:27,510
+eu tive que verificar
+
+308
+00:17:27,510 --> 00:17:30,510
+se o instante atual mais a capacidade resta
+
+309
+00:17:30,510 --> 00:17:32,510
+era a nova deadline.
+
+310
+00:17:32,510 --> 00:17:36,860
+Quando fiz esta cortada aqui,
+
+311
+00:17:36,860 --> 00:17:40,860
+eu descobri que a capacidade resta
+
+312
+00:17:40,860 --> 00:17:42,860
+não é menor que o deadline,
+
+313
+00:17:42,860 --> 00:17:44,860
+porque o deadline já está passado.
+
+314
+00:17:44,860 --> 00:17:47,860
+Portanto, eu tive que meter uma nota,
+
+315
+00:17:48,860 --> 00:17:59,180
+que está aqui em qualquer sítio.
+
+316
+00:17:59,180 --> 00:18:03,180
+Pois, quando tomou aqui o Excel,
+
+317
+00:18:03,180 --> 00:18:06,180
+e esta é a fase que as pessoas esqueciam,
+
+318
+00:18:06,180 --> 00:18:10,180
+que é que chegou a 0 a capacidade.
+
+319
+00:18:10,180 --> 00:18:12,180
+Quando chegou a 0 a capacidade,
+
+320
+00:18:12,180 --> 00:18:14,180
+e me rasguei, imediatamente,
+
+321
+00:18:14,180 --> 00:18:17,180
+entre outras regras do servidor.
+
+322
+00:18:17,180 --> 00:18:21,180
+Que é que eu faço os examens automáticos para 1,
+
+323
+00:18:21,180 --> 00:18:24,180
+mas adio 4 a deadline.
+
+324
+00:18:26,180 --> 00:18:30,290
+Finalmente, a quarta-quarta foi aqui,
+
+325
+00:18:30,290 --> 00:18:34,290
+quando chegou o terceiro jogo do servidor,
+
+326
+00:18:34,290 --> 00:18:38,290
+em que eu, mais uma vez, fui verificar.
+
+327
+00:18:38,290 --> 00:18:40,290
+Mas desta vez, fui verificar,
+
+328
+00:18:40,290 --> 00:18:42,290
+que a capacidade que me resta
+
+329
+00:18:42,290 --> 00:18:44,290
+era menor que a deadline.
+
+330
+00:18:44,290 --> 00:18:46,290
+Logo, eu posso escutar,
+
+331
+00:18:46,290 --> 00:18:48,290
+sem ter que fazer de novo,
+
+332
+00:18:48,290 --> 00:18:52,820
+pôs o nome da deadline.
+
+333
+00:18:53,820 --> 00:18:58,210
+Não, não.
+
+334
+00:18:58,210 --> 00:19:01,210
+Ele chega nos 7,5,
+
+335
+00:19:01,210 --> 00:19:03,210
+e o servidor está no 0,5.
+
+336
+00:19:03,210 --> 00:19:05,210
+Os quartos do período,
+
+337
+00:19:05,210 --> 00:19:07,210
+que é a partida dos 7,5,
+
+338
+00:19:07,210 --> 00:19:10,210
+é a partida do momento em que eu vou dar a tua partida.
+
+339
+00:19:12,210 --> 00:19:14,210
+É dos 7,5.
+
+340
+00:19:14,210 --> 00:19:15,210
+Do 7,5?
+
+341
+00:19:15,210 --> 00:19:16,210
+Sim.
+
+342
+00:19:16,210 --> 00:19:17,210
+Que depois eu vou dar o 0,5,
+
+343
+00:19:17,210 --> 00:19:19,210
+e depois vou dar o 0,5.
+
+344
+00:19:19,210 --> 00:19:22,210
+Ah, desculpe, sim, sim, ok.
+
+345
+00:19:22,210 --> 00:19:25,210
+Portanto, isto é nos 11,5.
+
+346
+00:19:25,210 --> 00:19:27,210
+O 7 foi no 10,5.
+
+347
+00:19:27,210 --> 00:19:29,210
+Isto é aqui,
+
+348
+00:19:29,210 --> 00:19:32,210
+eu acho que disse 10,5, mas foi 11,5,
+
+349
+00:19:32,210 --> 00:19:36,210
+e depois aqui é 11,12,13,14,15.
+
+350
+00:19:36,210 --> 00:19:38,210
+Aqui, o deadline de loja,
+
+351
+00:19:38,210 --> 00:19:41,900
+é...
+
+352
+00:19:48,140 --> 00:19:50,140
+é sugesto.
+
+353
+00:19:50,140 --> 00:19:51,140
+Eu disse que não,
+
+354
+00:19:51,140 --> 00:19:53,140
+porque o tempo é bom,
+
+355
+00:19:53,140 --> 00:19:59,850
+mas eu fico em muitas palavras.
+
+356
+00:19:59,850 --> 00:20:00,850
+No cenário,
+
+357
+00:20:00,850 --> 00:20:02,850
+neste sono de jogadores da deadline,
+
+358
+00:20:02,850 --> 00:20:04,850
+eu preciso de que eu faça o contrato da cidade,
+
+359
+00:20:04,850 --> 00:20:06,850
+se não me vejo, eu não preciso.
+
+360
+00:20:06,850 --> 00:20:08,850
+Não.
+
+361
+00:20:08,850 --> 00:20:10,850
+Ok?
+
+362
+00:20:10,850 --> 00:20:12,850
+Mas, foram no momento,
+
+363
+00:20:12,850 --> 00:20:16,190
+mas tomaram determinamento de que eu faça.
+
+364
+00:20:16,190 --> 00:20:17,190
+Se o deadline já passou,
+
+365
+00:20:17,190 --> 00:20:32,060
+eu não tenho facilidade de visitar.
+
+366
+00:20:32,060 --> 00:20:38,630
+Mais dúvidas, mais questões.
+
+367
+00:20:38,630 --> 00:20:40,630
+Portanto, obviamente o CBS
+
+368
+00:20:40,630 --> 00:20:42,630
+e o Total Balancing,
+
+369
+00:20:42,630 --> 00:20:44,630
+o CBS e o TVS,
+
+370
+00:20:44,630 --> 00:20:46,630
+são mais complexos que os da semana passada.
+
+371
+00:20:46,630 --> 00:20:49,100
+Ok?
+
+372
+00:20:49,100 --> 00:20:53,280
+Temos que andar aqui a fazer cálculos
+
+373
+00:20:53,280 --> 00:20:55,280
+quando está semana passada, ativos.
+
+374
+00:20:55,280 --> 00:20:56,280
+Então, se a semana passada,
+
+375
+00:20:56,280 --> 00:20:58,280
+temos que ver quando a gente já se questionou.
+
+376
+00:20:58,280 --> 00:20:59,280
+Não só isso,
+
+377
+00:20:59,280 --> 00:21:01,280
+temos que andar aqui ao lado da deadline,
+
+378
+00:21:01,280 --> 00:21:22,950
+e por aí dentro.
+
+379
+00:21:22,950 --> 00:21:23,950
+Se não houver mais dúvidas,
+
+380
+00:21:23,950 --> 00:21:25,950
+sim, podem-se pegar o quarto contrato.
+
+381
+00:21:25,950 --> 00:21:26,950
+Ah, porém mesmo.
+
+382
+00:21:26,950 --> 00:21:27,950
+Podem-se pegar o quarto contrato.
+
+383
+00:21:27,950 --> 00:21:28,950
+Podem pegar as aulas.
+
+384
+00:21:28,950 --> 00:21:32,420
+Podem pegar as questões.
+
+385
+00:21:32,420 --> 00:21:34,420
+Dizem que não nos gia de fornecer a solução.
+
+386
+00:21:34,420 --> 00:21:36,420
+E não derem nem de proteger o contrato,
+
+387
+00:21:36,420 --> 00:21:48,340
+para nos verificar.
+
+388
+00:21:48,340 --> 00:21:49,340
+Ré.
+
+389
+00:21:49,340 --> 00:21:50,340
+Com isto,
+
+390
+00:21:50,340 --> 00:21:52,340
+terminamos a primeira parte do contrato.
+
+391
+00:21:52,340 --> 00:21:57,790
+É...
+
+392
+00:21:57,790 --> 00:21:59,790
+A próxima década ao contrato,
+
+393
+00:21:59,790 --> 00:22:01,790
+é só para o exercício
+
+394
+00:22:01,790 --> 00:22:05,230
+da primeira parte da matéria,
+
+395
+00:22:05,230 --> 00:22:06,230
+que é desformamento de desafios,
+
+396
+00:22:06,230 --> 00:22:08,230
+hospedados anâmicos e sabedores.
+
+397
+00:22:08,230 --> 00:22:09,230
+Ok?
+
+398
+00:22:09,230 --> 00:22:11,230
+E a aula se liga à condição.
+
+399
+00:22:11,230 --> 00:22:17,900
+A segunda parte da matéria,
+
+400
+00:22:17,900 --> 00:22:20,900
+nós vamos piorar as coisas.
+
+401
+00:22:20,900 --> 00:22:21,900
+E é,
+
+402
+00:22:21,900 --> 00:22:23,900
+eu até agora assumi
+
+403
+00:22:23,900 --> 00:22:25,900
+que as tarefas vão conseguir como hoje vamos,
+
+404
+00:22:25,900 --> 00:22:31,550
+quando partiram começando
+
+405
+00:22:31,550 --> 00:22:32,550
+pior.
+
+406
+00:22:32,550 --> 00:22:33,550
+Ok?
+
+407
+00:22:33,550 --> 00:22:35,550
+Recursos para tirados.
+
+408
+00:22:35,550 --> 00:22:37,550
+Então, é isso.
+
+409
+00:22:37,550 --> 00:22:39,550
+Depois vamos lá.
+
+410
+00:22:39,550 --> 00:22:43,210
+Entra.
+
+411
+00:22:43,210 --> 00:22:44,210
+Então,
+
+412
+00:22:44,210 --> 00:22:46,210
+boa noite para todos,
+
+413
+00:22:46,210 --> 00:22:48,210
+para tê-los interessados no número de editação final,
+
+414
+00:22:48,210 --> 00:22:52,320
+para esclarecer, então.
+
+415
+00:22:52,320 --> 00:22:53,320
+O resto também.
+
+416
+00:22:53,320 --> 00:22:54,320
+Bora ou pode ficar?
+
+417
+00:22:54,320 --> 00:22:55,320
+Ou não?
+
+418
+00:22:56,320 --> 00:22:58,320
+Mas eu vejo que tem que ensinar algo
+
+419
+00:22:58,320 --> 00:22:59,320
+para me dizer.
+
+420
+00:22:59,320 --> 00:23:00,320
+Calor.
+
+421
+00:23:00,320 --> 00:23:01,320
+Vamos lá.
+
+422
+00:23:01,320 --> 00:23:02,320
+Vamos lá.
+
+423
+00:23:02,320 --> 00:23:03,320
+Não é?
+
+424
+00:23:03,320 --> 00:23:04,320
+Não é?
+
+425
+00:23:04,320 --> 00:23:05,320
+Não é?
+
+426
+00:23:05,320 --> 00:23:06,320
+Não é?
+
+427
+00:23:06,320 --> 00:23:07,320
+Não é?
+
+428
+00:23:07,320 --> 00:23:08,320
+Não é?
+
+429
+00:23:08,320 --> 00:23:09,320
+Não é?
+
+430
+00:23:09,320 --> 00:23:10,320
+Não é?
+
+431
+00:23:10,320 --> 00:23:14,300
+Não.
+
+432
+00:23:14,300 --> 00:23:19,360
+Não.
+
