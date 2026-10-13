@@ -1,17 +1,32 @@
 git switch main
 git pull --ff-only
-git switch -c <nome-da-branch></nome>
+git switch -c <nome-da-branch></nome>"branch"
 git status
 git add .
 git commit -m "tipo(area): mensagem curta"
-git push --set-upstream origin <nome-da-branch></nome>
-gh pr create --base main --head <nome-da-branch></nome>
+git push --set-upstream origin <nome-da-branch></nome>"branch"
+gh pr create --base main --head <nome-da-branch></nome>"branch"
 gh pr checks <numero-do-pr></numero>
 gh pr merge <numero-do-pr></numero> --merge --delete-branch
 git switch main
 git pull --ff-only
-git branch -d <nome-da-branch></nome>
+git branch -d <nome-da-branch></nome>"branch"
 git fetch --prune
+
+<branch>
+
+<branch>
+
+<branch>
+
+
+<branch>
+
+<branch>
+
+<branch>
+
+<branch>
 
 git stash list
 git stash show --stat 'stash@{1}'
