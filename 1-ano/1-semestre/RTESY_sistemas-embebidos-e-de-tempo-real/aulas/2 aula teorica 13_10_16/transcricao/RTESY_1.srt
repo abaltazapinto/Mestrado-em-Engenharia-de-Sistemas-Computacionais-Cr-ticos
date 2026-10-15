@@ -1,0 +1,1388 @@
+1
+00:00:01,710 --> 00:00:13,590
+Só para lembrarmos que servidores são nunca mesmo o que eu uso, quando eu tenho tarefas
+
+2
+00:00:13,590 --> 00:00:18,310
+irremolados, com valores irremolados, no tempo os outros são irremolados, e eu quero
+
+3
+00:00:18,310 --> 00:00:25,190
+entender que essas tarefas estragam o escondamento das estas tarefas, então basicamente o conceito
+
+4
+00:00:25,190 --> 00:00:36,710
+de um servidor é uma reserva, algum tempo, periódico, para a execução dessas tarefas,
+
+5
+00:00:36,710 --> 00:00:41,590
+assim o conceito de um servidor para uma tarefa, que vai acertar mais ou menos, ou o conceito
+
+6
+00:00:41,590 --> 00:00:45,390
+de um servidor para outra tarefa, ou o conceito de um servidor que é para todas as tarefas
+
+7
+00:00:45,390 --> 00:00:51,150
+irremolados, como quiser. Mas o conceito é sempre mesmo, é uma reserva, um conceito,
+
+8
+00:00:51,150 --> 00:00:58,470
+um conceito de tempo, e depois nós falamos, para atividades das tarefas, de três tipos
+
+9
+00:00:58,470 --> 00:01:08,950
+dos servidores. O primeiro era o mais básico, que é, eu reservava esse tempo, de T e D,
+
+10
+00:01:08,950 --> 00:01:16,950
+de 0 e de Q, de capacidade, e o mais básico, o qual ensurga realmente acontecia, era que
+
+11
+00:01:16,950 --> 00:01:20,350
+mesmo que eu tivesse tarefa por um ano e um ano, até o momento, ele começava a gastar
+
+12
+00:01:20,350 --> 00:01:29,510
+na reserva, quando o estudamento pudesse executar a tarefa. Então, ele começa logo
+
+13
+00:01:29,510 --> 00:01:38,470
+a gastar, mesmo que não tenha tarefa de mim. De seguida, falamos do D e F, que é, eu só
+
+14
+00:01:38,470 --> 00:01:44,990
+comecei, efetivamente, a gastar quando chegue uma tarefa que eu tenho que executar. Só aí
+
+15
+00:01:44,990 --> 00:01:53,510
+é que eu começo a gastar a minha capacidade. O problema do D e F é que eu só comece
+
+16
+00:01:53,510 --> 00:02:00,350
+a gastar a capacidade quando chegue umas tarefas, pode acontecer que as tarefas cheguem
+
+17
+00:02:00,350 --> 00:02:06,310
+ao fim do período, e, portanto, eu gasto toda a capacidade ao fim do período, e no
+
+18
+00:02:06,310 --> 00:02:11,270
+período de 15, as tarefas cheguem no início e eu começo logo a gastar a capacidade no
+
+19
+00:02:11,270 --> 00:02:16,750
+início, portanto, eu vou ter ali um bocado de tempo, em que eu tenho a capacidade do período
+
+20
+00:02:16,750 --> 00:02:23,270
+anterior e a capacidade no período anterior, ou seja, tenho excesso de capacidade no bocado
+
+21
+00:02:23,270 --> 00:02:29,270
+de tempo, e isso é o problema do D e F. Então, de seguida, nós vemos que, se for
+
+22
+00:02:29,270 --> 00:02:38,150
+adexado, finalmente, que resolve esse problema, porque faz o D e F também, ou seja, só
+
+23
+00:02:38,150 --> 00:02:44,990
+começo a gastar a capacidade, e, finalmente, quando chega uma tarefa para iniciar essa
+
+24
+00:02:44,990 --> 00:02:53,870
+capacidade, mas eu só faço o e-play desta capacidade, não faço, mas o que segui, o
+
+25
+00:02:53,870 --> 00:03:01,270
+normal, eu só faço o D depois do instante que chegou e eu começo a gastar a capacidade.
+
+26
+00:03:02,270 --> 00:03:10,790
+No D e F, é o atraso, o início de gastar a capacidade, no securado é de S, é o atraso,
+
+27
+00:03:10,790 --> 00:03:17,390
+o início de gastar a capacidade, mas também é atraso depois por e-play da capacidade,
+
+28
+00:03:17,390 --> 00:03:23,430
+e tenho problema de resolve. Então, isso foi o que nós falamos da Sara Passada, e falamos
+
+29
+00:03:23,430 --> 00:03:29,550
+também do que no período de S, ou primeiro, mas quase por todos, e no securado é de S,
+
+30
+00:03:29,550 --> 00:03:36,310
+aqui é o último, ok? Eu posso fazer a mesma análise que a novidade para a capacidade
+
+31
+00:03:36,310 --> 00:03:44,270
+F, que eu faço para tarefas triólicas, assumindo que o servidor é consumo de uma tarefa triólica
+
+32
+00:03:44,270 --> 00:03:50,990
+que tem um período e um tempo de disposição, para que eu consiga fazer o teste de utilização,
+
+33
+00:03:50,990 --> 00:03:56,270
+o teste de tabla de resposta, consiga poder tudo sem qualquer problema. Ok, isso foi
+
+34
+00:03:56,270 --> 00:04:02,350
+a decisão e toda a prioridade fixa. Hoje, vamos fazer para priorizações. Vamos,
+
+35
+00:04:02,350 --> 00:04:11,870
+em F, quando eu tenho a BSDF lá, o meu objetivo é estar no domingo. Eu tenho uma tarefa que
+
+36
+00:04:11,870 --> 00:04:17,910
+é irregular, pode ser irregular, que aparece desde quando, eu não sei bem, pode aparecer
+
+37
+00:04:17,910 --> 00:04:23,550
+várias vezes seguidos, também pode ser irregular o seu tempo de utilização, o seu tempo de
+
+38
+00:04:23,630 --> 00:04:32,030
+utilização é irregular, às vezes isso tem muita raiz boa. Eu quero limitar o que essa
+
+39
+00:04:32,030 --> 00:04:39,430
+ideia eu posso fazer e faço com o servidor. Eu quero manter uma largura de banda de base
+
+40
+00:04:39,430 --> 00:04:49,550
+em cima. O primeiro servidor que eu tenho, que é o Total Band with Sonor, o que ele faz
+
+41
+00:04:49,550 --> 00:05:00,750
+é muito semelhante ao polling Santa. O que eu faço é eu atribuo uma capacidade e
+
+42
+00:05:00,750 --> 00:05:08,550
+um doiudo ao servidor, exatamente como polling Santa. E portanto, essa capacidade é reposta
+
+43
+00:05:08,550 --> 00:05:17,550
+sempre aqui, é um doiudo. Só me tenho que lembro a fazer, o que é? Qual é a deadline do servidor?
+
+44
+00:05:18,550 --> 00:05:22,550
+Lembro-se que prioridades físicas eu defino uma prioridade, prioridades dinâmicas,
+
+45
+00:05:22,550 --> 00:05:29,550
+eu tenho que ter uma deadline e uma deadline assurda. Eu tenho que dizer que esta tarefa
+
+46
+00:05:29,550 --> 00:05:38,550
+tem uma deadline de aqui a 3 segundos, está tão instante, 23. Basicamente eu tenho que
+
+47
+00:05:38,550 --> 00:05:45,550
+fazer uma deadline. E o que o Total Band with Sonor faz é definir sempre que chega
+
+48
+00:05:45,550 --> 00:05:54,550
+qualquer coisa para executar, no jogo para executar. E ele define, então, a deadline
+
+49
+00:05:54,550 --> 00:06:05,550
+como sendo o máximo entre o instante atual e a deadline anterior, porque já havia uma
+
+50
+00:06:05,550 --> 00:06:11,550
+deadline, se for a primeira vez uma deadline, a deadline é zero, e portanto o máximo do
+
+51
+00:06:11,550 --> 00:06:24,550
+instante atual, mas uma capacidade que eu preciso para esta tarefa que chegou neste
+
+52
+00:06:24,550 --> 00:06:34,120
+instante. Basicamente é, ao instante 3 chega, às vezes nada que eu tenho o servidor,
+
+53
+00:06:40,940 --> 00:06:58,820
+geralmente o servidor tem uma capacidade de 3, ao instante 4, chegou um jogo,
+
+54
+00:06:58,820 --> 00:07:11,250
+tem um tempo de execução de 2. Este é o primeiro, então o deadline neste momento,
+
+55
+00:07:11,250 --> 00:07:17,940
+vou chamar de deadline certo, deadline inicial, que é zero, inicialmente não é 9.
+
+56
+00:07:17,940 --> 00:07:25,940
+Chega então do jogo, ao instante 4, com um tempo de execução de 2. O que é que o servidor
+
+57
+00:07:25,940 --> 00:07:30,940
+tem garantido? O servidor tem garantido que tenha capacidade para executar este jogo.
+
+58
+00:07:30,940 --> 00:07:38,510
+E para ter capacidade para executar este jogo, o que ele vai fazer é, eu vou atribuir
+
+59
+00:07:38,510 --> 00:07:51,860
+uma deadline, que me dá 2 em 20 no futuro. Se é no futuro, então tem que ser,
+
+60
+00:07:51,860 --> 00:07:59,860
+o deadline deste primeiro jogo, tem que ser 4, que é o instante atual, é o máximo
+
+61
+00:07:59,860 --> 00:08:19,440
+de 4 em 0, e é 4, ok? Mais 2 sobre 20, então a minha deadline vai ser, desculpe mais
+
+62
+00:08:19,440 --> 00:08:36,970
+2 sobre 20, 3 sobre 20, 1 do servidor e 3 sobre 20, então de estar no 20,
+
+63
+00:08:36,970 --> 00:08:57,010
+de ter de 6, 40 a 23, 3, 30 de 0. Então, vamos ver, ou seja, eu tenho que dar uma deadline,
+
+64
+00:08:57,010 --> 00:09:20,240
+que me garanta que eu tenho tempo para executar destes 2, ainda no primeiro, 17, 23, 23,
+
+65
+00:09:20,240 --> 00:09:32,060
+que é assim que funciona o todo da tensão. Vamos imaginar que agora, ao instante 8,
+
+66
+00:09:32,060 --> 00:09:45,220
+chega um novo jogo com um tempo de execução de 3, e ele tem que recalcular o deadline do servidor.
+
+67
+00:09:45,220 --> 00:09:56,130
+Ah, ok, eu agora não tenho que escutar mais 3 nestes servidores, e portanto, o deadline,
+
+68
+00:09:56,130 --> 00:10:07,660
+o segundo deadline, vai ser igual ao máximo, ente o instante em que eu cheguei e o deadline
+
+69
+00:10:07,660 --> 00:10:34,500
+anterior, mais 3 sobre, 3 sobre 20, ok? Estudar, óbis, no caso, vai ser sobre 3 da 20,
+
+70
+00:10:34,500 --> 00:10:45,730
+não é? Então será 17, 37. Vamos ver quanto é capaz. Então, ele vai fazer o 1 segundo
+
+71
+00:10:45,730 --> 00:10:58,210
+do deadline, acumular-se de forma à garantia, que os trabalhos que estão mexecados, não
+
+72
+00:10:58,210 --> 00:11:04,210
+aguentem as outras tarefas, porque se eu deixar-se estar, o deadline é 17, e agora eu
+
+73
+00:11:04,210 --> 00:11:11,210
+mantenho-se mais de 3 nestes servidores, ele está a escutar, assim, em 17, ok? Que é
+
+74
+00:11:11,210 --> 00:11:28,930
+muito mais do que 3 em 15. É assim que funciona. Portanto, cá está o exemplo em que eu tenho
+
+75
+00:11:28,930 --> 00:11:36,930
+aqui, o meu servidor, tenho uma tarefa e outra tarefa. Cuidado, aqui não há tarefa de mais
+
+76
+00:11:36,930 --> 00:11:42,930
+alta prioridade, tarefa de mais alta prioridade, estamos em ADF, ok? Portanto, a tarefa que
+
+77
+00:11:42,930 --> 00:11:50,930
+vai escutar é aquela tempestade mais velha. Inicialmente, que cheguei a esta tarefa, o seu
+
+78
+00:11:50,930 --> 00:11:56,930
+deadline está aqui, mas já é o único, tanto mais é escutado. A seguir de chegar até
+
+79
+00:11:56,930 --> 00:12:06,210
+lá, o seu deadline, ele, portanto, é esta intervogação, e começa a escutar, termina
+
+80
+00:12:06,210 --> 00:12:14,210
+e volta a escutar esta, aqui chegou o jogo do servidor. Como se fosse um jogo do servidor
+
+81
+00:12:14,210 --> 00:12:22,210
+e ele calcula uma nova deadline e dá ali, e esta deadline está antes daquela. Portanto,
+
+82
+00:12:22,210 --> 00:12:30,210
+o servidor escuta, o jogo chegou, termina, o jogo é só dentro de um. Vou a escutar isto,
+
+83
+00:12:30,210 --> 00:12:36,210
+e portanto, chegar aquela tarefa, que tem um deadline ligeiramente primeiro, porque
+
+84
+00:12:36,210 --> 00:12:45,210
+é esta, ok? Portanto, esta executa primeiro. Note que chegou aqui o longo jogo do servidor,
+
+85
+00:12:46,210 --> 00:12:54,650
+só que o cálculo da deadline deste jogo dá ali, como dá ali o cálculo da deadline,
+
+86
+00:12:54,650 --> 00:13:02,650
+está depois desta e está depois desta. Quer dizer que ele vai escutar esta primeiro,
+
+87
+00:13:02,650 --> 00:13:08,650
+vai continuar escutar esta, para terminar que o deadline está ali, e depois escutar esta,
+
+88
+00:13:08,650 --> 00:13:13,650
+quando o deadline está aqui, e só depois desta terminar, que é que escuta o servidor.
+
+89
+00:13:13,650 --> 00:13:25,400
+Portanto, depois chega aqui um novo jogo do servidor e ele mais uma vez calcula um novo
+
+90
+00:13:25,400 --> 00:13:33,400
+deadline, vai para lá. Quer dizer que esta aqui só escuta, quando esta termina, o deadline
+
+91
+00:13:33,400 --> 00:13:40,400
+desta está antes. Ok? Vamos ver como a gente está escutando. Esta é o EF normal. A única
+
+92
+00:13:40,400 --> 00:13:47,400
+ideia, mas aqui é diferente do EF normal, é que não tem sempre de chega, de um jovem,
+
+93
+00:13:47,400 --> 00:13:53,400
+eu tenho que recorrer a algo que vai no final do servidor. Usando esta fórmula que está
+
+94
+00:13:53,400 --> 00:14:00,260
+aqui, dúvida sobre todo o time de server, antes de nós falarmos por que é que não é
+
+95
+00:14:00,260 --> 00:14:10,130
+legal. Ok? Não há dúvida sobre todo o time de server. Em determinado, pessoas dão isso.
+
+96
+00:14:10,130 --> 00:14:15,130
+Mas pelo teste de dia que eu vou ver esta, é que eu não espero nada para o servidor.
+
+97
+00:14:15,130 --> 00:14:23,130
+O time de server tem uma coisa que eu simbo, que é que é fácil implementar. Ok? Eu
+
+98
+00:14:23,130 --> 00:14:34,200
+é só para o jogo calcular a lei. Eu realmente, eu tenho o tempo de resposta,
+
+99
+00:14:34,200 --> 00:14:38,200
+também é rápido, ou seja, em média, que é rápido. O que funciona?
+
+100
+00:14:38,200 --> 00:14:42,200
+E qual é a grande diferença comparativamente com o EF?
+
+101
+00:14:42,200 --> 00:14:50,200
+O EF? O EF, as tarefas, em termos de fórmula, a diferença é a EF.
+
+102
+00:14:50,200 --> 00:14:51,200
+O que?
+
+103
+00:14:51,200 --> 00:14:57,200
+Isto é em cima da EF. A diferença está, não é no escondamento da EF ou não. A diferença
+
+104
+00:14:57,200 --> 00:15:04,200
+aqui é que eu estou a acumular uma tarefa que é variável. Enquanto que as outras, eu tenho
+
+105
+00:15:04,200 --> 00:15:10,200
+que dizer a alguém que esta executa C em T. As outras, as características das outras
+
+106
+00:15:10,200 --> 00:15:15,200
+são fixas. Então, os servidores, para quando eu tenho uma tarefa, cujas características
+
+107
+00:15:15,200 --> 00:15:20,200
+não são fixas, são altamente reales. E eu tenho que ler aqui.
+
+108
+00:15:20,200 --> 00:15:23,200
+Ok, quer dizer que pode me dar sim para ser útil, de momento para o momento?
+
+109
+00:15:23,200 --> 00:15:24,200
+Sim, sim. Sabe a gente?
+
+110
+00:15:24,200 --> 00:15:25,200
+Ah, ok.
+
+111
+00:15:25,200 --> 00:15:26,200
+São irregularos.
+
+112
+00:15:26,200 --> 00:15:27,200
+Ok?
+
+113
+00:15:27,200 --> 00:15:28,200
+E nós vamos para iólicas.
+
+114
+00:15:28,200 --> 00:15:33,200
+Não só para iólicas, e o próprio C é muito irregular.
+
+115
+00:15:33,200 --> 00:15:34,200
+Ok.
+
+116
+00:15:34,200 --> 00:15:35,200
+Ok?
+
+117
+00:15:35,200 --> 00:15:42,200
+E o que acontece? Se a gente deixar executar, elas vão estragar as outras. O conceito do
+
+118
+00:15:42,200 --> 00:15:47,200
+servidor é, precisamente, eu hormoto essas tarefas reservando-os uma das outras tarefas.
+
+119
+00:15:47,200 --> 00:15:51,200
+E, portanto, elas subam dentro daquela outra tarefa.
+
+120
+00:15:51,200 --> 00:15:53,200
+Daí o nome de Bandit serve.
+
+121
+00:15:53,200 --> 00:15:55,200
+Daí o nome de Bandit serve.
+
+122
+00:15:55,200 --> 00:15:56,200
+Ok?
+
+123
+00:15:56,200 --> 00:16:01,200
+Os servidores da semana passada é exatamente a mesma coisa. Só que é para prioridades fixas.
+
+124
+00:16:01,200 --> 00:16:03,200
+Mas também é a mesma coisa.
+
+125
+00:16:03,200 --> 00:16:04,200
+Sabe a mesma coisa.
+
+126
+00:16:04,200 --> 00:16:06,200
+Ou seja, é fixa para iólicas.
+
+127
+00:16:06,200 --> 00:16:11,200
+A única coisa que o servidor faz é que eu não tenho uma tarefa que não é bem briódica.
+
+128
+00:16:11,200 --> 00:16:12,200
+Ok?
+
+129
+00:16:12,200 --> 00:16:16,200
+E também se a tarefa chega, vai ter que recalcular tudo o que estava recalculado.
+
+130
+00:16:16,200 --> 00:16:17,200
+Vamos dizer assim.
+
+131
+00:16:17,200 --> 00:16:24,200
+Sim, mas o de prioridades fixas não recalcula o que é prioridades fixas, não precisa recalcular
+
+132
+00:16:24,200 --> 00:16:26,200
+o que é prioridades fixas.
+
+133
+00:16:26,200 --> 00:16:28,200
+É mais simples.
+
+134
+00:16:28,200 --> 00:16:30,830
+Ok?
+
+135
+00:16:30,830 --> 00:16:36,830
+O que faz, o que é prioridades fixas, o que faz, tem estas notagens.
+
+136
+00:16:36,830 --> 00:16:38,830
+Tem estas notagens, tem mais uma metade.
+
+137
+00:16:38,830 --> 00:16:44,830
+Como é possível a EDF e não os trago a EDF, eu gosto de usar o texto, mas a saúde
+
+138
+00:16:44,830 --> 00:16:46,830
+da EDF também sempre é um problema.
+
+139
+00:16:46,830 --> 00:16:47,830
+Ok?
+
+140
+00:16:47,830 --> 00:16:51,830
+É que a utilização das tarefas que eu e óbvio, mais a utilização do servidor,
+
+141
+00:16:51,830 --> 00:16:53,830
+eu gosto de ser maior do que um.
+
+142
+00:16:53,830 --> 00:16:54,830
+Ok?
+
+143
+00:16:54,830 --> 00:16:57,830
+Portanto, é exatamente bom como a EDF.
+
+144
+00:16:57,830 --> 00:17:02,210
+Então, tem essas notagens.
+
+145
+00:17:02,210 --> 00:17:05,210
+Tenho duas desviatagens muito importantes.
+
+146
+00:17:05,210 --> 00:17:06,210
+Ok?
+
+147
+00:17:06,210 --> 00:17:16,210
+A primeira é, eu quando faço o caldo da EDF, chegue a um jogo e eu faço o caldo da EDF.
+
+148
+00:17:16,210 --> 00:17:21,210
+Eu tenho que saber o tempo de execução do jogo que chegou.
+
+149
+00:17:21,210 --> 00:17:28,210
+Eu tenho que dizer, agora cheguei agora e vou precisar de dois mil e segundos para escutar.
+
+150
+00:17:28,210 --> 00:17:29,210
+Ok?
+
+151
+00:17:29,210 --> 00:17:37,210
+Muitos sistemas nestas tarefas que eu estou a falar, eu só sei quando a EDF é executa,
+
+152
+00:17:37,210 --> 00:17:38,210
+depois de ela escutar.
+
+153
+00:17:38,210 --> 00:17:41,210
+A parede é como sabe antes.
+
+154
+00:17:41,210 --> 00:17:45,210
+Se o soubesse antes, sequer já havia que não precisar do servidor.
+
+155
+00:17:45,210 --> 00:17:46,210
+Ok?
+
+156
+00:17:46,210 --> 00:17:50,210
+O servidor é uma das coisas que quando elas são mais dinâmicas, e eu não sei tudo,
+
+157
+00:17:50,210 --> 00:17:58,210
+então, o total da EDF, eu tenho que saber no instante em chega, eu tenho que saber quanto
+
+158
+00:17:58,210 --> 00:18:00,210
+a EDF vai escutar.
+
+159
+00:18:00,210 --> 00:18:07,520
+Se nós vamos saber, os servidores que nós vimos na semana passada, o esperado e por exemplo.
+
+160
+00:18:07,520 --> 00:18:08,520
+Ok?
+
+161
+00:18:08,520 --> 00:18:11,520
+E eu não precisava de saber nada.
+
+162
+00:18:11,520 --> 00:18:17,520
+Chegava e eu escutava e continuasse a capacidade, até que a boa capacidade acabou.
+
+163
+00:18:17,520 --> 00:18:18,520
+Ok?
+
+164
+00:18:18,520 --> 00:18:21,520
+Contanto, o total da EDF não é assim.
+
+165
+00:18:21,520 --> 00:18:27,520
+Eu preciso saber quando uma tarefa chega a escutar e eu preciso saber quanto tempo é que ela
+
+166
+00:18:27,520 --> 00:18:28,520
+vai precisar.
+
+167
+00:18:28,520 --> 00:18:30,520
+Porque eu vou do precal.
+
+168
+00:18:30,520 --> 00:18:32,520
+O precal do mar recebe.
+
+169
+00:18:32,520 --> 00:18:38,520
+É uma certa feita em função do tempo de solução da tarefa.
+
+170
+00:18:38,520 --> 00:18:40,520
+Isso é uma das vantagens.
+
+171
+00:18:40,520 --> 00:18:42,520
+Desvantagem é uma das desvantagens.
+
+172
+00:18:42,520 --> 00:18:47,520
+A segunda desvantagem é que eu estou a assumir que aquilo que a tarefa me diz está certo.
+
+173
+00:18:47,520 --> 00:18:57,520
+Se uma tarefa diz-me aí eu preciso dois e depois escutar três, eu não consigo controlar.
+
+174
+00:18:57,520 --> 00:19:03,520
+Ela vai escutar três naquela da vantagem e vai gostar das comandas de todo.
+
+175
+00:19:03,520 --> 00:19:04,520
+Ok?
+
+176
+00:19:04,520 --> 00:19:07,520
+E como é que se pode tentar que isso não aconteça?
+
+177
+00:19:07,520 --> 00:19:08,520
+Eu posso.
+
+178
+00:19:08,520 --> 00:19:11,520
+Toda uma vez eu tenho esse problema.
+
+179
+00:19:11,520 --> 00:19:15,520
+Eu ali chegou aqui o sol e disse, eu vou precisar de um.
+
+180
+00:19:15,520 --> 00:19:19,520
+E ele começa a escutar com este dedo alto.
+
+181
+00:19:19,520 --> 00:19:25,520
+Se ele em vez de um escutar dois, o dedo alto continua a ser o mesmo.
+
+182
+00:19:25,520 --> 00:19:29,520
+E ele vai escutar mais um, como vai estragar esta tarefa aqui.
+
+183
+00:19:29,520 --> 00:19:31,520
+E vai estragar as comandas.
+
+184
+00:19:31,520 --> 00:19:32,520
+Ok?
+
+185
+00:19:32,520 --> 00:19:37,520
+O segundo problema do total da missão é que eu não controlo com runs.
+
+186
+00:19:37,520 --> 00:19:42,520
+O run é quando a tarefa escuta mais, o dedo está para o dedo alto.
+
+187
+00:19:42,520 --> 00:19:43,520
+Ok?
+
+188
+00:19:43,520 --> 00:19:47,520
+E é por isso que o total de band-aid server foi representado.
+
+189
+00:19:47,520 --> 00:19:53,520
+Se você usava, foi identificado com este problema e tentava usar.
+
+190
+00:19:53,520 --> 00:19:57,500
+Qual é a outra solução?
+
+191
+00:19:57,500 --> 00:19:59,500
+É o constant band-aid server.
+
+192
+00:19:59,500 --> 00:20:04,940
+Constant band-aid server, mais conhecido por ciência.
+
+193
+00:20:04,940 --> 00:20:11,940
+Tenho uma oportunidade interessante, que é o EDF que é implementável no INUX e na realidade.
+
+194
+00:20:11,940 --> 00:20:13,940
+Que é o constant band-aid server.
+
+195
+00:20:13,940 --> 00:20:16,940
+Ou seja, todas as tarefas estão em EDF.
+
+196
+00:20:16,940 --> 00:20:19,940
+São a realidade de servidores de ciência.
+
+197
+00:20:19,940 --> 00:20:20,940
+Ok?
+
+198
+00:20:20,940 --> 00:20:25,940
+O INUX não deixa na tarefa de EDF que não seja um servidor.
+
+199
+00:20:25,940 --> 00:20:26,940
+Ok?
+
+200
+00:20:26,940 --> 00:20:35,940
+E o constant band-aid server, o que tem de vantagem é precisamente controlar o run.
+
+201
+00:20:35,940 --> 00:20:42,940
+Eu, na realidade, quando ciência da tarefa escuta mais do que o revisto.
+
+202
+00:20:42,940 --> 00:20:46,340
+Ok?
+
+203
+00:20:46,340 --> 00:20:47,340
+Em facilidade, acalme-se.
+
+204
+00:20:47,340 --> 00:20:48,340
+Ok?
+
+205
+00:20:48,340 --> 00:20:49,340
+Espera.
+
+206
+00:20:49,340 --> 00:20:53,340
+Como é que se pode fazer isto?
+
+207
+00:20:53,340 --> 00:21:02,940
+Basicamente, quando a tarefa precisa antes de executar.
+
+208
+00:21:02,940 --> 00:21:11,100
+Eu só preciso saber quanto é que já executaram as tarefas que já executaram.
+
+209
+00:21:11,100 --> 00:21:16,100
+E depois nós fazemos o turn-off do sistema operativo, não é?
+
+210
+00:21:16,100 --> 00:21:17,100
+Não.
+
+211
+00:21:17,100 --> 00:21:21,100
+Como é que vamos saber que essa taxa realmente terminou ou não terminou?
+
+212
+00:21:21,100 --> 00:21:23,100
+Nós não fazemos o turn-off.
+
+213
+00:21:23,100 --> 00:21:24,100
+Ok?
+
+214
+00:21:24,100 --> 00:21:26,100
+Apenas se fazemos é mandando-a esperar.
+
+215
+00:21:26,100 --> 00:21:27,100
+Ok?
+
+216
+00:21:27,100 --> 00:21:28,100
+Despedimos.
+
+217
+00:21:28,100 --> 00:21:29,100
+Ok?
+
+218
+00:21:29,100 --> 00:21:30,100
+E depois nós vamos para a tarefa.
+
+219
+00:21:30,100 --> 00:21:32,100
+Já vamos ver.
+
+220
+00:21:32,100 --> 00:21:35,100
+Portanto, basicamente o que acontece é...
+
+221
+00:21:35,100 --> 00:21:39,100
+É o mesmo conceito que eu tenho mandando-a de nada.
+
+222
+00:21:39,100 --> 00:21:40,100
+Ok?
+
+223
+00:21:40,100 --> 00:21:42,100
+Eu tenho um servidor.
+
+224
+00:21:42,100 --> 00:21:48,100
+Quando chega um novo jogo que eu tenho de calcular um novo band-aid.
+
+225
+00:21:48,100 --> 00:21:51,100
+O conceito é exatamente o mesmo.
+
+226
+00:21:51,100 --> 00:21:54,100
+A diferença está agora mais aqui.
+
+227
+00:21:54,100 --> 00:21:59,100
+Quando chega um novo jogo, eu tenho de calcular um novo band-aid.
+
+228
+00:21:59,100 --> 00:22:06,100
+O que eu faço é verifico-se o instante atual.
+
+229
+00:22:06,100 --> 00:22:09,100
+O instante é que chegou um jogo.
+
+230
+00:22:09,100 --> 00:22:15,100
+Mas, a capacidade no instante do servidor.
+
+231
+00:22:15,100 --> 00:22:17,100
+Eu não estou tomando isso ainda.
+
+232
+00:22:17,100 --> 00:22:22,100
+Eu usava a capacidade que eu precisava para executar este jogo.
+
+233
+00:22:22,100 --> 00:22:26,100
+Isso é que eu precisava saber o tempo de discussão do novo jogo.
+
+234
+00:22:26,100 --> 00:22:28,100
+Quando o jogo chegava.
+
+235
+00:22:28,100 --> 00:22:29,100
+Eu aqui não.
+
+236
+00:22:29,100 --> 00:22:34,100
+Eu aqui preciso calcular a capacidade de uma resta do servidor.
+
+237
+00:22:34,100 --> 00:22:38,100
+Portanto, eu só preciso saber o que é que já foi e que acho que foi passado.
+
+238
+00:22:38,100 --> 00:22:40,100
+E isto eu posso saber.
+
+239
+00:22:40,100 --> 00:22:43,100
+É que manter o registro do que está a ser gajo.
+
+240
+00:22:43,100 --> 00:22:46,100
+Portanto, basicamente o que eu vejo é...
+
+241
+00:22:46,100 --> 00:22:52,100
+se o instante atual mais a capacidade que entra no devastated o servidor
+
+242
+00:22:52,100 --> 00:23:08,100
+for menor ou igual que a da cuele real atual.
+
+243
+00:23:08,100 --> 00:23:15,100
+Ou seja, se o instante atual mais a capacidade que o servidor precisa para terminar
+
+244
+00:23:15,100 --> 00:23:20,960
+superior à área da área atual, eu purei simplesmente, eu alberto a área da área
+
+245
+00:23:20,960 --> 00:23:29,860
+atual mais o brilho, a crescente do brilho à área da área atual e volto a fazer o
+
+246
+00:23:29,860 --> 00:23:38,820
+replay neste servidor. Faço o reset, tenho capacidade para o tal outra vez, basicamente
+
+247
+00:23:38,820 --> 00:23:44,460
+eu tomo mais capacidade, mas também reduzo a prioridade puxando a área da área mais
+
+248
+00:23:44,460 --> 00:23:51,460
+para trás. Eu diminui a importância daquela tarefa no sistema, mas dou mais capacidade.
+
+249
+00:23:51,460 --> 00:24:01,800
+Depois, o que acontece? Outra diferença, a primeira diferença em relação ao total
+
+250
+00:24:01,800 --> 00:24:11,800
+banter de servo é que eu, o corpo da deadline é diferente. A segunda grande diferença é
+
+251
+00:24:11,800 --> 00:24:19,800
+que o constante banter de servo vai oificando a capacidade. À medida que ela vai ser gasta,
+
+252
+00:24:19,800 --> 00:24:25,800
+vai agistando e não está a ser gasta. Quando a capacidade chega a ser gasta é a tarefa de
+
+253
+00:24:25,800 --> 00:24:32,800
+suspensa, coisa que o total tal banter de servo não faz. E é isso que garante que se uma tarefa
+
+254
+00:24:32,800 --> 00:24:37,800
+isso está mais do que o visto, não vai estar a ser gasta. Então, a capacidade de chegar
+
+255
+00:24:37,800 --> 00:24:50,800
+a zero, a tarefa fica suspensa e depois eu tenho, teóricamente, o verdadeiro empremadação.
+
+256
+00:24:50,800 --> 00:24:56,800
+Na teoria, o que eu faço é, eu, naquele instante, tenho que chegar a zero e a tarefa fica
+
+257
+00:24:56,800 --> 00:25:09,270
+suspensa. Eu, mais uma vez, adima-la, faço os declannes do budget e volto a permitir cada vez que
+
+258
+00:25:09,270 --> 00:25:15,270
+eu faça. Basicamente, o que eu estou a fazer é, eu deixo os declannes como uma propriedade
+
+259
+00:25:15,270 --> 00:25:23,920
+ainda de não. As argumentações que eu faço aqui é, se eu espero nem mesmo, espero que
+
+260
+00:25:23,920 --> 00:25:30,920
+o declannes que é só o meu lugar. Mas na teoria, a teoria que é isso que nós vamos dar
+
+261
+00:25:30,920 --> 00:25:36,920
+aqui, é o que precisamos. Ou seja, um algoritmo de teoria, quando a capacidade de chegar a zero,
+
+262
+00:25:36,920 --> 00:25:44,920
+antes de permitir que a tarefa continue a escutar, eu adio a deadline e faço os declannes
+
+263
+00:25:44,920 --> 00:25:53,170
+do budget. Vamos ver o que está a fazer. Para funcionar aqui o suficiente, ok?
+
+264
+00:25:53,170 --> 00:26:00,170
+Portanto, é um exemplo semelhante ao anterior, o que eu tenho ali, tenho uma tarefa
+
+265
+00:26:00,170 --> 00:26:06,170
+periódica, eu tenho uma tarefa periódica, ok? Mais uma vez, isto não é prioridade
+
+266
+00:26:06,170 --> 00:26:15,170
+fixa, portanto, esta não é mais prioridade daquela, depende da altura, ok? Se repararmos
+
+267
+00:26:15,170 --> 00:26:21,170
+da casa que não há nenhum caso, devia haver casos de prioridade desta, era só prioridade
+
+268
+00:26:21,170 --> 00:26:27,170
+daquela. A prioridade são dinâmicas, dependem dos declannes. Então, o que é que nós temos?
+
+269
+00:26:27,170 --> 00:26:38,170
+No instante, em que chegar aqui este jovem, eu calculo a primeira deadline, portanto,
+
+270
+00:26:38,170 --> 00:26:47,170
+o deadline anterior era zero, portanto, não há neste estado a falso, o instante atual
+
+271
+00:26:47,170 --> 00:26:53,170
+não é 9-0, o instante atual não é 9-0, portanto, a primeira deadline vai ser o instante
+
+272
+00:26:53,170 --> 00:27:00,170
+atual mais prior do que o anterior, eu sei. Isto é também a primeira deadline, e eu
+
+273
+00:27:00,170 --> 00:27:10,170
+executo sem qualquer problema. Neste instante, chegou um segundo jovem, ok? E o que é que
+
+274
+00:27:10,170 --> 00:27:18,170
+eu vou ver neste segundo jovem? Eu vou ver se o instante atual mais a capacidade que
+
+275
+00:27:18,170 --> 00:27:26,170
+ainda me resta no servidor é menor que a deadline. Neste caso, que o servidor tem
+
+276
+00:27:26,170 --> 00:27:35,170
+capacidade a dois, se não ninguém, ok? E portanto, como tem capacidade a dois, o que
+
+277
+00:27:35,170 --> 00:27:44,170
+me resta neste bocadinho de tempo não é suficiente para, eu já gastei um, portanto, não é
+
+278
+00:27:44,170 --> 00:27:50,170
+suficiente para executar. E ele faz, então, o postpone de deadline, ou seja, este teste
+
+279
+00:27:50,170 --> 00:27:59,640
+é muito falso. Logo, eu tenho que enviar a deadline mais uma vez, mais um brilho, ok?
+
+280
+00:27:59,640 --> 00:28:07,640
+A tarefa não executa porque? Porque esta tarefa tem deadline antes, portanto, esta é
+
+281
+00:28:07,640 --> 00:28:14,640
+que vai executar. Quando esta termina, aquela ali, então, já pode executar, porque o seu
+
+282
+00:28:14,640 --> 00:28:23,980
+deadline não executa, portanto, depois daquela. O que acontece? Esta tarefa, que é a
+
+283
+00:28:23,980 --> 00:28:31,460
+dois, a capacidade é dois, mas ela quer executar três. Até ela começa a
+
+284
+00:28:31,460 --> 00:28:37,460
+executar, chega ali, e o executor do jovem dá o tempo, a capacidade é só dois. Portanto,
+
+285
+00:28:37,460 --> 00:28:46,460
+aqui aconteceu capacidade de 0. Como a capacidade de 0? Então, o que acontece é que
+
+286
+00:28:46,460 --> 00:28:55,460
+neste instante, o deadline é outra vez a diálogo, o mais melhor. Portanto, esta
+
+287
+00:28:55,460 --> 00:29:02,460
+tarefa, que tinha deadline aqui, e portanto, ia executar antes esta, estava a
+
+288
+00:29:02,460 --> 00:29:08,460
+executar antes esta. O deadline desta, que é ali, esta aqui, estava a
+
+289
+00:29:08,460 --> 00:29:15,460
+executar o seu deadline aqui. Neste instante, que esgotou a capacidade, portanto, o seu
+
+290
+00:29:15,460 --> 00:29:22,460
+deadline passou a ser ali, por isso foi encontrida com aquela. A questão de
+
+291
+00:29:22,460 --> 00:29:31,460
+ver, a tarefa que está a amarela, está a executar no exibidor que tem capacidade
+
+292
+00:29:31,460 --> 00:29:38,460
+dois. Está a executar normalmente. Não deixe de executar a tarefa de cima, porque
+
+293
+00:29:38,460 --> 00:29:44,460
+tem o deadline antes do deadline da tarefa de cima. A tarefa de cima chegou ali, não
+
+294
+00:29:44,460 --> 00:29:51,460
+tem que escutar alguém que tem um. Só que, ao fim de executar dois, a tarefa amarela
+
+295
+00:29:51,460 --> 00:29:57,460
+escota a capacidade do servidor, que era só dois. Neste instante, o que acontece
+
+296
+00:29:57,460 --> 00:30:04,460
+é que o seu deadline é a diálogo mais superior. Então, acabamos de resolver o deadline
+
+297
+00:30:04,460 --> 00:30:09,460
+de dinâmica. Sério, que muda alguma coisa no paradoxo, não é? Não, nós tínhamos
+
+298
+00:30:09,460 --> 00:30:13,460
+curiosidade, nós temos que ter que ter o deadline de dinâmicas. Ou seja, cuidarmos
+
+299
+00:30:13,460 --> 00:30:19,460
+que os deadlines são sempre dinâmicas. Por que? Sério, só que são dinâmicas, mas
+
+300
+00:30:19,460 --> 00:30:27,460
+alteram sempre o instante fixo. Qual é o deadline desta execução? Está ali. A deadline
+
+301
+00:30:27,460 --> 00:30:34,460
+desta está ali. Ou seja, o deadline de segundo vai alterando. Só que o deadline
+
+302
+00:30:34,460 --> 00:30:39,460
+relativo, que eu acho que é isso que eu preferi, o deadline relativo é fixo. É sempre
+
+303
+00:30:39,460 --> 00:30:46,460
+10, por exemplo. É sempre 10 que em relação a instante chegou. Aqui não, os servidores
+
+304
+00:30:46,460 --> 00:30:52,460
+é o meu deadline relativo que também altera. Tanto que um servidor não tem deadline
+
+305
+00:30:52,460 --> 00:30:58,460
+relativo. Uma tarefa periódica tem deadline relativo e eu calco um deadline
+
+306
+00:30:58,460 --> 00:31:06,460
+no segundo, e é o instante que cria mais deadline relativo. Um servidor não tem
+
+307
+00:31:06,460 --> 00:31:15,990
+deadline relativo. Eu, quando chega, calco um deadline no segundo, ok? Tanto, o consensus
+
+308
+00:31:15,990 --> 00:31:25,400
+ban de samba, como isto, resolvemos todos. Resolve tudo. Ou seja, eu já não preciso
+
+309
+00:31:25,400 --> 00:31:32,400
+saber quanto é que eu vou escutar, ok? Eu mantenho o disto quanto já escutar, e neste
+
+310
+00:31:32,400 --> 00:31:37,400
+é passado. Não há problema. Eu não preciso confiar na tarefa diz-me que eu vou escutar
+
+311
+00:31:37,400 --> 00:31:42,400
+dois. Não preciso saber isso. Além de mais, só também o problema de uma tarefa
+
+312
+00:31:42,400 --> 00:31:47,400
+escutava mais no fim. Chegou o fim da dinamacidade, o deadline responde e está
+
+313
+00:31:47,400 --> 00:31:55,400
+acabando de sobreviver, ok? Como eu disse, há implementações que, em vez de fazer
+
+314
+00:31:55,400 --> 00:32:02,400
+o deadline no segundo, é suspente a mesma tarefa e só no próximo fim do deadline,
+
+315
+00:32:02,400 --> 00:32:08,400
+no fim do segundo, é que eles fazem o novo eclaves que é o novo deadline no segundo.
+
+316
+00:32:08,400 --> 00:32:14,400
+Então, há implementações assim, chamam-a isso hardware, CBS, é mesmo regime, mesmo
+
+317
+00:32:14,400 --> 00:32:21,400
+tudo. Mas a prioridade, que nós vamos dar, não é, não é assim. O CBS também tem
+
+318
+00:32:21,400 --> 00:32:27,400
+a vantagem de algo como estar totalmente samba. Eu posso usar todas as comunidades
+
+319
+00:32:27,400 --> 00:32:33,400
+variáveis, ok? Organização periódica, dos tarefas periódicas. Mais organização do
+
+320
+00:32:33,400 --> 00:32:39,400
+servidor, ser menor o volume, nos temas chamados, tanto que todo mundo sabe que o
+
+321
+00:32:39,400 --> 00:32:49,400
+CBS tem essa vantagem. O CBS, é a implementação do cargo mais concluído, porque no CBS
+
+322
+00:32:49,400 --> 00:32:55,400
+eu tenho que manter o logístico de quanto é que já foi executado. E tenho que estar
+
+323
+00:32:55,400 --> 00:33:00,400
+a verificar se a capacidade, já pegaste o câmbio. Tenho que estar ali a fazer
+
+324
+00:33:00,400 --> 00:33:08,400
+contas dinamicamente. Tenho uma variada maior, mas é o preço que se paga para poder
+
+325
+00:33:08,400 --> 00:33:22,960
+entrar algumas vezes. Enfato, ter um bocado de garantias, ter mais segurança, ter mais
+
+326
+00:33:22,960 --> 00:33:35,960
+guarda. Então, no que ferir, o que existe esta variante? O ar de CBS, ok? O Linux.
+
+327
+00:33:35,960 --> 00:33:40,960
+Quando vocês, vocês viram chegar a parte de usar o Linux, como a EF, na esperança
+
+328
+00:33:40,960 --> 00:33:51,840
+exícita. Então, quando usar o Skepteline, que é a classe do Linux, que as tarefas
+
+329
+00:33:51,840 --> 00:34:01,840
+são escaldadas por EF, na realidade não é só EF. O Linux se força, todas as tarefas
+
+330
+00:34:01,840 --> 00:34:09,840
+no Skepteline e no EF, usem, não é o CBS, que é uma variante do CBS, na realidade
+
+331
+00:34:09,840 --> 00:34:15,840
+é uma variante do gram e é uma evolução do CBS. Ou seja, o CBS já, ou muitas
+
+332
+00:34:15,840 --> 00:34:23,840
+evoluções. O CBS é o mais básico. Então, o Linux tem uma variação desse CBS, mas
+
+333
+00:34:23,840 --> 00:34:30,840
+da base é o CBS. Por isso, quando vocês forem a configurar uma tarefa para usar a
+
+334
+00:34:30,840 --> 00:34:41,840
+EF, ok? Vão ter de dar um período, uma capacidade entre ele, ok? Não é-se. Tenho que
+
+335
+00:34:41,840 --> 00:34:56,250
+pegarmos a EF. Tenho que explicarmos a EF, e é que quase que não é isso. Ok, vamos
+
+336
+00:34:56,250 --> 00:35:13,760
+fazer um exercíciozinho. O que é que eu quero? Tenho um sistema que tem duas tarefas
+
+337
+00:35:13,760 --> 00:35:19,760
+periódicas, ok? Então, a GRIE é um sistema com duas tarefas periódicas que é
+
+338
+00:35:19,760 --> 00:35:29,070
+que isso será um período de três tarefas. Eu quero colocar esse sistema, ou eu coloquei
+
+339
+00:35:29,070 --> 00:35:37,070
+esse sistema, um servidor com 25% de utilização, ok? E ao contrário, se vai passar,
+
+340
+00:35:37,070 --> 00:35:44,800
+esta semana não doumos o que é que se depresenta, ok? Vou ter mais que pensar. Este servidor
+
+341
+00:35:44,800 --> 00:36:01,260
+faz-me ter uma lembrança desta sistema que é para eu saber. E agora, o que eu vos digo
+
+342
+00:36:01,260 --> 00:36:10,700
+é o que acontece se chegarem a aqueles jogos. Não tem que ver com o CBS, com a
+
+343
+00:36:10,700 --> 00:36:18,700
+execução, que não precisa de saber quanto tempo é que o jogo executa, ok? Mas
+
+344
+00:36:18,700 --> 00:36:22,700
+o traçado integrante é possível de saber. O que é que a gente disse é que eu dou ali
+
+345
+00:36:22,700 --> 00:36:29,650
+o tipo, é para vocês terem que traçar o integrante e saber quanto é que é que
+
+346
+00:36:29,650 --> 00:36:34,650
+é que acho que a gente está passando. Ok? Vamos lá em frente para o programa.
+
+347
+00:36:34,650 --> 00:37:55,590
+O melhor é fazer isso para os dedos.
+

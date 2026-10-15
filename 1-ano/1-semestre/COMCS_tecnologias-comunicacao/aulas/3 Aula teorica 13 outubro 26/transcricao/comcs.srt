@@ -1,0 +1,2536 @@
+1
+00:00:00,000 --> 00:00:07,620
+O receitor, e não ficará estrangeiro de outro almoço, ou seja, que temos no fundo um buffer
+
+2
+00:00:07,620 --> 00:00:15,880
+e esse buffer vai ser encargado com vários, e isso vai ser colocado por um lado do, digamos assim,
+
+3
+00:00:15,880 --> 00:00:24,880
+do lado transmissor e do outro receitor, e eles já sabem que pode, por exemplo, enviar cinco mensagens
+
+4
+00:00:25,280 --> 00:00:31,760
+O receitor vai enviar cinco mensagens, ou seja, já não vai enviar sexta, só vai enviar sexta
+
+5
+00:00:31,760 --> 00:00:39,350
+Quando o recebeu quão graus o que vai haver? Primeiro, ou vai que não?
+
+6
+00:00:39,350 --> 00:00:46,260
+O recebeu para enviar a sexta, quando o recebeu para a nova, primeiro, mas ele iria enviar cinco mensagens
+
+7
+00:00:46,260 --> 00:00:48,060
+O transmissor, ok?
+
+8
+00:00:48,060 --> 00:00:57,260
+O recebeu um buffer de saída, um slide de um índio de cinco, já não vai conseguir enviar sexta, certo?
+
+9
+00:00:58,020 --> 00:01:01,860
+Ele vai enviar a sexta mensagem, mas vai ser um outro almoço mesmo
+
+10
+00:01:01,860 --> 00:01:12,420
+Para a primeira, ou para a quinta mensagem que ele envia, a parte que vai ser a primeira, ok?
+
+11
+00:01:12,420 --> 00:01:15,420
+Se for a quinta, também dá, ok?
+
+12
+00:01:15,420 --> 00:01:22,860
+Portanto, em uma sensação como outra, ele vai enviar a sexta mensagem
+
+13
+00:01:22,860 --> 00:01:28,220
+É mais plausível em que recebam o outro almoço muito para a primeira
+
+14
+00:01:29,220 --> 00:01:36,220
+Como por uma maneira, as minhas mensagens não as aprovejaram, se a quinta vai haver um bilhão em quinta, aqui com os seus aniversos, ou seja
+
+15
+00:01:36,220 --> 00:01:44,420
+Então, as quinta mensagens estão na rede, todas, mas assim, a descer o tempo
+
+16
+00:01:44,420 --> 00:02:00,060
+E ele já está à esquerda que recebeu isto, para incrementar, então, com base no conjunto de ganháveis
+
+17
+00:02:00,060 --> 00:02:13,840
+Bem, basicamente, a sexta mensagem, porque cada mensagem tem um número de sequência que tem na mensagem
+
+18
+00:02:13,840 --> 00:02:27,040
+E a segunda sequência, depois, ele vai ser utilizado pelo protocolo
+
+19
+00:02:27,040 --> 00:02:33,040
+Para saber que minhas áreas é que não enviadas, que minhas áreas é que ele recebeu um almoço, ok?
+
+20
+00:02:33,040 --> 00:02:38,040
+Para dançar timers relativamente a cada um das minhas mensagens, é certo
+
+21
+00:02:38,040 --> 00:02:46,040
+Portanto, vamos depois ter um sending window size, um lar de 1.000, um S-W-S
+
+22
+00:02:47,040 --> 00:03:01,370
+Vamos ter, então, uma variável, que é um lasso da coragem do decido, como o sequence number da coragem da coragem da coragem
+
+23
+00:03:01,370 --> 00:03:09,960
+Vamos ter também o lasso frame sentes, que é o sequence number da última mensagem que foi enviada
+
+24
+00:03:09,960 --> 00:03:19,960
+Pessoas, as variáveis que nos permitem do lar do NG, como no lar do sistema em si
+
+25
+00:03:19,960 --> 00:03:30,430
+Portanto, quando o recebo um acknowledgement, ele demove o lar, um lasso de acknowledgement elicite para a direita
+
+26
+00:03:30,430 --> 00:03:31,430
+Incrementamente
+
+27
+00:03:31,430 --> 00:03:46,860
+Atenção que, por vezes, isso, a dançar para a direita, pode ser uma vez, pode ser duas ou três conforme o acknowledgement que nós recebemos
+
+28
+00:03:46,860 --> 00:03:55,860
+Nós podemos dar-os, nós podemos dar-os, se ver um para cada mensagem, se ver um acknowledgement, podemos se ver um acknowledgement para as cinco mensagens
+
+29
+00:03:55,860 --> 00:04:03,980
+É conforme a dinâmica e também o que é que é publicado aqui no protocolo
+
+30
+00:04:03,980 --> 00:04:07,980
+Vamos ver, se vocês pensarem entendível no implementação
+
+31
+00:04:07,980 --> 00:04:13,980
+Cada mensagem que é enviada, vai dar-se um timer para considerar
+
+32
+00:04:13,980 --> 00:04:19,980
+Então, se vocês querem imaginar, em termos de implementação, a termina de estudar
+
+33
+00:04:19,980 --> 00:04:24,980
+Para cada mensagem, vamos ter que ter um timer associado a essa mensagem
+
+34
+00:04:25,980 --> 00:04:32,980
+Que vai ter transmitido a frame, se esse timer chegar ao valor de aqui
+
+35
+00:04:32,980 --> 00:04:43,310
+No momento em que se faz, em vez de utilizar os timers de alta precisão, por exemplo, do lar do NG e assim
+
+36
+00:04:43,310 --> 00:04:48,310
+Se você está a utilizar timers de baixa precisão, é só o fixo de timers
+
+37
+00:04:48,310 --> 00:04:58,210
+Os timers, sim, do índio, não é possível aceder a esse timer
+
+38
+00:04:58,210 --> 00:05:02,190
+É só o índio
+
+39
+00:05:02,190 --> 00:05:04,190
+É certo que um timer não volta
+
+40
+00:05:04,190 --> 00:05:09,190
+E se esses timers tiver outros processos em que um timer não volta, também, é certamente
+
+41
+00:05:09,190 --> 00:05:17,190
+Da última vez que o programa ia há dez anos a terminar o kernel, era possível aceder-se do índio
+
+42
+00:05:17,190 --> 00:05:21,190
+Hoje em dia, o índio de mão de foneza aqui continua a ser assim
+
+43
+00:05:21,190 --> 00:05:24,860
+E é o índio
+
+44
+00:05:24,860 --> 00:05:29,860
+Em caso de um timer, se você tem timers de alta baixa, tem uma hora de desluminação
+
+45
+00:05:29,860 --> 00:05:33,860
+Os tiques de um timer de alta baixa, um ano e um ano e um ano ao segundo
+
+46
+00:05:33,860 --> 00:05:39,860
+Os tiques de um timer de alta baixa são, aos dias destos, os dias da segunda, às vezes, às dias da segunda
+
+47
+00:05:39,860 --> 00:05:45,860
+Até, claro, não havia aquele ciclo de 20.000 segundos que o índio não se tinha
+
+48
+00:05:45,860 --> 00:05:59,510
+Fazia os escalonamentos e os arquivos, e ficava comparando os escalonamentos e o índio de 20.000
+
+49
+00:05:59,510 --> 00:06:12,610
+Portanto, o sender pode ter a capacidade de ter um gato, de mensagens ou telhas, sendo o índio
+
+50
+00:06:12,610 --> 00:06:20,610
+Sendo o índio, o size de modo que gereta, que o conceito de mentir estes mensagens todo
+
+51
+00:06:20,610 --> 00:06:22,610
+A partir daqui, não precisa de um gato
+
+52
+00:06:22,610 --> 00:06:26,610
+De ser só com uma oportunização gráfica, daquilo que eu falo, de falar
+
+53
+00:06:26,610 --> 00:06:36,580
+O tamanho das cascindades do sender
+
+54
+00:06:36,580 --> 00:06:39,580
+O lado do setor, é de termos um índio tipico de variáveis
+
+55
+00:06:39,580 --> 00:06:41,580
+Percebindo o índio do size
+
+56
+00:06:41,580 --> 00:06:44,580
+Lá está o acceptable frame
+
+57
+00:06:44,580 --> 00:06:58,330
+Lá está o frame no inicio
+
+58
+00:06:58,330 --> 00:07:12,550
+Depois, o que acontece aqui com a maior quantidade de pacotes
+
+59
+00:07:12,550 --> 00:07:17,760
+Se encontram-me, entrem-te na reira, vai diminuir
+
+60
+00:07:17,760 --> 00:07:19,760
+E não fez-te com mais dificuldade
+
+61
+00:07:26,190 --> 00:07:30,190
+Depois, também, quando há perda de pacotes neste esquema
+
+62
+00:07:30,190 --> 00:07:34,190
+Não mantenho os dados a ser claros
+
+63
+00:07:34,190 --> 00:07:36,190
+Então, isto é o que é?
+
+64
+00:07:36,190 --> 00:07:41,190
+Isto é discutívelmente mal, tem situações como, por exemplo, comunicações de voz
+
+65
+00:07:41,190 --> 00:07:46,190
+Em que nós temos que, para que conseguimos entender o outro lado
+
+66
+00:07:46,190 --> 00:07:48,190
+Temos que ter atrás, segundo o que é?
+
+67
+00:07:48,190 --> 00:07:52,190
+Temos que ter atrás de mil e segundos
+
+68
+00:07:52,190 --> 00:07:58,190
+Normalmente diz-se que, a partir dos 200 mil e segundos
+
+69
+00:07:58,190 --> 00:08:02,190
+Nós começamos a lutar, que alguma coisa não procurou
+
+70
+00:08:02,190 --> 00:08:05,630
+Na maior parte dos sistemas
+
+71
+00:08:05,630 --> 00:08:10,880
+Na voz estão carinhentos os atracos de samba
+
+72
+00:08:10,880 --> 00:08:13,880
+Portanto, se você quer que se denorme a transmissão de voz
+
+73
+00:08:13,880 --> 00:08:17,880
+Usa-se um dp, porque não tem nenhuma destremerquice
+
+74
+00:08:17,880 --> 00:08:21,880
+Lá pelo meio, e aquilo só tem os espandários para causa do outro lado
+
+75
+00:08:21,880 --> 00:08:23,880
+Depois que são recebidos, são recebidos
+
+76
+00:08:23,880 --> 00:08:25,880
+Depois que não são recebidos, são perdidos
+
+77
+00:08:25,880 --> 00:08:29,880
+É que fica ali um buraquinho, não se conhecia a comunicação
+
+78
+00:08:29,880 --> 00:08:37,880
+Mas não há problemas com rectos, nem com atracos demasiado
+
+79
+00:08:37,880 --> 00:08:38,880
+Não é?
+
+80
+00:08:38,880 --> 00:08:41,880
+Vocês passaram a ver os atracados da comunicação com o homem
+
+81
+00:08:41,880 --> 00:08:45,880
+Basicamente dizem olá, e depois ficam três segundos a espera contra a pessoa
+
+82
+00:08:45,880 --> 00:08:47,880
+Diga o lado de um e um lado
+
+83
+00:08:47,880 --> 00:08:51,880
+E antes de nos adicionar, então, é uma confusão dos piados
+
+84
+00:08:51,880 --> 00:08:55,880
+Como dizem estar habituados na comunicação dessa forma
+
+85
+00:08:55,880 --> 00:08:59,880
+Então, como é que nós podemos adicionar esse mecânico?
+
+86
+00:08:59,880 --> 00:09:03,880
+Nós temos três tipos de diferentes tecnológicos
+
+87
+00:09:03,880 --> 00:09:06,880
+O negativo é o tecnológico, o adicional é o tecnológico
+
+88
+00:09:06,880 --> 00:09:08,880
+O select é o tecnológico
+
+89
+00:09:08,880 --> 00:09:11,880
+Podem ser usados pelo protocolo
+
+90
+00:09:11,880 --> 00:09:15,880
+Basicamente, o negativo é o tecnológico
+
+91
+00:09:15,880 --> 00:09:21,880
+Isso é para indicar que algum freio não foi recebido
+
+92
+00:09:21,880 --> 00:09:26,880
+Imaginem, se recebeu a freio 1 e depois a freio 4
+
+93
+00:09:26,880 --> 00:09:32,880
+E faltaram freios pelo meio eventualmente
+
+94
+00:09:32,880 --> 00:09:37,880
+Normalmente aí, pode esperar mais um bocado a ver se a freia 3 aparece
+
+95
+00:09:37,880 --> 00:09:41,880
+Mas se você por acaso verificar que ele recebeu
+
+96
+00:09:41,880 --> 00:09:44,880
+Mas recebeu com ele
+
+97
+00:09:44,880 --> 00:09:48,880
+Aí pode, independentemente, transmitir o nosso tecnológico
+
+98
+00:09:48,880 --> 00:09:52,880
+Para dar a indicação de que não foi recebido a transmissão
+
+99
+00:09:52,880 --> 00:09:56,880
+E, imediatamente, quem envia o freio
+
+100
+00:09:56,880 --> 00:09:59,880
+Vai fazer a transmissão como mais dá para estar a esperar
+
+101
+00:09:59,880 --> 00:10:02,880
+Por estar a desistir, e é de sempre
+
+102
+00:10:02,880 --> 00:10:05,880
+Quando ele chegar, nós vamos para um outro tecnológico
+
+103
+00:10:05,880 --> 00:10:10,700
+Temos também a hipótese do adicional ao tecnológico
+
+104
+00:10:10,700 --> 00:10:20,210
+O tecnológico é enviado para 1 ou mais freios que foi de sucesso
+
+105
+00:10:20,210 --> 00:10:25,700
+O que ele faz?
+
+106
+00:10:25,700 --> 00:10:27,700
+Faz um duplicate tecnológico
+
+107
+00:10:27,700 --> 00:10:33,700
+Para indicar, eventualmente, para o que está a enviar as freios
+
+108
+00:10:33,700 --> 00:10:36,700
+E dá alguma coisa que correu mal
+
+109
+00:10:36,700 --> 00:10:39,700
+E, nessas constrânsito
+
+110
+00:10:39,700 --> 00:10:41,700
+Pode haver, imediatamente, ok
+
+111
+00:10:41,700 --> 00:10:44,700
+Se ele está a mandar um outro tecnológico
+
+112
+00:10:44,700 --> 00:10:46,700
+Para as freios que eu já transmiti
+
+113
+00:10:46,700 --> 00:10:50,700
+E não para aquela que eu tinha
+
+114
+00:10:50,700 --> 00:10:53,700
+A descegar alguma freio
+
+115
+00:10:53,700 --> 00:10:55,700
+Aqui que eu fiz as maquinas para ele
+
+116
+00:10:55,700 --> 00:10:57,700
+Então eu vou reendiar novamente
+
+117
+00:10:57,700 --> 00:11:00,700
+Já está abaixo da complicação do protocolo
+
+118
+00:11:00,700 --> 00:11:03,700
+Tem que ter, do lado que ele recebe
+
+119
+00:11:03,700 --> 00:11:07,700
+O registro do nome de sequência
+
+120
+00:11:07,700 --> 00:11:11,700
+E, eventualmente, pode se ver dois números de sequência
+
+121
+00:11:11,700 --> 00:11:20,650
+O problema é que entendo de implementação
+
+122
+00:11:20,650 --> 00:11:22,650
+Não é que faça de implementar
+
+123
+00:11:22,650 --> 00:11:26,410
+Bem, então bem, o Selected Technology
+
+124
+00:11:26,410 --> 00:11:31,140
+Parece que é um mecanismo que permite que o receptor
+
+125
+00:11:31,140 --> 00:11:35,140
+Vai informar o transmissor
+
+126
+00:11:35,140 --> 00:11:41,140
+Indicando que freios, ou que segmentos de freios
+
+127
+00:11:41,140 --> 00:11:44,140
+Foram recebidos com sucesso
+
+128
+00:11:44,140 --> 00:11:46,140
+Pode indicar
+
+129
+00:11:46,140 --> 00:11:50,140
+Que foram recebidos a dois, três e quatro
+
+130
+00:11:50,140 --> 00:11:53,140
+Não sabe que faltam um e a cinco
+
+131
+00:11:53,140 --> 00:12:02,220
+Logo, fazer uma tonelada de taxas
+
+132
+00:12:02,220 --> 00:12:05,220
+Com um conjunto de freios foram recebidos
+
+133
+00:12:05,220 --> 00:12:08,220
+Permitindo que, do lado, que em três mil
+
+134
+00:12:08,220 --> 00:12:10,220
+Que só sejam transmitidas realmente
+
+135
+00:12:10,220 --> 00:12:16,950
+Aquelas que não foram enviadas
+
+136
+00:12:16,950 --> 00:12:19,950
+Basicamente, a Sliding Window
+
+137
+00:12:19,950 --> 00:12:21,950
+É um mecanismo
+
+138
+00:12:21,950 --> 00:12:24,950
+Depois, temos aqueles outros mecanismos
+
+139
+00:12:24,950 --> 00:12:25,950
+O que sempre é importante
+
+140
+00:12:25,950 --> 00:12:30,550
+São, também, uma parte de controle e congestão
+
+141
+00:12:30,550 --> 00:12:34,550
+Quando as feitas foram criadas dos anos 80
+
+142
+00:12:34,550 --> 00:12:38,550
+O que aconteceu basicamente
+
+143
+00:12:38,550 --> 00:12:41,550
+É que, de vez em quando
+
+144
+00:12:41,550 --> 00:12:47,100
+Havia pernas de pacotes
+
+145
+00:12:47,100 --> 00:12:50,100
+Fiz problemas de congestão em alguns contas
+
+146
+00:12:50,100 --> 00:12:54,100
+Os contas recebem mensagens
+
+147
+00:12:54,100 --> 00:13:01,340
+Vamos ter que examinar um buffer qualquer
+
+148
+00:13:01,340 --> 00:13:06,160
+Antes de a gente conseguir transmitir, por outro lado
+
+149
+00:13:06,160 --> 00:13:08,160
+Pensamento é de se ver muito
+
+150
+00:13:08,160 --> 00:13:11,160
+E não as conseguirem transmitir
+
+151
+00:13:11,160 --> 00:13:14,160
+Por exemplo, as próximas de chegar
+
+152
+00:13:14,160 --> 00:13:15,160
+Não tem que ser descartadas
+
+153
+00:13:15,160 --> 00:13:16,160
+Hoje, o gestão de alerta
+
+154
+00:13:16,160 --> 00:13:18,160
+Não tem que ser descartadas
+
+155
+00:13:18,160 --> 00:13:20,160
+Para entrar em as novas
+
+156
+00:13:20,160 --> 00:13:23,160
+Portanto, dá-se por ver-se nesta altura
+
+157
+00:13:23,160 --> 00:13:25,160
+É, principalmente, em que temos água
+
+158
+00:13:25,160 --> 00:13:29,160
+É muito, muito flay
+
+159
+00:13:29,160 --> 00:13:31,160
+No ano 80, tanto de falar de água
+
+160
+00:13:31,160 --> 00:13:33,160
+É muito fracinho
+
+161
+00:13:33,160 --> 00:13:35,160
+Muito básico
+
+162
+00:13:35,160 --> 00:13:37,160
+Que não tinha grande capacidade
+
+163
+00:13:37,160 --> 00:13:40,160
+Para receber as facades
+
+164
+00:13:40,160 --> 00:13:43,600
+E para, por exemplo, usar a vinheta
+
+165
+00:13:43,600 --> 00:13:45,600
+Na direção sempre
+
+166
+00:13:45,600 --> 00:13:47,600
+Estamos também a falar
+
+167
+00:13:47,600 --> 00:13:49,600
+Do resto, em que transmitir
+
+168
+00:13:49,600 --> 00:13:51,600
+3 a 4 quilómetros por segundo
+
+169
+00:13:51,600 --> 00:13:53,600
+Era fantástico
+
+170
+00:13:53,600 --> 00:14:01,010
+Ninguém estava a pensar aqui
+
+171
+00:14:01,010 --> 00:14:03,010
+Em transmitir vídeo
+
+172
+00:14:03,010 --> 00:14:04,010
+Permitir voz
+
+173
+00:14:04,010 --> 00:14:06,010
+Ou outras coisas do gênero
+
+174
+00:14:06,010 --> 00:14:08,010
+Nos anos aqui, só uma vez
+
+175
+00:14:08,010 --> 00:14:10,010
+Tencei aqui, porque já estava a pensar
+
+176
+00:14:10,010 --> 00:14:12,010
+Mas era só experimentar-me
+
+177
+00:14:12,010 --> 00:14:14,010
+É só passar mais uns anos
+
+178
+00:14:14,010 --> 00:14:16,010
+É que isso começou a ser
+
+179
+00:14:16,010 --> 00:14:23,190
+Uma delícia
+
+180
+00:14:23,190 --> 00:14:25,190
+Portanto, o que acontece é que
+
+181
+00:14:25,190 --> 00:14:29,820
+Como transmitir alta velocidade
+
+182
+00:14:29,820 --> 00:14:32,820
+E além do que a sua janela
+
+183
+00:14:32,820 --> 00:14:34,820
+Seu slide incluindo o permitir
+
+184
+00:14:34,820 --> 00:14:36,820
+Que elas podiam, de repente
+
+185
+00:14:36,820 --> 00:14:38,820
+Encher a gente com
+
+186
+00:14:38,820 --> 00:14:43,250
+Essas cenas de...
+
+187
+00:14:48,590 --> 00:14:50,590
+Não havia complemento
+
+188
+00:14:50,590 --> 00:14:52,590
+Uma recepção da lembrança da rede
+
+189
+00:14:52,590 --> 00:14:54,590
+Nem havia, inicialmente
+
+190
+00:14:54,590 --> 00:14:56,590
+Como estabelece uma reflexão
+
+191
+00:14:56,590 --> 00:14:58,590
+Uma visão de qual era o estado
+
+192
+00:14:58,590 --> 00:15:01,870
+Da rede
+
+193
+00:15:01,870 --> 00:15:09,730
+Portanto
+
+194
+00:15:09,730 --> 00:15:11,730
+Atencia-me a dizer que aqui
+
+195
+00:15:11,730 --> 00:15:15,970
+É enviar
+
+196
+00:15:15,970 --> 00:15:17,970
+Pessar para testar a rede
+
+197
+00:15:17,970 --> 00:15:19,970
+Um bocadinho
+
+198
+00:15:19,970 --> 00:15:21,970
+E ir aumentando
+
+199
+00:15:21,970 --> 00:15:23,970
+Proversivamente
+
+200
+00:15:23,970 --> 00:15:25,970
+A quantidade de dados
+
+201
+00:15:25,970 --> 00:15:27,970
+Que nós estamos enviando
+
+202
+00:15:27,970 --> 00:15:29,970
+Até estar ali, ou seja, que vamos estar
+
+203
+00:15:29,970 --> 00:15:33,600
+E entrar em congestão
+
+204
+00:15:33,600 --> 00:15:35,600
+Mas se não continuar
+
+205
+00:15:35,600 --> 00:15:37,600
+A fazer crescer mais
+
+206
+00:15:37,600 --> 00:15:39,600
+As janelas
+
+207
+00:15:39,600 --> 00:15:42,940
+Nós podemos ter uma janela muito grande
+
+208
+00:15:42,940 --> 00:15:44,940
+Ou ter uma janela dinâmica
+
+209
+00:15:44,940 --> 00:15:46,940
+É isso que o protocolo de congestão
+
+210
+00:15:46,940 --> 00:15:48,940
+Faz com uma janela dinâmica
+
+211
+00:15:48,940 --> 00:15:50,940
+Que vai aumentar e diminuir
+
+212
+00:15:50,940 --> 00:15:52,940
+Ao longo do tempo
+
+213
+00:15:52,940 --> 00:15:54,940
+Que se chama aqui de self-blocking
+
+214
+00:15:54,940 --> 00:15:56,940
+Às vezes a pobre
+
+215
+00:15:56,940 --> 00:15:58,940
+Queria ouvir este...
+
+216
+00:15:58,940 --> 00:16:00,940
+Este nome
+
+217
+00:16:00,940 --> 00:16:02,940
+Ok?
+
+218
+00:16:02,940 --> 00:16:04,940
+E portanto, o que nós fazemos
+
+219
+00:16:04,940 --> 00:16:06,940
+É adaptar dinâmicamente
+
+220
+00:16:06,940 --> 00:16:08,940
+Também
+
+221
+00:16:08,940 --> 00:16:10,940
+Da...
+
+222
+00:16:10,940 --> 00:16:12,940
+Da janela
+
+223
+00:16:12,940 --> 00:16:14,940
+De congresso
+
+224
+00:16:14,940 --> 00:16:16,940
+Aproveitem e usam a rede
+
+225
+00:16:16,940 --> 00:16:24,260
+Comprirem
+
+226
+00:16:24,260 --> 00:16:33,200
+Que vai ser dada
+
+227
+00:16:37,200 --> 00:16:39,200
+O máximo da janela
+
+228
+00:16:39,200 --> 00:16:41,200
+Vai ser o mínimo
+
+229
+00:16:41,200 --> 00:16:43,200
+Da congresso anumina
+
+230
+00:16:43,200 --> 00:16:45,200
+E do LWS
+
+231
+00:16:45,200 --> 00:16:47,200
+Receiver window size
+
+232
+00:16:47,200 --> 00:16:49,200
+Ok?
+
+233
+00:16:49,200 --> 00:16:51,200
+Portanto, vai ser permitido
+
+234
+00:16:51,200 --> 00:16:57,710
+O protocolo sedar
+
+235
+00:16:57,710 --> 00:17:02,300
+A ideia básica é usar
+
+236
+00:17:02,300 --> 00:17:04,300
+Esses dois organismos
+
+237
+00:17:04,300 --> 00:17:06,300
+Que é o ADICTIVE INCREASE
+
+238
+00:17:06,300 --> 00:17:08,300
+E o Multitocetive INCREASE
+
+239
+00:17:08,300 --> 00:17:10,300
+No ADICTIVE INCREASE
+
+240
+00:17:10,300 --> 00:17:12,300
+Este ADICTIVE INCREASE é relativamente simples
+
+241
+00:17:12,300 --> 00:17:14,300
+Nós, na primeira vez
+
+242
+00:17:14,300 --> 00:17:16,300
+Temos uma janela muito curta
+
+243
+00:17:16,300 --> 00:17:18,300
+Na segunda vez
+
+244
+00:17:18,300 --> 00:17:22,350
+Utilicamos a seguir
+
+245
+00:17:22,350 --> 00:17:24,350
+Vamos aumentar ainda mais
+
+246
+00:17:24,350 --> 00:17:26,350
+Aumentar ainda mais
+
+247
+00:17:26,350 --> 00:17:28,350
+A cada pacote que íamos
+
+248
+00:17:28,350 --> 00:17:30,350
+Vamos testando a rede
+
+249
+00:17:30,350 --> 00:17:36,030
+Cada vez mais
+
+250
+00:17:36,030 --> 00:17:38,030
+Para ver qual é o estado e qual está
+
+251
+00:17:38,030 --> 00:17:40,030
+Qual é o máximo da rede janela
+
+252
+00:17:40,030 --> 00:17:42,030
+Qual é o número máximo de trevas que posso enviar
+
+253
+00:17:42,030 --> 00:17:44,030
+Ao mesmo tempo na cada ligação
+
+254
+00:17:44,030 --> 00:17:46,030
+É o objetivo deste ADICTIVE INCREASE
+
+255
+00:17:46,030 --> 00:17:51,230
+O Multicocetive INCREASE
+
+256
+00:17:51,230 --> 00:17:53,230
+É o protocolo sedar
+
+257
+00:17:53,230 --> 00:17:55,230
+O protocolo sedar
+
+258
+00:17:55,230 --> 00:17:57,230
+Isso é o logo protocolo sedar
+
+259
+00:17:57,230 --> 00:17:59,230
+Isso é o logo protocolo sedar
+
+260
+00:17:59,230 --> 00:18:01,230
+Eu vou reduzir também
+
+261
+00:18:01,230 --> 00:18:03,230
+Substancialmente a janela
+
+262
+00:18:03,230 --> 00:18:05,230
+A janela
+
+263
+00:18:05,230 --> 00:18:07,230
+O modo a que
+
+264
+00:18:07,230 --> 00:18:11,020
+Eu tenho uma janela mais curta
+
+265
+00:18:11,020 --> 00:18:14,270
+De fato, vou bater aí
+
+266
+00:18:14,270 --> 00:18:16,270
+Da minha
+
+267
+00:18:16,270 --> 00:18:18,270
+Da minha comunicação
+
+268
+00:18:18,270 --> 00:18:24,530
+O que nós
+
+269
+00:18:24,530 --> 00:18:26,530
+Vamos ver também
+
+270
+00:18:26,530 --> 00:18:28,530
+O canismo de slow start
+
+271
+00:18:32,530 --> 00:18:34,530
+Isso no fundo de slow start
+
+272
+00:18:34,530 --> 00:18:36,530
+Na realidade é um fast start
+
+273
+00:18:36,530 --> 00:18:38,530
+O que acontece linear
+
+274
+00:18:38,530 --> 00:18:40,530
+ADICTIVE INCREASE
+
+275
+00:18:40,530 --> 00:18:42,530
+Na hora de mais e há um tempo
+
+276
+00:18:42,530 --> 00:18:44,530
+Exatamente mais uma treva
+
+277
+00:18:44,530 --> 00:18:46,530
+O slow start permite
+
+278
+00:18:46,530 --> 00:18:48,530
+Ter crescimentos exponenciais
+
+279
+00:18:48,530 --> 00:18:50,530
+Logo
+
+280
+00:18:50,530 --> 00:18:52,530
+Mas também na minha janela
+
+281
+00:18:52,530 --> 00:18:54,530
+E portanto
+
+282
+00:18:54,530 --> 00:18:56,530
+O fundo é que esta palavra está aqui embaixo
+
+283
+00:18:56,530 --> 00:18:58,530
+Slow start prevente a slow start
+
+284
+00:18:58,530 --> 00:19:00,530
+Ok
+
+285
+00:19:00,530 --> 00:19:02,530
+O slow start na realidade é um fast start
+
+286
+00:19:02,530 --> 00:19:04,530
+E não
+
+287
+00:19:04,530 --> 00:19:06,530
+O slow start
+
+288
+00:19:06,530 --> 00:19:08,530
+A ideia aqui
+
+289
+00:19:08,530 --> 00:19:10,530
+É que havíamos um, a seguir havíamos dois
+
+290
+00:19:10,530 --> 00:19:12,530
+A seguir havíamos de enviar claros
+
+291
+00:19:12,530 --> 00:19:14,530
+A seguir já vamos enviar
+
+292
+00:19:14,530 --> 00:19:16,530
+Uma subida exponential
+
+293
+00:19:16,530 --> 00:19:18,530
+Da
+
+294
+00:19:18,530 --> 00:19:20,530
+Da largura da eita de janela para pensar
+
+295
+00:19:20,530 --> 00:19:28,740
+Há também capacidade
+
+296
+00:19:28,740 --> 00:19:30,740
+Usar esse fast start transmito
+
+297
+00:19:30,740 --> 00:19:32,740
+A ver que queríamos justificar
+
+298
+00:19:32,740 --> 00:19:34,740
+Esta imagem e iras com canismos todos aí
+
+299
+00:19:34,740 --> 00:19:36,740
+Funcionamento
+
+300
+00:19:36,740 --> 00:19:38,740
+Na parte azul
+
+301
+00:19:38,740 --> 00:19:40,740
+Estamos a ver o slow start
+
+302
+00:19:40,740 --> 00:19:42,740
+Aqui no eixo dos íbios
+
+303
+00:19:42,740 --> 00:19:44,740
+Temos o tamanho da janela para pensar
+
+304
+00:19:46,740 --> 00:19:48,740
+Está aqui
+
+305
+00:19:48,740 --> 00:19:50,740
+Esta cesta subida
+
+306
+00:19:50,740 --> 00:19:52,740
+Depois aqui uma fase
+
+307
+00:19:52,740 --> 00:19:54,740
+Um congesto de avoidance
+
+308
+00:19:54,740 --> 00:19:56,740
+Continuar a subir
+
+309
+00:19:56,740 --> 00:19:58,740
+Mas mais linearmente
+
+310
+00:19:58,740 --> 00:20:00,740
+Acabamos de sentar mais um
+
+311
+00:20:00,740 --> 00:20:02,740
+Mais dois, mais três, acabamos de sentar
+
+312
+00:20:02,740 --> 00:20:04,740
+Mas mais devagar
+
+313
+00:20:04,740 --> 00:20:06,740
+Quando a vermo
+
+314
+00:20:06,740 --> 00:20:08,740
+Perda um pouco a contos
+
+315
+00:20:08,740 --> 00:20:10,740
+Esta janela estava em 5 níveis e qualquer coisa
+
+316
+00:20:10,740 --> 00:20:12,740
+Passa para 250 e qualquer coisa
+
+317
+00:20:12,740 --> 00:20:14,740
+Ok
+
+318
+00:20:14,740 --> 00:20:16,740
+E depois há uma nova fase
+
+319
+00:20:16,740 --> 00:20:18,740
+Chamada de recovery
+
+320
+00:20:18,740 --> 00:20:20,740
+Em que
+
+321
+00:20:20,740 --> 00:20:22,740
+A janela tem atenção também
+
+322
+00:20:22,740 --> 00:20:26,080
+Linearmente
+
+323
+00:20:26,080 --> 00:20:29,810
+Orgues
+
+324
+00:20:29,810 --> 00:20:31,810
+Graticamente dámos uma ideia de um bocadinho
+
+325
+00:20:31,810 --> 00:20:33,810
+E há muitos mais
+
+326
+00:20:33,810 --> 00:20:35,810
+Aqui uma fase
+
+327
+00:20:35,810 --> 00:20:37,810
+Simulos
+
+328
+00:20:37,810 --> 00:20:39,810
+Mecanismos
+
+329
+00:20:39,810 --> 00:20:41,810
+Estão implementados para pensar TIP
+
+330
+00:20:41,810 --> 00:20:43,810
+Mas nem todos eles
+
+331
+00:20:43,810 --> 00:20:45,810
+São iguais
+
+332
+00:20:45,810 --> 00:20:51,100
+Os protocolos
+
+333
+00:20:51,100 --> 00:20:58,700
+O que é que está implementado
+
+334
+00:20:58,700 --> 00:21:07,900
+A rede sem tipo
+
+335
+00:21:07,900 --> 00:21:11,730
+Indicações em rede sem tipo
+
+336
+00:21:11,730 --> 00:21:13,730
+Engenharia
+
+337
+00:21:13,730 --> 00:21:17,230
+Também não dá o nome
+
+338
+00:21:17,230 --> 00:21:19,230
+Ou seja, terem esse tipo de comunicações
+
+339
+00:21:19,230 --> 00:21:24,750
+Em rede sem tipo
+
+340
+00:21:24,750 --> 00:21:28,580
+Nós vamos ter aqui
+
+341
+00:21:28,580 --> 00:21:30,580
+Temos protocolos
+
+342
+00:21:30,580 --> 00:21:32,580
+Temos um bocadinho
+
+343
+00:21:32,580 --> 00:21:34,580
+O que é que é
+
+344
+00:21:34,580 --> 00:21:36,580
+O meu produto final
+
+345
+00:21:36,580 --> 00:21:38,580
+Ok
+
+346
+00:21:38,580 --> 00:21:40,580
+Na rede
+
+347
+00:21:40,580 --> 00:21:42,580
+Tem um consenso
+
+348
+00:21:42,580 --> 00:21:44,580
+O consenso é indicar qual é a temperatura
+
+349
+00:21:44,580 --> 00:21:49,580
+De entre os segundos
+
+350
+00:21:49,580 --> 00:21:51,580
+Que tem que transmitir imagens
+
+351
+00:21:51,580 --> 00:21:53,580
+Por exemplo
+
+352
+00:21:53,580 --> 00:21:55,580
+Que tem que dizer que o tempo é real
+
+353
+00:21:55,580 --> 00:21:57,580
+E também é forte
+
+354
+00:21:57,580 --> 00:22:00,990
+Falar ver aqui muitos literários
+
+355
+00:22:00,990 --> 00:22:02,990
+Mas ainda é base
+
+356
+00:22:02,990 --> 00:22:08,770
+Temos simplicidade
+
+357
+00:22:08,770 --> 00:22:10,770
+Temos também implementado
+
+358
+00:22:10,770 --> 00:22:12,770
+Desde origem a segurança
+
+359
+00:22:12,770 --> 00:22:14,770
+Então se vocês conhecem a história
+
+360
+00:22:14,770 --> 00:22:16,770
+Do 821
+
+361
+00:22:16,770 --> 00:22:18,770
+Mas ele inicialmente
+
+362
+00:22:18,770 --> 00:22:20,770
+Saiu com um protocolo
+
+363
+00:22:20,770 --> 00:22:22,770
+De incrementação
+
+364
+00:22:22,770 --> 00:22:24,770
+Que
+
+365
+00:22:24,770 --> 00:22:30,030
+Ao invadir a anos
+
+366
+00:22:30,030 --> 00:22:32,030
+Chegaram a conclusão
+
+367
+00:22:32,030 --> 00:22:34,030
+Que era facilmente
+
+368
+00:22:34,030 --> 00:22:37,380
+Quebrado
+
+369
+00:22:37,380 --> 00:22:39,380
+Portanto
+
+370
+00:22:39,380 --> 00:22:41,380
+Milhões de sistemas
+
+371
+00:22:41,380 --> 00:22:43,380
+Que estavam utilizados
+
+372
+00:22:43,380 --> 00:22:45,380
+No wi-fi
+
+373
+00:22:45,380 --> 00:22:47,380
+Tiveram que ser
+
+374
+00:22:47,380 --> 00:22:49,380
+Estes protocolos
+
+375
+00:22:49,380 --> 00:22:51,380
+Que estavam utilizados
+
+376
+00:22:51,380 --> 00:22:53,380
+No protocolo de segurança
+
+377
+00:22:53,380 --> 00:22:55,380
+É que tem que se ver
+
+378
+00:22:55,380 --> 00:22:57,380
+Que é muito necessário
+
+379
+00:22:57,380 --> 00:22:59,380
+A gente ver
+
+380
+00:22:59,380 --> 00:23:01,380
+Com uma computação clínica
+
+381
+00:23:01,380 --> 00:23:03,380
+Quando isso estiveres comigo
+
+382
+00:23:03,380 --> 00:23:05,380
+Também implementado as coisas
+
+383
+00:23:05,380 --> 00:23:07,380
+Na 90% das coisas
+
+384
+00:23:07,380 --> 00:23:14,430
+Nós vemos
+
+385
+00:23:14,430 --> 00:23:16,430
+Não sei quando é que vai parar
+
+386
+00:23:16,430 --> 00:23:18,430
+Segundo o serem o que dizia
+
+387
+00:23:18,430 --> 00:23:20,430
+De talias
+
+388
+00:23:20,430 --> 00:23:22,430
+No power que não saímos
+
+389
+00:23:22,430 --> 00:23:24,430
+Acho que este é óbvio
+
+390
+00:23:24,430 --> 00:23:26,430
+Normalmente também estamos à espera
+
+391
+00:23:26,430 --> 00:23:28,430
+Que o que está ligado
+
+392
+00:23:28,430 --> 00:23:30,430
+Em este transmissor
+
+393
+00:23:30,430 --> 00:23:32,430
+Este setor
+
+394
+00:23:32,430 --> 00:23:34,430
+Tenha mais ou menos um índice
+
+395
+00:23:34,430 --> 00:23:41,040
+Digam uma coisa
+
+396
+00:23:41,040 --> 00:23:43,040
+O que é que estão só mais?
+
+397
+00:23:43,040 --> 00:23:49,650
+Transmitir ou se ver?
+
+398
+00:23:49,650 --> 00:23:58,880
+Sim
+
+399
+00:23:58,880 --> 00:24:00,880
+Se ao se ver
+
+400
+00:24:00,880 --> 00:24:02,880
+Tivemos
+
+401
+00:24:02,880 --> 00:24:04,880
+Tentos muito
+
+402
+00:24:04,880 --> 00:24:06,880
+O protocolo
+
+403
+00:24:06,880 --> 00:24:08,880
+Ajuda-se
+
+404
+00:24:08,880 --> 00:24:10,880
+Ajuda-se
+
+405
+00:24:10,880 --> 00:24:12,880
+Tenho mais certeza
+
+406
+00:24:12,880 --> 00:24:19,840
+O wi-fi
+
+407
+00:24:19,840 --> 00:24:21,840
+Está limitado
+
+408
+00:24:21,840 --> 00:24:23,840
+A potência de transmissão
+
+409
+00:24:23,840 --> 00:24:25,840
+Por desenho
+
+410
+00:24:25,840 --> 00:24:27,840
+Do próprio protocolo
+
+411
+00:24:27,840 --> 00:24:29,840
+A potência de sair de ali
+
+412
+00:24:29,840 --> 00:24:31,840
+É um local
+
+413
+00:24:31,840 --> 00:24:33,840
+Nós estamos limitados a esse local
+
+414
+00:24:33,840 --> 00:24:35,840
+Mas a sensação
+
+415
+00:24:35,840 --> 00:24:37,840
+Vamos ter que pegar um pacote
+
+416
+00:24:37,840 --> 00:24:39,840
+Que vai receber
+
+417
+00:24:39,840 --> 00:24:41,840
+Para fazer
+
+418
+00:24:41,840 --> 00:24:43,840
+A desjudificação
+
+419
+00:24:43,840 --> 00:24:45,840
+Ok
+
+420
+00:24:45,840 --> 00:24:47,840
+Antes
+
+421
+00:24:47,840 --> 00:24:57,710
+Para os pedaços
+
+422
+00:24:57,710 --> 00:24:59,710
+Para fazer tomar muito tempo
+
+423
+00:24:59,710 --> 00:25:01,710
+Desjudificar
+
+424
+00:25:01,710 --> 00:25:03,710
+Algumas coisas
+
+425
+00:25:03,710 --> 00:25:05,710
+Desencrever
+
+426
+00:25:05,710 --> 00:25:07,710
+Com só uma qualidade muito grande
+
+427
+00:25:07,710 --> 00:25:09,710
+De emergir
+
+428
+00:25:09,710 --> 00:25:11,710
+Até temos o protocolo
+
+429
+00:25:11,710 --> 00:25:15,380
+Que está a todo ver em mim
+
+430
+00:25:15,380 --> 00:25:17,380
+Como nós veremos para ser transmitidos
+
+431
+00:25:17,380 --> 00:25:19,380
+Nem sempre
+
+432
+00:25:19,380 --> 00:25:21,380
+A energia que se consome
+
+433
+00:25:21,380 --> 00:25:23,380
+Na DCS-7
+
+434
+00:25:23,380 --> 00:25:25,380
+Na transmissão
+
+435
+00:25:25,380 --> 00:25:27,380
+É maior que a energia que se consome
+
+436
+00:25:27,380 --> 00:25:29,380
+Na sessão
+
+437
+00:25:29,380 --> 00:25:31,380
+Normalmente a rede
+
+438
+00:25:31,380 --> 00:25:33,380
+Baixa de defensa
+
+439
+00:25:33,380 --> 00:25:35,380
+Lá vai
+
+440
+00:25:35,380 --> 00:25:37,380
+No cipro e fora
+
+441
+00:25:37,380 --> 00:25:41,650
+Gaste-se mais na sessão
+
+442
+00:25:41,650 --> 00:25:43,650
+Obviamente também
+
+443
+00:25:43,650 --> 00:25:45,650
+Queremos ver
+
+444
+00:25:45,650 --> 00:25:47,650
+Estas redes
+
+445
+00:25:47,650 --> 00:25:54,640
+Com a desjudicação
+
+446
+00:25:54,640 --> 00:25:56,640
+Mais ou menos
+
+447
+00:25:56,640 --> 00:25:58,640
+Podemos ter um protocolo de segurança
+
+448
+00:25:58,640 --> 00:26:00,640
+Muito sequisticado
+
+449
+00:26:00,640 --> 00:26:02,640
+Mas o problema final
+
+450
+00:26:02,640 --> 00:26:04,640
+É que se será para
+
+451
+00:26:04,640 --> 00:26:06,640
+Uma coisa que não vale nada
+
+452
+00:26:06,640 --> 00:26:08,640
+Tem que ter um protocolo super sequisticado
+
+453
+00:26:08,640 --> 00:26:10,640
+E ter uma máquina hiper sequisticada
+
+454
+00:26:10,640 --> 00:26:12,640
+Como fazer mergulho de cálculos
+
+455
+00:26:12,640 --> 00:26:15,920
+Como é que não se quis fazer uma coisa sequer
+
+456
+00:26:15,920 --> 00:26:17,920
+Porque é simples e não é
+
+457
+00:26:17,920 --> 00:26:19,920
+Problemático
+
+458
+00:26:19,920 --> 00:26:21,920
+E depois vamos ver
+
+459
+00:26:21,920 --> 00:26:23,920
+Quando nós percebemos
+
+460
+00:26:23,920 --> 00:26:35,260
+É baixo de custo
+
+461
+00:26:35,260 --> 00:26:41,360
+Lá vai
+
+462
+00:26:41,360 --> 00:26:43,360
+Antes de telégrafo
+
+463
+00:26:43,360 --> 00:26:45,360
+Custou cerca de 600€
+
+464
+00:26:45,360 --> 00:26:47,360
+Hoje em dia
+
+465
+00:26:47,360 --> 00:26:49,360
+Vocês têm um wifi integrado
+
+466
+00:26:49,360 --> 00:26:53,630
+Nos arco-íris
+
+467
+00:26:53,630 --> 00:26:59,730
+45€
+
+468
+00:26:59,730 --> 00:27:01,730
+Portanto, em termos de custo
+
+469
+00:27:01,730 --> 00:27:03,730
+As coisas têm variado muito
+
+470
+00:27:03,730 --> 00:27:07,230
+Estão bastante mais leis
+
+471
+00:27:07,230 --> 00:27:09,230
+Às vezes
+
+472
+00:27:09,230 --> 00:27:11,230
+Faça-se faca mais
+
+473
+00:27:11,230 --> 00:27:13,230
+Pelo acessório
+
+474
+00:27:13,230 --> 00:27:15,230
+Tudo está
+
+475
+00:27:15,230 --> 00:27:17,230
+Volta
+
+476
+00:27:17,230 --> 00:27:19,230
+A caixinha
+
+477
+00:27:19,230 --> 00:27:21,230
+A pídea
+
+478
+00:27:21,230 --> 00:27:23,230
+O porto da pídea
+
+479
+00:27:23,230 --> 00:27:25,230
+Pelo descedor em si
+
+480
+00:27:25,230 --> 00:27:27,230
+E com a memória que está dentro do nosso sistema
+
+481
+00:27:27,230 --> 00:27:31,020
+Portanto, nós estamos aqui
+
+482
+00:27:31,020 --> 00:27:34,820
+Há alguns conjuntos
+
+483
+00:27:34,820 --> 00:27:36,820
+Uma maréna ao disto extensível
+
+484
+00:27:36,820 --> 00:27:38,820
+De darmos protocolos
+
+485
+00:27:38,820 --> 00:27:40,820
+Vamos ver alguns daqueles
+
+486
+00:27:40,820 --> 00:27:42,820
+Daqueles estão
+
+487
+00:27:42,820 --> 00:27:44,820
+Acompanhe os sensibilizadores
+
+488
+00:27:44,820 --> 00:27:46,820
+Wi-Fi
+
+489
+00:27:46,820 --> 00:27:50,580
+São das normas mais incrementos
+
+490
+00:27:50,580 --> 00:27:52,580
+O Bluetooth
+
+491
+00:27:52,580 --> 00:27:54,580
+E o Bluetooth Low Energy
+
+492
+00:27:54,580 --> 00:27:56,580
+É que também é uma norma de sensibilizadores
+
+493
+00:27:56,580 --> 00:27:58,580
+Que já tem um interesse
+
+494
+00:27:58,580 --> 00:28:00,580
+Vamos falar
+
+495
+00:28:00,580 --> 00:28:02,580
+Também um pequeno sobre o ZIP
+
+496
+00:28:02,580 --> 00:28:04,580
+É que há protocolos para equipações
+
+497
+00:28:04,580 --> 00:28:06,580
+Mas
+
+498
+00:28:06,580 --> 00:28:09,980
+Essencialmente dentro de casas
+
+499
+00:28:09,980 --> 00:28:11,980
+E para se cender aos sentidos
+
+500
+00:28:11,980 --> 00:28:13,980
+Com menos utilidade
+
+501
+00:28:13,980 --> 00:28:15,980
+Depois de gênero
+
+502
+00:28:15,980 --> 00:28:17,980
+Todos os gestantes
+
+503
+00:28:17,980 --> 00:28:19,980
+De short range não vamos estar a falar
+
+504
+00:28:19,980 --> 00:28:21,980
+Com o sítio de um pano
+
+505
+00:28:21,980 --> 00:28:23,980
+FMID ou NFC
+
+506
+00:28:23,980 --> 00:28:25,980
+Não vamos ter tempo para falar disso
+
+507
+00:28:25,980 --> 00:28:27,980
+E depois de um longo range
+
+508
+00:28:27,980 --> 00:28:29,980
+Só vamos falar de uma hora
+
+509
+00:28:29,980 --> 00:28:31,980
+As comunicações
+
+510
+00:28:31,980 --> 00:28:33,980
+GSM, TVZ
+
+511
+00:28:33,980 --> 00:28:35,980
+Acompanhe o ZIP por aí de fora
+
+512
+00:28:35,980 --> 00:28:37,980
+Só por si dá para o meio exposto dos feitos
+
+513
+00:28:42,990 --> 00:28:44,990
+É impossível estar a falar
+
+514
+00:28:44,990 --> 00:28:46,990
+Daquelas feiras
+
+515
+00:28:46,990 --> 00:28:48,990
+E são extremamente complexos
+
+516
+00:28:50,990 --> 00:28:52,990
+Em termos da própria infraestrutura
+
+517
+00:28:52,990 --> 00:28:54,990
+A infraestrutura é muito complexa
+
+518
+00:28:54,990 --> 00:28:56,990
+Para segurar o poder
+
+519
+00:28:56,990 --> 00:28:58,990
+3G
+
+520
+00:28:58,990 --> 00:29:00,990
+GSM é aquela que eu conheço
+
+521
+00:29:00,990 --> 00:29:02,990
+Melhor não está daí
+
+522
+00:29:02,990 --> 00:29:06,340
+3G ou 4G
+
+523
+00:29:06,340 --> 00:29:08,340
+Primeiro
+
+524
+00:29:08,340 --> 00:29:10,340
+Por alguma teoria
+
+525
+00:29:10,340 --> 00:29:12,340
+Emissando-se para perceber
+
+526
+00:29:12,340 --> 00:29:14,340
+O que é que nós temos
+
+527
+00:29:14,340 --> 00:29:16,340
+Para fazer com os transmitidos
+
+528
+00:29:16,340 --> 00:29:21,600
+Cinais
+
+529
+00:29:21,600 --> 00:29:23,600
+O que é que acontece com os sinais
+
+530
+00:29:23,600 --> 00:29:25,600
+Vamos ter que os transmitir
+
+531
+00:29:25,600 --> 00:29:27,600
+Como ondas da cromagnética
+
+532
+00:29:29,600 --> 00:29:33,040
+As ondas da cromagnética
+
+533
+00:29:33,040 --> 00:29:35,040
+Vão nos dias simples
+
+534
+00:29:35,040 --> 00:29:37,040
+Que é olhar em mais ondas
+
+535
+00:29:37,040 --> 00:29:39,040
+Que eu pego no like
+
+536
+00:29:39,040 --> 00:29:41,040
+Basicamente
+
+537
+00:29:41,040 --> 00:29:43,040
+Se fizerem chapinar
+
+538
+00:29:43,040 --> 00:29:45,040
+Que vai-se criar
+
+539
+00:29:45,040 --> 00:29:49,790
+Uma agitação
+
+540
+00:29:49,790 --> 00:29:51,790
+Isso vai-se transmitir
+
+541
+00:29:51,790 --> 00:29:56,260
+Uma longa
+
+542
+00:29:56,260 --> 00:29:58,260
+A longa
+
+543
+00:29:58,260 --> 00:30:09,020
+Qual é a forma que vai-se transformar
+
+544
+00:30:09,020 --> 00:30:12,980
+Por algo, uma agitação
+
+545
+00:30:12,980 --> 00:30:21,440
+Para marcar as ondas
+
+546
+00:30:21,440 --> 00:30:23,440
+Não tem o que ter que fazer com o grupo
+
+547
+00:30:23,440 --> 00:30:25,440
+Isso vai dar uma sensação
+
+548
+00:30:25,440 --> 00:30:27,440
+É isto que vai-se transmitir
+
+549
+00:30:27,440 --> 00:30:29,440
+Pelo
+
+550
+00:30:31,440 --> 00:30:33,440
+Qualquer tipo de maio
+
+551
+00:30:33,440 --> 00:30:35,440
+Tanto na água
+
+552
+00:30:35,440 --> 00:30:37,440
+Tanto no ar
+
+553
+00:30:37,440 --> 00:30:39,440
+Os transmitidos
+
+554
+00:30:39,440 --> 00:30:41,440
+São, ou podem ser
+
+555
+00:30:41,440 --> 00:30:43,440
+Compostas, não conjuntos
+
+556
+00:30:43,440 --> 00:30:45,440
+Assim nos ônibus
+
+557
+00:30:45,440 --> 00:30:50,420
+Já vamos ver
+
+558
+00:30:50,420 --> 00:30:53,950
+Para você perceber aquilo que eu disse
+
+559
+00:30:53,950 --> 00:30:55,950
+Portanto
+
+560
+00:30:55,950 --> 00:30:57,950
+Estas são as ondas que passam
+
+561
+00:30:57,950 --> 00:30:59,950
+De um lado para o outro
+
+562
+00:30:59,950 --> 00:31:01,950
+Mas se vocês quiserem transmitir
+
+563
+00:31:01,950 --> 00:31:07,890
+Imagina na água
+
+564
+00:31:07,890 --> 00:31:11,390
+Transmitir uma longa assim
+
+565
+00:31:11,390 --> 00:31:16,980
+Em água
+
+566
+00:31:16,980 --> 00:31:18,980
+Este próprio estudo para o molecular
+
+567
+00:31:18,980 --> 00:31:20,980
+E essas partes existissem
+
+568
+00:31:20,980 --> 00:31:22,980
+Vamos se reparar
+
+569
+00:31:22,980 --> 00:31:26,580
+Pode ser aproximado
+
+570
+00:31:26,580 --> 00:31:30,500
+Quase como nos ônibus
+
+571
+00:31:30,500 --> 00:31:34,540
+Claro
+
+572
+00:31:34,540 --> 00:31:36,540
+É isto que aconteceu na água
+
+573
+00:31:36,540 --> 00:31:38,540
+Esta longa que estava aqui
+
+574
+00:31:38,540 --> 00:31:40,540
+Tentado transmitir
+
+575
+00:31:40,540 --> 00:31:42,540
+Não era possível ser transmitido
+
+576
+00:31:42,540 --> 00:31:44,540
+E a mesma coisa se passa
+
+577
+00:31:44,540 --> 00:31:46,540
+Normalmente no ar
+
+578
+00:31:46,540 --> 00:31:48,540
+Estas transições abruptas
+
+579
+00:31:48,540 --> 00:31:50,540
+São muito difíceis
+
+580
+00:31:50,540 --> 00:31:52,540
+É o que normalmente vai acontecer
+
+581
+00:31:52,540 --> 00:31:54,540
+Qualquer coisa dá assim
+
+582
+00:31:54,540 --> 00:31:59,650
+Normalmente
+
+583
+00:31:59,650 --> 00:32:03,660
+Uma longa quadrada
+
+584
+00:32:03,660 --> 00:32:05,660
+Isto é um tipo de sinais que nós
+
+585
+00:32:05,660 --> 00:32:13,550
+Atrascrevemos na equipe de um lado todo
+
+586
+00:32:13,550 --> 00:32:20,770
+Vários em um segundo do tempo
+
+587
+00:32:20,770 --> 00:32:22,770
+O que é importante na transmissão digital
+
+588
+00:32:22,770 --> 00:32:26,750
+É que os sinais
+
+589
+00:32:26,750 --> 00:32:28,750
+São permitidos sempre em sério
+
+590
+00:32:28,750 --> 00:32:30,750
+Como nos asseguiram aos outros
+
+591
+00:32:30,750 --> 00:32:32,750
+Primeiro bíblico
+
+592
+00:32:32,750 --> 00:32:37,570
+Segundo bíblico, sério, bíforo
+
+593
+00:32:37,570 --> 00:32:39,570
+Qual é a variação
+
+594
+00:32:39,570 --> 00:32:41,570
+Da questão da transmissão
+
+595
+00:32:41,570 --> 00:32:43,570
+Em sério
+
+596
+00:32:43,570 --> 00:32:45,570
+É algo muito simples
+
+597
+00:32:45,570 --> 00:32:47,570
+É que por vermos
+
+598
+00:32:47,570 --> 00:32:49,570
+Em algumas notificações
+
+599
+00:32:49,570 --> 00:32:51,570
+Nós conseguimos transmitir
+
+600
+00:32:51,570 --> 00:32:53,570
+Um bíblico cada vez
+
+601
+00:32:53,570 --> 00:32:55,570
+Também conseguimos transmitir dois
+
+602
+00:32:55,570 --> 00:32:57,570
+Também podemos transmitir quatro
+
+603
+00:32:57,570 --> 00:33:03,440
+Bíblicos cada vez
+
+604
+00:33:03,440 --> 00:33:05,440
+Tiver assim
+
+605
+00:33:05,440 --> 00:33:07,440
+Uma longa assim
+
+606
+00:33:07,440 --> 00:33:09,440
+Mas ser transmitido é um circuito
+
+607
+00:33:09,440 --> 00:33:11,440
+Digital ao fim
+
+608
+00:33:11,440 --> 00:33:13,440
+Isto podia apresentar um zero
+
+609
+00:33:13,440 --> 00:33:15,440
+E acho que o mais interessante
+
+610
+00:33:15,440 --> 00:33:17,440
+Aqui é a transmissão digital
+
+611
+00:33:17,440 --> 00:33:19,440
+Só se tiverem mais assim
+
+612
+00:33:19,440 --> 00:33:21,440
+Um dois
+
+613
+00:33:21,440 --> 00:33:23,440
+E o três, finalmente
+
+614
+00:33:23,440 --> 00:33:25,440
+O quatro seria apresentado
+
+615
+00:33:25,440 --> 00:33:27,440
+Dê-se a apresentar
+
+616
+00:33:27,440 --> 00:33:32,290
+Isto quer dizer que agora aqui
+
+617
+00:33:32,290 --> 00:33:34,290
+Estou a transmitir dois bíblicos
+
+618
+00:33:34,290 --> 00:33:36,290
+E seria o zero
+
+619
+00:33:36,290 --> 00:33:38,290
+Vamos ver
+
+620
+00:33:38,290 --> 00:33:40,290
+Quatro
+
+621
+00:33:40,290 --> 00:33:43,950
+Um bíblico
+
+622
+00:33:43,950 --> 00:33:45,950
+Tem que fazer um zero, um zero
+
+623
+00:33:45,950 --> 00:33:47,950
+Um zero e um bíblico
+
+624
+00:33:47,950 --> 00:33:49,950
+Então conseguimos transmitir
+
+625
+00:33:49,950 --> 00:33:51,950
+Dois bíblicos cada vez
+
+626
+00:33:51,950 --> 00:33:53,950
+Com esta transmissão
+
+627
+00:33:53,950 --> 00:33:55,950
+Esse circuito se voar
+
+628
+00:33:55,950 --> 00:33:57,950
+Como é possível
+
+629
+00:33:57,950 --> 00:33:59,950
+Vamos estudar isso
+
+630
+00:33:59,950 --> 00:34:01,950
+Para não ser dizer que é possível
+
+631
+00:34:01,950 --> 00:34:03,950
+O que pode acontecer
+
+632
+00:34:03,950 --> 00:34:09,700
+Como é que se faz
+
+633
+00:34:09,700 --> 00:34:11,700
+O que é que nós estamos então aqui
+
+634
+00:34:11,700 --> 00:34:13,700
+Em tempos de transmissão
+
