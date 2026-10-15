@@ -12,11 +12,11 @@ O objetivo não é usar este repositório apenas como arquivo de materiais, mas 
 
 | Unidade Curricular | Diretório | Estado |
 |---|---|---|
-| Arquiteturas de Computadores para Sistemas Críticos | [`arquiteturas-computadores`](./1-ano/1-semestre/arquiteturas-computadores/) | 🟡 A iniciar |
-| Engenharia Orientada a Requisitos e Modelos | [`requisitos-modelos`](./1-ano/1-semestre/requisitos-modelos/) | 🟡 A iniciar |
-| Laboratório de Sistemas Críticos | [`laboratorio-sistemas-criticos`](./1-ano/1-semestre/laboratorio-sistemas-criticos/) | 🟡 A iniciar |
-| Sistemas Embebidos e de Tempo-Real | [`sistemas-embebidos-tempo-real`](./1-ano/1-semestre/sistemas-embebidos-tempo-real/) | 🟡 A iniciar |
-| Tecnologias de Comunicação para Sistemas Críticos | [`tecnologias-comunicacao`](./1-ano/1-semestre/tecnologias-comunicacao/) | 🟡 A iniciar |
+| Arquiteturas de Computadores para Sistemas Críticos | [`arquiteturas-computadores`](./1-ano/1-semestre/CCSAR_arquiteturas-computadores/) | 🟡 A iniciar |
+| Engenharia Orientada a Requisitos e Modelos | [`requisitos-modelos`](./1-ano/1-semestre/RAMDE_requisitos-modelos/) | 🟡 A iniciar |
+| Laboratório de Sistemas Críticos | [`laboratorio-sistemas-criticos`](./1-ano/1-semestre/CSLAB_laboratorio-sistemas-criticos/) | 🟡 A iniciar |
+| Sistemas Embebidos e de Tempo-Real | [`sistemas-embebidos-tempo-real`](./1-ano/1-semestre/RTESY_sistemas-embebidos-e-de-tempo-real/) | 🟡 A iniciar |
+| Tecnologias de Comunicação para Sistemas Críticos | [`tecnologias-comunicacao`](./1-ano/1-semestre/COMCS_tecnologias-comunicacao/) | 🟡 A iniciar |
 
 ---
 
